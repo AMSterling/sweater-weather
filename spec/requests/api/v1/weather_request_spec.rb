@@ -7,7 +7,7 @@ RSpec.describe 'Weather API' do
 
     expect(response).to be_successful
 
-    response_body = JSON.parse(response.body, symbolize_names: true)
-    weather = response_body[:data]
+    # response_body = JSON.parse(response.body, symbolize_names: true)
+    # weather = response_body[:data]
   end
 end
