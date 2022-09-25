@@ -1,5 +1,5 @@
 class WeatherService
-  def self.get_forcast(lat, lon)
+  def self.get_weather(lat, lon)
     response = conn.get('/data/2.5/onecall') do |faraday|
       faraday.params['lat'] = lat
       faraday.params['lon'] = lon

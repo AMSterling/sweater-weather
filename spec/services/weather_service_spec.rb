@@ -1,8 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe WeatherService do
-  it 'can get forecast', :vcr do
-    response = WeatherService.get_forcast(39.738453, -104.984853)
+  it 'can get weather forecast', :vcr do
+    response = WeatherService.get_weather(39.738453, -104.984853)
 
     expect(response).to be_a Hash
     expect(response).to have_key(:lat)
