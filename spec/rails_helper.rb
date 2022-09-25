@@ -72,13 +72,13 @@ Shoulda::Matchers.configure do |config|
 end
 
 VCR.configure do |config|
-  config.berfore_record do |i|
+  config.before_record do |i|
     i.response.body.force_encoding('UTF-8')
   end
-  config.cassetee_library_dir = 'spec/fixtures/vcr_cassetees'
+  config.cassette_library_dir = 'spec/fixtures/vcr_cassetees'
   config.hook_into :webmock
-  config.filter_sensitive_date('<map_api_key>') { ENV['map_api_key'] }
-  config.filter_sensitive_date('<weather_api_key>') { ENV['weather_api_key'] }
+  config.filter_sensitive_data('<map_api_key>') { ENV['map_api_key'] }
+  config.filter_sensitive_data('<weather_api_key>') { ENV['weather_api_key'] }
   config.configure_rspec_metadata!
   config.default_cassette_options = { re_record_interval: 1.days }
 end
