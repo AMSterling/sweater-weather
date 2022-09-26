@@ -6,9 +6,11 @@ RSpec.describe BookService do
 
     expect(response).to be_a Hash
     expect(response.keys).to eq([:numFound, :start, :numFoundExact, :docs, :num_found, :q, :offset])
+    expect(response[:numFound].count).to eq 38
     expect(response[:docs].count).to eq 38
       response[:docs].each do |doc|
         expect(doc).to have_key(:title)
+        expect(doc).to have_key(:seed)
 require "pry"; binding.pry
       end
   end
