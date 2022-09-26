@@ -11,8 +11,8 @@ RSpec.describe BookService do
       response[:docs].each do |doc|
         expect(doc).to have_key(:title)
         expect(doc[:title].downcase).to include('denver')
-        expect(doc[:isbn]).to exist
-        expect(doc[:publisher]).to exist
+        expect(doc.has_key?(:isbn))
+        expect(doc.has_key?(:publisher))
       end
   end
 end
