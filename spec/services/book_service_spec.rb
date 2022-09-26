@@ -11,31 +11,8 @@ RSpec.describe BookService do
       response[:docs].each do |doc|
         expect(doc).to have_key(:title)
         expect(doc[:title].downcase).to include('denver')
-        expect(doc.keys).to eq([:key,
-                                :type,
-                                :seed,
-                                :title,
-                                :title_suggest,
-                                :subtitle,
-                                :edition_count,
-                                :edition_key,
-                                :publish_date,
-                                :publish_year,
-                                :first_publish_year,
-                                :isbn,
-                                :last_modified_i,
-                                :ebook_count_i,
-                                :ebook_access,
-                                :has_fulltext,
-                                :public_scan_b,
-                                :publisher,
-                                :language,
-                                :author_key,
-                                :author_name,
-                                :author_alternative_name,
-                                :publisher_facet,
-                                :_version_,
-                                :author_facet])
+        expect(doc[:isbn]).to exist
+        expect(doc[:publisher]).to exist
       end
   end
 end
