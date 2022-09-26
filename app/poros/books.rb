@@ -1,9 +1,13 @@
 class Books
-  attr_reader :id
+  attr_reader :id, :destination
 
   def initialize(data)
-    @id = nil
-    @attributes = 
     require "pry"; binding.pry
+    @id = nil
+    # @destination =
+  end
+
+  def destination(data)
+
   end
 end
