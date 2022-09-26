@@ -1,7 +1,7 @@
 class BookService
-  def self.get_books(title)
+  def self.get_books(location)
     response = conn.get('search.json?') do |faraday|
-      faraday.params['title'] = title
+      faraday.params['title'] = location
     end
     data = parse(response)
   end
