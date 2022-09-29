@@ -28,4 +28,40 @@ RSpec.describe 'User accounts' do
     expect(created_user.password_digest).to be_a String
     expect(created_user.api_key).to be_a String
   end
+
+  it 'cannot create account if passwords mismatched' do
+    user_params = ({
+                email: Faker::Internet.safe_email,
+                password: 'password',
+                password_confirmation: 'badpassword123'
+                })
+    headers = {"CONTENT_TYPE" => "application/json"}
+
+    post '/api/v1/users', headers: headers, params: user_params, as: :json
+
+    expect(response).to have_http_status(422)
+  end
+
+  it 'cannot create account if email is already taken' do
+    user_params = ({
+                email: 'some@example.com',
+                password: 'password',
+                password_confirmation: 'password'
+                })
+    headers = {"CONTENT_TYPE" => "application/json"}
+
+    post '/api/v1/users', headers: headers, params: user_params, as: :json
+    body = JSON.parse(response.body, symbolize_names: true)
+    created_user = User.last
+
+    new_user_params = ({
+                email: 'some@example.com',
+                password: 'password',
+                password_confirmation: 'password'
+                })
+    post '/api/v1/users', headers: headers, params: JSON.generate(new_user_params)
+
+    expect(response).to have_http_status(422)
+    expect(response.body).to include('Email has already been taken')
+  end
 end
