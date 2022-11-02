@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Mon, 26 Sep 2022 18:07:29 GMT
+      - Wed, 02 Nov 2022 03:31:11 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,117 +35,17 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"SR 1 0.026 TT 0 0.034"'
+      - '"SR 1 0.023 TT 0 0.035"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
       encoding: UTF-8
       string: |-
         {
-            "numFound": 38,
+            "numFound": 39,
             "start": 0,
             "numFoundExact": true,
             "docs": [
-                {
-                    "key": "/works/OL4930574W",
-                    "type": "work",
-                    "seed": [
-                        "/books/OL17665953M",
-                        "/books/OL17801719M",
-                        "/books/OL2663740M",
-                        "/works/OL4930574W",
-                        "/subjects/government_executives",
-                        "/subjects/training_of",
-                        "/subjects/western_executive_seminar_center_(denver_colo.)",
-                        "/subjects/place:united_states",
-                        "/authors/OL1059069A"
-                    ],
-                    "title": "Relocation of Western Executive Seminar Center from Denver to Grand Junction, CO",
-                    "title_suggest": "Relocation of Western Executive Seminar Center from Denver to Grand Junction, CO",
-                    "edition_count": 3,
-                    "edition_key": [
-                        "OL17665953M",
-                        "OL17801719M",
-                        "OL2663740M"
-                    ],
-                    "publish_date": [
-                        "1984"
-                    ],
-                    "publish_year": [
-                        1984
-                    ],
-                    "first_publish_year": 1984,
-                    "number_of_pages_median": 100,
-                    "lccn": [
-                        "85601140"
-                    ],
-                    "publish_place": [
-                        "Washington"
-                    ],
-                    "contributor": [
-                        "United States. Congress. House. Committee on Post Office and Civil Service. Subcommittee on Civil Service."
-                    ],
-                    "lcc": [
-                        "KF-0027.00000000.G6678 1984g"
-                    ],
-                    "ddc": [
-                        "353.0740978883"
-                    ],
-                    "last_modified_i": 1604445783,
-                    "ebook_count_i": 0,
-                    "ebook_access": "no_ebook",
-                    "has_fulltext": false,
-                    "public_scan_b": false,
-                    "publisher": [
-                        "U.S. G.P.O."
-                    ],
-                    "language": [
-                        "eng"
-                    ],
-                    "author_key": [
-                        "OL1059069A"
-                    ],
-                    "author_name": [
-                        "United States. Congress. House. Committee on Government Operations. Manpower and Housing Subcommittee."
-                    ],
-                    "author_alternative_name": [
-                        "United States. Congress. House. Committee on Government Operations. Manpower and Housing Subcommittee",
-                        "United States. Congress. House. Committee on Government Operations Manpower and Housing Subcommittee."
-                    ],
-                    "place": [
-                        "United States"
-                    ],
-                    "subject": [
-                        "Government executives",
-                        "Training of",
-                        "Western Executive Seminar Center (Denver, Colo.)"
-                    ],
-                    "publisher_facet": [
-                        "U.S. G.P.O."
-                    ],
-                    "place_key": [
-                        "united_states"
-                    ],
-                    "subject_facet": [
-                        "Government executives",
-                        "Training of",
-                        "Western Executive Seminar Center (Denver, Colo.)"
-                    ],
-                    "_version_": 1735672853767913472,
-                    "place_facet": [
-                        "United States"
-                    ],
-                    "lcc_sort": "KF-0027.00000000.G6678 1984g",
-                    "author_facet": [
-                        "OL1059069A United States. Congress. House. Committee on Government Operations. Manpower and Housing Subcommittee."
-                    ],
-                    "subject_key": [
-                        "government_executives",
-                        "training_of",
-                        "western_executive_seminar_center_(denver_colo.)"
-                    ],
-                    "ddc_sort": "353.0740978883"
-                },
                 {
                     "key": "/works/OL8503198W",
                     "type": "work",
@@ -811,6 +711,106 @@ http_interactions:
                     ]
                 },
                 {
+                    "key": "/works/OL4930574W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL17665953M",
+                        "/books/OL17801719M",
+                        "/books/OL2663740M",
+                        "/works/OL4930574W",
+                        "/subjects/government_executives",
+                        "/subjects/training_of",
+                        "/subjects/western_executive_seminar_center_(denver_colo.)",
+                        "/subjects/place:united_states",
+                        "/authors/OL1059069A"
+                    ],
+                    "title": "Relocation of Western Executive Seminar Center from Denver to Grand Junction, CO",
+                    "title_suggest": "Relocation of Western Executive Seminar Center from Denver to Grand Junction, CO",
+                    "edition_count": 3,
+                    "edition_key": [
+                        "OL17665953M",
+                        "OL17801719M",
+                        "OL2663740M"
+                    ],
+                    "publish_date": [
+                        "1984"
+                    ],
+                    "publish_year": [
+                        1984
+                    ],
+                    "first_publish_year": 1984,
+                    "number_of_pages_median": 100,
+                    "lccn": [
+                        "85601140"
+                    ],
+                    "publish_place": [
+                        "Washington"
+                    ],
+                    "contributor": [
+                        "United States. Congress. House. Committee on Post Office and Civil Service. Subcommittee on Civil Service."
+                    ],
+                    "lcc": [
+                        "KF-0027.00000000.G6678 1984g"
+                    ],
+                    "ddc": [
+                        "353.0740978883"
+                    ],
+                    "last_modified_i": 1604445783,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "U.S. G.P.O."
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL1059069A"
+                    ],
+                    "author_name": [
+                        "United States. Congress. House. Committee on Government Operations. Manpower and Housing Subcommittee."
+                    ],
+                    "author_alternative_name": [
+                        "United States. Congress. House. Committee on Government Operations. Manpower and Housing Subcommittee",
+                        "United States. Congress. House. Committee on Government Operations Manpower and Housing Subcommittee."
+                    ],
+                    "place": [
+                        "United States"
+                    ],
+                    "subject": [
+                        "Government executives",
+                        "Training of",
+                        "Western Executive Seminar Center (Denver, Colo.)"
+                    ],
+                    "publisher_facet": [
+                        "U.S. G.P.O."
+                    ],
+                    "place_key": [
+                        "united_states"
+                    ],
+                    "subject_facet": [
+                        "Government executives",
+                        "Training of",
+                        "Western Executive Seminar Center (Denver, Colo.)"
+                    ],
+                    "_version_": 1735672853767913472,
+                    "place_facet": [
+                        "United States"
+                    ],
+                    "lcc_sort": "KF-0027.00000000.G6678 1984g",
+                    "author_facet": [
+                        "OL1059069A United States. Congress. House. Committee on Government Operations. Manpower and Housing Subcommittee."
+                    ],
+                    "subject_key": [
+                        "government_executives",
+                        "training_of",
+                        "western_executive_seminar_center_(denver_colo.)"
+                    ],
+                    "ddc_sort": "353.0740978883"
+                },
+                {
                     "key": "/works/OL10910559M",
                     "type": "work",
                     "seed": [
@@ -1342,6 +1342,56 @@ http_interactions:
                     "subject_key": [
                         "collective_labor_agreements",
                         "railroads"
+                    ]
+                },
+                {
+                    "key": "/works/OL29114804W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL40043735M",
+                        "/works/OL29114804W",
+                        "/authors/OL7520254A"
+                    ],
+                    "title": "2017 Remodelmax Unit Cost Estimating Manual for Remodeling - Denver Co & Vicinity",
+                    "title_suggest": "2017 Remodelmax Unit Cost Estimating Manual for Remodeling - Denver Co & Vicinity",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL40043735M"
+                    ],
+                    "publish_date": [
+                        "2017"
+                    ],
+                    "publish_year": [
+                        2017
+                    ],
+                    "first_publish_year": 2017,
+                    "isbn": [
+                        "1365694798",
+                        "9781365694790"
+                    ],
+                    "last_modified_i": 1666149166,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Lulu Press, Inc."
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL7520254A"
+                    ],
+                    "author_name": [
+                        "Bill O'Donnell"
+                    ],
+                    "publisher_facet": [
+                        "Lulu Press, Inc."
+                    ],
+                    "_version_": 1747084029764567041,
+                    "author_facet": [
+                        "OL7520254A Bill O'Donnell"
                     ]
                 },
                 {
@@ -2585,9 +2635,9 @@ http_interactions:
                     ]
                 }
             ],
-            "num_found": 38,
+            "num_found": 39,
             "q": "",
             "offset": null
         }
-  recorded_at: Mon, 26 Sep 2022 18:07:30 GMT
+  recorded_at: Wed, 02 Nov 2022 03:31:11 GMT
 recorded_with: VCR 6.1.0

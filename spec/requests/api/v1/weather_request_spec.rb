@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'Weather API' do
   it 'gets current, hourly and daily weather for a location', :vcr do
-    location = 'lincoln,ne'
+    location = 'denver,co'
     get "/api/v1/forecast?location=#{location}"
 
     expect(response).to be_successful

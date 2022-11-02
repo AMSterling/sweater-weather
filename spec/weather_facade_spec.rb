@@ -70,7 +70,7 @@ RSpec.describe WeatherFacade do
     #   end
     # end
     #
-    # xit 'builds a 5 day daily forcast from map location', :vcr do
+    # xit 'builds a 5 day daily forecast from map location', :vcr do
     #
     #   response = WeatherFacade.daily_weather(@weather)
     #
