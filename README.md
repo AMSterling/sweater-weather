@@ -48,10 +48,10 @@ Fork and clone the project, then install the required gems with `bundle`. A full
 bundle install
 ```
 
-Reset and seed the database:
+Reset the database:
 
 ```sh
-rake db:{drop,create,migrate,seed}
+rake db:{drop,create,migrate}
 ```
 
 ## <a name="required-keys"></a> Required keys
