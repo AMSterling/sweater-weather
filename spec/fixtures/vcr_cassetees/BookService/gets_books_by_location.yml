@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.5.2
+      - Faraday v2.7.2
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Sun, 13 Nov 2022 19:01:26 GMT
+      - Wed, 11 Jan 2023 23:16:49 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,14 +35,14 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"SR 1 0.033 TT 0 0.042"'
+      - '"SR 1 0.052 TT 0 0.059"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
       encoding: UTF-8
       string: |-
         {
-            "numFound": 39,
+            "numFound": 43,
             "start": 0,
             "numFoundExact": true,
             "docs": [
@@ -219,6 +219,63 @@ http_interactions:
                     "author_facet": [
                         "OL79165A United States Geological Survey"
                     ]
+                },
+                {
+                    "key": "/works/OL31554740W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL7772425M",
+                        "/works/OL31554740W"
+                    ],
+                    "title": "Denver Regional, CO",
+                    "title_suggest": "Denver Regional, CO",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL7772425M"
+                    ],
+                    "publish_date": [
+                        "June 1994"
+                    ],
+                    "publish_year": [
+                        1994
+                    ],
+                    "first_publish_year": 1994,
+                    "isbn": [
+                        "9780528952715",
+                        "0528952714"
+                    ],
+                    "last_modified_i": 1670927738,
+                    "ebook_count_i": 1,
+                    "ebook_access": "borrowable",
+                    "has_fulltext": true,
+                    "public_scan_b": false,
+                    "ia": [
+                        "denverregionalcl0000pier"
+                    ],
+                    "ia_collection": [
+                        "inlibrary",
+                        "internetarchivebooks",
+                        "printdisabled"
+                    ],
+                    "ia_collection_s": "inlibrary;internetarchivebooks;printdisabled",
+                    "lending_edition_s": "OL7772425M",
+                    "lending_identifier_s": "denverregionalcl0000pier",
+                    "printdisabled_s": "OL7772425M",
+                    "cover_edition_key": "OL7772425M",
+                    "cover_i": 13060547,
+                    "publisher": [
+                        "Rand McNally & Company"
+                    ],
+                    "id_librarything": [
+                        "9032702"
+                    ],
+                    "ia_box_id": [
+                        "IA40452109"
+                    ],
+                    "publisher_facet": [
+                        "Rand McNally & Company"
+                    ],
+                    "_version_": 1752094724541382657
                 },
                 {
                     "key": "/works/OL4437736W",
@@ -487,124 +544,6 @@ http_interactions:
                     "_version_": 1735678998732603392
                 },
                 {
-                    "key": "/works/OL8415118W",
-                    "type": "work",
-                    "seed": [
-                        "/books/OL7900786M",
-                        "/works/OL8415118W",
-                        "/authors/OL2806763A"
-                    ],
-                    "title": "Five Points Neighborhood of Denver  (CO)",
-                    "title_suggest": "Five Points Neighborhood of Denver  (CO)",
-                    "edition_count": 1,
-                    "edition_key": [
-                        "OL7900786M"
-                    ],
-                    "publish_date": [
-                        "June 11, 2001"
-                    ],
-                    "publish_year": [
-                        2001
-                    ],
-                    "first_publish_year": 2001,
-                    "number_of_pages_median": 128,
-                    "oclc": [
-                        "47691535"
-                    ],
-                    "isbn": [
-                        "0738518700",
-                        "9780738518701"
-                    ],
-                    "last_modified_i": 1303742645,
-                    "ebook_count_i": 0,
-                    "ebook_access": "no_ebook",
-                    "has_fulltext": false,
-                    "public_scan_b": false,
-                    "cover_edition_key": "OL7900786M",
-                    "cover_i": 1371298,
-                    "first_sentence": [
-                        "After the Civil War, freed slaves came west from the south looking for work."
-                    ],
-                    "publisher": [
-                        "Arcadia  Publishing (SC)"
-                    ],
-                    "language": [
-                        "eng"
-                    ],
-                    "author_key": [
-                        "OL2806763A"
-                    ],
-                    "author_name": [
-                        "Laura M. Mauck"
-                    ],
-                    "id_librarything": [
-                        "3305602"
-                    ],
-                    "publisher_facet": [
-                        "Arcadia  Publishing (SC)"
-                    ],
-                    "_version_": 1735676935354187777,
-                    "author_facet": [
-                        "OL2806763A Laura M. Mauck"
-                    ]
-                },
-                {
-                    "key": "/works/OL8541064W",
-                    "type": "work",
-                    "seed": [
-                        "/books/OL9197762M",
-                        "/works/OL8541064W",
-                        "/authors/OL2859862A"
-                    ],
-                    "title": "Insight Fleximap Denver, CO (Insight Fleximaps)",
-                    "title_suggest": "Insight Fleximap Denver, CO (Insight Fleximaps)",
-                    "edition_count": 1,
-                    "edition_key": [
-                        "OL9197762M"
-                    ],
-                    "publish_date": [
-                        "January 30, 2006"
-                    ],
-                    "publish_year": [
-                        2006
-                    ],
-                    "first_publish_year": 2006,
-                    "number_of_pages_median": 1,
-                    "oclc": [
-                        "64038908"
-                    ],
-                    "isbn": [
-                        "9789812582621",
-                        "9812582622"
-                    ],
-                    "last_modified_i": 1304090516,
-                    "ebook_count_i": 0,
-                    "ebook_access": "no_ebook",
-                    "has_fulltext": false,
-                    "public_scan_b": false,
-                    "cover_edition_key": "OL9197762M",
-                    "cover_i": 2302739,
-                    "publisher": [
-                        "American Map Corporation"
-                    ],
-                    "language": [
-                        "eng"
-                    ],
-                    "author_key": [
-                        "OL2859862A"
-                    ],
-                    "author_name": [
-                        "American Map Corp"
-                    ],
-                    "publisher_facet": [
-                        "American Map Corporation"
-                    ],
-                    "_version_": 1735677240763482115,
-                    "author_facet": [
-                        "OL2859862A American Map Corp"
-                    ]
-                },
-                {
                     "key": "/works/OL4437737W",
                     "type": "work",
                     "seed": [
@@ -708,6 +647,138 @@ http_interactions:
                     "_version_": 1735666952497528832,
                     "author_facet": [
                         "OL7546291A N.D. Author Services"
+                    ]
+                },
+                {
+                    "key": "/works/OL8541064W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL9197762M",
+                        "/works/OL8541064W",
+                        "/authors/OL2859862A"
+                    ],
+                    "title": "Insight Fleximap Denver, CO (Insight Fleximaps)",
+                    "title_suggest": "Insight Fleximap Denver, CO (Insight Fleximaps)",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL9197762M"
+                    ],
+                    "publish_date": [
+                        "January 30, 2006"
+                    ],
+                    "publish_year": [
+                        2006
+                    ],
+                    "first_publish_year": 2006,
+                    "number_of_pages_median": 1,
+                    "oclc": [
+                        "64038908"
+                    ],
+                    "isbn": [
+                        "9812582622",
+                        "9789812582621"
+                    ],
+                    "last_modified_i": 1670155218,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "cover_edition_key": "OL9197762M",
+                    "cover_i": 2302739,
+                    "publisher": [
+                        "American Map Corporation"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL2859862A"
+                    ],
+                    "author_name": [
+                        "American Map Corp"
+                    ],
+                    "publisher_facet": [
+                        "American Map Corporation"
+                    ],
+                    "_version_": 1751284689453187073,
+                    "author_facet": [
+                        "OL2859862A American Map Corp"
+                    ]
+                },
+                {
+                    "key": "/works/OL8415118W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL7900786M",
+                        "/works/OL8415118W",
+                        "/subjects/african_americans_west_(u.s.)",
+                        "/subjects/denver_(colo.)_history",
+                        "/authors/OL2806763A"
+                    ],
+                    "title": "Five Points Neighborhood of Denver  (CO)",
+                    "title_suggest": "Five Points Neighborhood of Denver  (CO)",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL7900786M"
+                    ],
+                    "publish_date": [
+                        "June 11, 2001"
+                    ],
+                    "publish_year": [
+                        2001
+                    ],
+                    "first_publish_year": 2001,
+                    "number_of_pages_median": 128,
+                    "oclc": [
+                        "47691535"
+                    ],
+                    "isbn": [
+                        "9780738518701",
+                        "0738518700"
+                    ],
+                    "last_modified_i": 1668854857,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "cover_edition_key": "OL7900786M",
+                    "cover_i": 1371298,
+                    "first_sentence": [
+                        "After the Civil War, freed slaves came west from the south looking for work."
+                    ],
+                    "publisher": [
+                        "Arcadia  Publishing (SC)"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL2806763A"
+                    ],
+                    "author_name": [
+                        "Laura M. Mauck"
+                    ],
+                    "subject": [
+                        "African americans, west (u.s.)",
+                        "Denver (colo.), history"
+                    ],
+                    "id_librarything": [
+                        "3305602"
+                    ],
+                    "publisher_facet": [
+                        "Arcadia  Publishing (SC)"
+                    ],
+                    "subject_facet": [
+                        "African americans, west (u.s.)",
+                        "Denver (colo.), history"
+                    ],
+                    "_version_": 1749921151702794241,
+                    "author_facet": [
+                        "OL2806763A Laura M. Mauck"
+                    ],
+                    "subject_key": [
+                        "african_americans_west_(u.s.)",
+                        "denver_(colo.)_history"
                     ]
                 },
                 {
@@ -859,6 +930,8 @@ http_interactions:
                         "/subjects/railroads",
                         "/subjects/pictorial_works",
                         "/subjects/history",
+                        "/subjects/railroads_pictorial_works",
+                        "/subjects/denver_(colo.)_history",
                         "/authors/OL2807038A"
                     ],
                     "title": "Rails Around Denver (CO) (Images of Rail)",
@@ -888,7 +961,7 @@ http_interactions:
                         "0738548022",
                         "9780738548029"
                     ],
-                    "last_modified_i": 1608419793,
+                    "last_modified_i": 1668855879,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
@@ -910,7 +983,9 @@ http_interactions:
                     "subject": [
                         "Railroads",
                         "Pictorial works",
-                        "History"
+                        "History",
+                        "Railroads, pictorial works",
+                        "Denver (colo.), history"
                     ],
                     "id_goodreads": [
                         "5918953"
@@ -922,19 +997,23 @@ http_interactions:
                         "Arcadia Publishing"
                     ],
                     "subject_facet": [
+                        "Denver (colo.), history",
                         "History",
                         "Pictorial works",
-                        "Railroads"
+                        "Railroads",
+                        "Railroads, pictorial works"
                     ],
-                    "_version_": 1735676935324827652,
+                    "_version_": 1749922224088809484,
                     "lcc_sort": "TF-0025.00000000.D427 L49 2007",
                     "author_facet": [
                         "OL2807038A Allan C. Lewis"
                     ],
                     "subject_key": [
+                        "denver_(colo.)_history",
                         "history",
                         "pictorial_works",
-                        "railroads"
+                        "railroads",
+                        "railroads_pictorial_works"
                     ]
                 },
                 {
@@ -1828,7 +1907,7 @@ http_interactions:
                         "9780877030690",
                         "0877030693"
                     ],
-                    "last_modified_i": 1260838808,
+                    "last_modified_i": 1670152117,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
@@ -1848,7 +1927,7 @@ http_interactions:
                     "publisher_facet": [
                         "Univelt"
                     ],
-                    "_version_": 1735675792932732930,
+                    "_version_": 1751281427967639552,
                     "author_facet": [
                         "OL2170894A Harris M. Schurmeier"
                     ]
@@ -1972,6 +2051,102 @@ http_interactions:
                     ]
                 },
                 {
+                    "key": "/works/OL31190286W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL42850450M",
+                        "/works/OL31190286W",
+                        "/authors/OL11395974A"
+                    ],
+                    "title": "Denver Chemical Mfg Co v. Lilley U.S. Supreme Court Transcript of Record with Supporting Pleadings",
+                    "title_suggest": "Denver Chemical Mfg Co v. Lilley U.S. Supreme Court Transcript of Record with Supporting Pleadings",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL42850450M"
+                    ],
+                    "publish_date": [
+                        "Oct 26, 2011"
+                    ],
+                    "publish_year": [
+                        2011
+                    ],
+                    "first_publish_year": 2011,
+                    "number_of_pages_median": 68,
+                    "isbn": [
+                        "9781270139454",
+                        "1270139452"
+                    ],
+                    "last_modified_i": 1670096264,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Gale, U.S. Supreme Court Records"
+                    ],
+                    "author_key": [
+                        "OL11395974A"
+                    ],
+                    "author_name": [
+                        "HENRY D ESTABROOK"
+                    ],
+                    "publisher_facet": [
+                        "Gale, U.S. Supreme Court Records"
+                    ],
+                    "_version_": 1751238321834557440,
+                    "author_facet": [
+                        "OL11395974A HENRY D ESTABROOK"
+                    ]
+                },
+                {
+                    "key": "/works/OL31208269W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL42868864M",
+                        "/works/OL31208269W",
+                        "/authors/OL7785040A"
+                    ],
+                    "title": "U.S. Supreme Court Transcript of Record City of Englewood v. Denver & S P R Co",
+                    "title_suggest": "U.S. Supreme Court Transcript of Record City of Englewood v. Denver & S P R Co",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL42868864M"
+                    ],
+                    "publish_date": [
+                        "Oct 26, 2011"
+                    ],
+                    "publish_year": [
+                        2011
+                    ],
+                    "first_publish_year": 2011,
+                    "number_of_pages_median": 118,
+                    "isbn": [
+                        "1270177451",
+                        "9781270177456"
+                    ],
+                    "last_modified_i": 1670115214,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Gale, U.S. Supreme Court Records"
+                    ],
+                    "author_key": [
+                        "OL7785040A"
+                    ],
+                    "author_name": [
+                        "U.S. Supreme Court"
+                    ],
+                    "publisher_facet": [
+                        "Gale, U.S. Supreme Court Records"
+                    ],
+                    "_version_": 1751243600909303809,
+                    "author_facet": [
+                        "OL7785040A U.S. Supreme Court"
+                    ]
+                },
+                {
                     "key": "/works/OL16307297M",
                     "type": "work",
                     "seed": [
@@ -2012,6 +2187,54 @@ http_interactions:
                         "Sine nomine"
                     ],
                     "_version_": 1735679753696837632
+                },
+                {
+                    "key": "/works/OL31191872W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL42852052M",
+                        "/works/OL31191872W",
+                        "/authors/OL11396856A"
+                    ],
+                    "title": "Norgate v. Denver & R G R Co U.S. Supreme Court Transcript of Record with Supporting Pleadings",
+                    "title_suggest": "Norgate v. Denver & R G R Co U.S. Supreme Court Transcript of Record with Supporting Pleadings",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL42852052M"
+                    ],
+                    "publish_date": [
+                        "Oct 26, 2011"
+                    ],
+                    "publish_year": [
+                        2011
+                    ],
+                    "first_publish_year": 2011,
+                    "number_of_pages_median": 100,
+                    "isbn": [
+                        "1270220926",
+                        "9781270220923"
+                    ],
+                    "last_modified_i": 1670097458,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Gale, U.S. Supreme Court Records"
+                    ],
+                    "author_key": [
+                        "OL11396856A"
+                    ],
+                    "author_name": [
+                        "WILLIAM T SKELTON"
+                    ],
+                    "publisher_facet": [
+                        "Gale, U.S. Supreme Court Records"
+                    ],
+                    "_version_": 1751238784763035648,
+                    "author_facet": [
+                        "OL11396856A WILLIAM T SKELTON"
+                    ]
                 },
                 {
                     "key": "/works/OL9516760W",
@@ -2425,20 +2648,25 @@ http_interactions:
                         "Argall, G.O."
                     ],
                     "lcc": [
-                        "TN-0321.00000000 M664 1979",
-                        "TN-0321.00000000.I57 1979"
+                        "TN-0321.00000000.I57 1979",
+                        "TN-0321.00000000 M664 1979"
                     ],
                     "isbn": [
-                        "9780879301224",
-                        "0879301228"
+                        "0879301228",
+                        "9780879301224"
                     ],
-                    "last_modified_i": 1659419125,
+                    "last_modified_i": 1670210690,
                     "ebook_count_i": 1,
                     "ebook_access": "borrowable",
                     "has_fulltext": true,
                     "public_scan_b": false,
                     "ia": [
                         "minedrainageproc0000inte"
+                    ],
+                    "ia_collection": [
+                        "inlibrary",
+                        "internetarchivebooks",
+                        "printdisabled"
                     ],
                     "ia_collection_s": "inlibrary;internetarchivebooks;printdisabled",
                     "lending_edition_s": "OL22030053M",
@@ -2472,7 +2700,7 @@ http_interactions:
                         "Congresses",
                         "Mine drainage"
                     ],
-                    "_version_": 1740027071368790019,
+                    "_version_": 1751590471522582596,
                     "lcc_sort": "TN-0321.00000000 M664 1979",
                     "author_facet": [
                         "OL3633560A C. O. Brawner"
@@ -2635,9 +2863,9 @@ http_interactions:
                     ]
                 }
             ],
-            "num_found": 39,
+            "num_found": 43,
             "q": "",
             "offset": null
         }
-  recorded_at: Sun, 13 Nov 2022 19:01:26 GMT
+  recorded_at: Wed, 11 Jan 2023 23:16:49 GMT
 recorded_with: VCR 6.1.0
