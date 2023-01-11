@@ -24,7 +24,6 @@ A rails backend API for Sweater Weather
 - [Endpoints](#endpoints)
   - [Create User](#create-user)
   - [Weather Forecast by Location](#location-forecast)
-  - [Fetch Customer Subscriptions](#customer-subs)
 
 ---
 
