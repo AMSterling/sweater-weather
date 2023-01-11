@@ -1,7 +1,7 @@
 class Api::V1::UsersController < ApplicationController
   def create
     if params[:password] != params[:password_confirmation]
-      render status: 422
+      render json: { error: 'Passwords do not match' }, status: 422
     elsif
       new_user = user_params
       new_user[:email] = user_params[:email]

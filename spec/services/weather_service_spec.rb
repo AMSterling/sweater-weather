@@ -15,7 +15,7 @@ RSpec.describe WeatherService do
     expect(response[:current]).to have_key(:sunrise)
     expect(response[:current]).to have_key(:sunset)
     expect(response[:current]).to have_key(:temp)
-    expect(response[:current][:temp]).to be_a Float
+    expect(response[:current][:temp]).to be_a Numeric # error on Float when whole Integer
     expect(response[:current]).to have_key(:feels_like)
     expect(response[:current][:feels_like]).to be_a Float
     expect(response[:current]).to have_key(:pressure)
@@ -40,9 +40,9 @@ RSpec.describe WeatherService do
       expect(hour).to_not have_key(:sunrise)
       expect(hour).to_not have_key(:sunset)
       expect(hour).to have_key(:temp)
-      # expect(hour[:temp]).to be_a Float
+      expect(hour[:temp]).to be_a Numeric
       expect(hour).to have_key(:feels_like)
-      # expect(hour[:feels_like]).to be_a Float
+      expect(hour[:feels_like]).to be_a Numeric
       expect(hour).to have_key(:pressure)
       expect(hour).to have_key(:humidity)
       expect(hour[:humidity]).to be_an Integer

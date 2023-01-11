@@ -40,6 +40,8 @@ RSpec.describe 'User accounts' do
     post '/api/v1/users', headers: headers, params: user_params, as: :json
 
     expect(response).to have_http_status(422)
+    expect(response.body).to eq("{\"error\":\"Passwords do not match\"}")
+    expect(response.body).to include('Passwords do not match')
   end
 
   it 'cannot create account if email is already taken' do

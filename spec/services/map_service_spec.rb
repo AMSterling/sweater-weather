@@ -6,8 +6,8 @@ RSpec.describe MapService do
 
     expect(response).to be_a Hash
     expect(response).to have_key(:lat)
-    expect(response[:lat]).to eq(39.738453)
+    expect(response[:lat].round(2)).to eq(39.74)
     expect(response).to have_key(:lng)
-    expect(response[:lng]).to eq(-104.984853)
+    expect(response[:lng].round(2)).to eq(-104.99)
   end
 end

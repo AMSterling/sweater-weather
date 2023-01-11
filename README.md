@@ -22,8 +22,8 @@ A rails backend API for Sweater Weather
 - [Database setup](#database-setup)
   - [Required API keys](#required-keys)
 - [Endpoints](#endpoints)
-  - [Create Subscription](#create-sub)
-  - [Cancel Subscription](#cancel-sub)
+  - [Create User](#create-user)
+  - [Weather Forecast by Location](#location-forecast)
   - [Fetch Customer Subscriptions](#customer-subs)
 
 ---
@@ -56,7 +56,7 @@ rake db:{drop,create,migrate,seed}
 
 ## <a name="required-keys"></a> Required keys
 
-Sweater Weather uses <a href="https://spoonacular.com/food-api" target="_blank" rel="noopener noreferrer">Spoonacular API</a>
+Sweater Weather uses <a href="https://developer.mapquest.com/documentation/geocoding-api/" target="_blank" rel="noopener noreferrer">Mapquest Geocoding API</a> and <a href="https://openweathermap.org/api/one-call-api" target="_blank" rel="noopener noreferrer">OpenWeatherMap API</a>
 
 Once you have your key, set up your environment with
 
@@ -67,7 +67,8 @@ bundle exec figaro install
  Then add your keys to `config/application.yml`:
 
 ```ruby
-spoonacular_api_key: <YOUR_SPOONACULAR_KEY>
+map_api_key: <YOUR_MAPQUEST_KEY>
+weather_api_key: <YOUR_OPENWEATHERMAP_KEY>
 ```
 
 Start a rails server, and you're ready to query
@@ -80,27 +81,25 @@ rails s
 
 # <a name="endpoints"></a>Endpoints
 
-## <a name="create-sub"></a>Create Subscription
+## <a name="create-user"></a>Create User
 
 [Back to top](#contents)
 
-Creates a new customer subscription.
+Creates a new user.
 
 <br>
 
 ```
-POST '/api/v1/subscriptions'
+POST '/api/v1/users'
 ```
 
 **Sample body**
 
  ```
  {
-  "title": "Customer's Herbal",
-  "price": 15,
-  "frequency": "monthly",
-  "customer_id": {{customer_id}},
-  "tea_id": {{tea_id}}
+  "email": "alison.rempel@example.org",
+  "password": "password",
+  "password_confirmation": "password"
  }
  ```
 
@@ -109,29 +108,23 @@ POST '/api/v1/subscriptions'
  ```
  {
      "data": {
-         "id": "4",
-         "type": "subscription",
+         "id": "238",
+         "type": "users",
          "attributes": {
-             "title": "Customer's Herbal",
-             "status": "active",
-             "price": 15,
-             "frequency": "monthly",
-             "tea_id": 1,
-             "customer_id": 1
+             "email": "alison.rempel@example.org",
+             "api_key": "0ad3c1b8f30bb80fa0006a09ed2e62a3"
          }
      }
  }
  ```
 
-**Sample body**
+**Sample body (passwords don't match)**
 
  ```
  {
-   "title": "",
-   "price": 15,
-   "frequency": "monthly",
-   "customer_id": {{customer_id}},
-   "tea_id": {{tea_id}}
+  "email": "alison.rempel@example.org",
+  "password": "password",
+  "password_confirmation": "badpassword"
  }
  ```
 
@@ -139,22 +132,40 @@ POST '/api/v1/subscriptions'
 
  ```
 [
-  "Title can't be blank"
+  "Passwords do not match"
+]
+ ```
+
+**Sample body (email not unique)**
+
+ ```
+ {
+  "email": "alison.rempel@example.org",
+  "password": "password",
+  "password_confirmation": "password"
+ }
+ ```
+
+**Sample response (status 422)**
+
+ ```
+[
+  "Email has already been taken"
 ]
  ```
 
 ---
 
-## <a name="cancel-sub"></a>Cancel Subscription
+## <a name="location-forecast"></a>Weather Forecast by Location
 
 [Back to top](#contents)
 
-Cancel a customer subscription.
+Retrieve weather for location.
 
 <br>
 
 ```
-PATCH "/api/v1/subscriptions/#{id}"
+GET "/api/v1/forecast?location=#{location}"
 ```
 
 <br>
@@ -163,7 +174,7 @@ PATCH "/api/v1/subscriptions/#{id}"
 
  ```
  {
-     "status": 1
+    "location": "lincoln,ne"
  }
  ```
 
@@ -173,100 +184,114 @@ PATCH "/api/v1/subscriptions/#{id}"
  {
      "data": {
          "id": "1",
-         "type": "subscription",
+         "type": "forecast",
          "attributes": {
-             "title": "Jesus Kunde's Oolong",
-             "status": "cancelled",
-             "price": 11,
-             "frequency": "monthly",
-             "tea_id": 1,
-             "customer_id": 1
-         }
-     }
- }
- ```
-
-**Sample body**
-
- ```
- {
-     "status": 2
- }
- ```
-
-**Sample response (status 422)**
-
- ```
- {
-     "error": "'2' is not a valid status"
- }
- ```
-
----
-
-## <a name="customer-subs"></a>Customer Subscriptions
-
-[Back to top](#contents)
-
-Fetch all subscriptions belonging to a customer.
-
-<br>
-
-```
-GET "/api/v1/customers/#{customer_id}/subscriptions"
-```
-
-**Sample response (status 200)**
-
- ```
- {
-     "data": [
-         {
-             "id": "1",
-             "type": "subscription",
-             "attributes": {
-                 "title": "Magdalen Vandervort's Black",
-                 "status": "active",
-                 "price": 7,
-                 "frequency": "quarterly",
-                 "tea_id": 1,
-                 "customer_id": 1
-             }
-         },
-         {
-             "id": "2",
-             "type": "subscription",
-             "attributes": {
-                 "title": "Magdalen Vandervort's Green",
-                 "status": "active",
-                 "price": 14,
-                 "frequency": "one_time",
-                 "tea_id": 2,
-                 "customer_id": 1
-             }
-         },
-         {
-             "id": "3",
-             "type": "subscription",
-             "attributes": {
-                 "title": "Magdalen Vandervort's Green",
-                 "status": "active",
-                 "price": 10,
-                 "frequency": "weekly",
-                 "tea_id": 3,
-                 "customer_id": 1
-             }
-         }
-     ]
- }
- ```
-
-**Sample response (status 404)**
-
- ```
- {
-    "error": "Couldn't find Customer with 'id'=4168498141546"
- }
+             "current_weather": {
+               "datetime":"2023-01-11 15:08:20 -0700",
+               "sunrise":"2023-01-11 06:50:19 -0700",
+               "sunset":"2023-01-11 16:18:37 -0700",
+               "temperature":38.44,
+               "feels_like":29.5,
+               "humidity":75,
+               "uvi":0.19,
+               "visibility":10000,
+               "conditions":"clear sky",
+               "icon":"01d"
+             },
+             "daily_weather": [{
+               "date":"2023-01-11",
+               "sunrise:""2023-01-11 06:50:19",
+               "sunset":"2023-01-11 16:18:37",
+               "max_temp":41.11,
+               "min_temp":31.15,
+               "conditions":"broken clouds",
+               "icon":"04d"
+              },
+              {
+                "date":"2023-01-12",
+                "sunrise":"2023-01-12 06:50:03",
+                "sunset":"2023-01-12 16:19:41",
+                "max_temp":32.88,
+                "min_temp":22.23,
+                "conditions":"clear sky",
+                "icon":"01d"},
+              {
+                "date":"2023-01-13",
+                "sunrise":"2023-01-13 06:49:44",
+                "sunset":"2023-01-13 16:20:46",
+                "max_temp":36.52,
+                "min_temp":18.21,
+                "conditions":"clear sky",
+                icon":"01d"
+              },
+              {
+                "date":"2023-01-14",
+                "sunrise":"2023-01-14 06:49:22",
+                "sunset":"2023-01-14 16:21:51",
+                "max_temp":47.44,
+                "min_temp":28.45,
+                "conditions":"overcast clouds",
+                "icon":"04d"
+              },
+              {
+                "date":"2023-01-15",
+                "sunrise":"2023-01-15 06:48:59",
+                "sunset":"2023-01-15 16:22:58",
+                "max_temp":53.19,
+                "min_temp":37.85,
+                "conditions":"broken clouds",
+                "icon":"04d"
+              }
+            ],
+             "hourly_weather":[{
+               "time":"15:00",
+               "temperature":38.44,
+               "conditions":"clear sky",
+               "icon":"01d"
+              },
+              {
+                "time":"16:00",
+                "temperature":38.52,
+                "conditions":"few clouds",
+                "icon":"02d"
+              },
+              {
+                "time":"17:00",
+                "temperature":37.62, "conditions":"scattered clouds", "icon":"03n"
+              },
+              {
+                "time":"18:00",
+                "temperature":36.27,
+                "conditions":"broken clouds",
+                "icon":"04n"
+              },
+              {
+                "time":"19:00",
+                "temperature":34.83,
+                "conditions":"broken clouds",
+                "icon":"04n"
+              },
+              {
+                "time":"20:00",
+                "temperature":33.24,
+                "conditions":"overcast clouds", "icon":"04n"
+              },
+              {
+                "time":"21:00",
+                "temperature":32.32,
+                "conditions":"overcast clouds",
+                "icon":"04n"
+              },
+              {
+                "time":"22:00",
+                "temperature":31.15,
+                "conditions":"overcast clouds",
+                "icon":"04n"
+                }
+              ]
+            }
+          }
+        }
  ```
 
 ---
