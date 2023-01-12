@@ -33,7 +33,7 @@ A rails backend API for Sweater Weather
 
 # <img src="app/assets/images/schema-diagram.png">
 
-Tea Subscription was built with test-driven development, with Rspec used for testing. It is built with Rails conventions over configuration as a guiding principle. A service-facade design pattern is used when calling external API services.
+Sweater Weather was built with test-driven development, with Rspec used for testing. It is built with Rails conventions over configuration as a guiding principle. A service-facade design pattern is used when calling external API services.
 
 ---
 
