@@ -262,7 +262,7 @@ GET "/api/v1/forecast?location=#{location}"
 
 [Back to top](#contents)
 
-Retrieve weather for location.
+Retrieve top 5 books about searched location.
 
 <br>
 
