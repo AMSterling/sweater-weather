@@ -83,8 +83,6 @@ rails s
 
 ## <a name="create-user"></a>Create User
 
-<p align="right">(<a href="#contents">back to top</a>)</p>
-
 Creates a new user.
 
 <br>
@@ -158,8 +156,6 @@ POST '/api/v1/users'
 <p align="right">(<a href="#contents">back to top</a>)</p>
 
 ## <a name="location-forecast"></a>Weather Forecast by Location
-
-<p align="right">(<a href="#contents">back to top</a>)</p>
 
 Retrieve weather for location.
 
