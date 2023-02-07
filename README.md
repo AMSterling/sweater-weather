@@ -29,13 +29,12 @@ A rails backend API for Sweater Weather
 
 # <a name="architecture"></a>Architecture
 
-<p align="right">(<a href="#contents">back to top</a>)</p>
-
 # <img src="app/assets/images/schema-diagram.png">
 
 Sweater Weather was built with test-driven development, with RSpec used for testing. It is built with Rails conventions over configuration as a guiding principle. A service-facade design pattern is used when calling external API services.
 
 ---
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
 # <a name="database-setup"></a>Database Setup
 
