@@ -294,7 +294,7 @@ GET "/api/v1/forecast?location=#{location}"
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/AMSterling/lunch-and-learn.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/AMSterling/sweater-weather.svg?style=for-the-badge
 [contributors-url]: https://github.com/AMSterling/sweater-weather/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/AMSterling/sweater-weather.svg?style=for-the-badge
 [forks-url]: https://github.com/AMSterling/sweater-weather/network/members
