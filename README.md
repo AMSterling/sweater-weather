@@ -12,7 +12,7 @@
 
 ## Description
 
-A rails backend API for Sweater Weather
+A rails backend API; Sweater Weather was built with test-driven development, with RSpec used for testing. It is built with Rails conventions over configuration as a guiding principle. A service-facade design pattern is used when calling external API services.
 
 ---
 
@@ -30,8 +30,6 @@ A rails backend API for Sweater Weather
 # <a name="architecture"></a>Architecture
 
 # <img src="app/assets/images/schema-diagram.png">
-
-Sweater Weather was built with test-driven development, with RSpec used for testing. It is built with Rails conventions over configuration as a guiding principle. A service-facade design pattern is used when calling external API services.
 
 ---
 <p align="right">(<a href="#contents">back to top</a>)</p>
