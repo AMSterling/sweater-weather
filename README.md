@@ -76,8 +76,8 @@ Start a rails server, and you're ready to query
 rails s
 ```
 
-<p align="right">(<a href="#contents">back to top</a>)</p>
 ---
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
 # <a name="endpoints"></a>Endpoints
 
@@ -155,6 +155,7 @@ POST '/api/v1/users'
  ```
 
 ---
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
 ## <a name="location-forecast"></a>Weather Forecast by Location
 
@@ -294,9 +295,8 @@ GET "/api/v1/forecast?location=#{location}"
         }
  ```
 
-<p align="right">(<a href="#contents">back to top</a>)</p>
 ---
-
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
