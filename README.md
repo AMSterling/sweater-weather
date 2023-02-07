@@ -29,7 +29,7 @@ A rails backend API for Sweater Weather
 
 # <a name="architecture"></a>Architecture
 
-[Back to top](#contents)
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
 # <img src="app/assets/images/schema-diagram.png">
 
@@ -82,7 +82,7 @@ rails s
 
 ## <a name="create-user"></a>Create User
 
-[Back to top](#contents)
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
 Creates a new user.
 
@@ -157,7 +157,7 @@ POST '/api/v1/users'
 
 ## <a name="location-forecast"></a>Weather Forecast by Location
 
-[Back to top](#contents)
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
 Retrieve weather for location.
 
@@ -293,6 +293,7 @@ GET "/api/v1/forecast?location=#{location}"
         }
  ```
 
+<p align="right">(<a href="#contents">back to top</a>)</p>
 ---
 
 
