@@ -12,7 +12,7 @@
 
 ## Description
 
-A rails backend API for Sweater Weather Final
+A rails backend API; Sweater Weather Final was built with test-driven development, with RSpec used for testing. It is built with Rails conventions over configuration as a guiding principle. A service-facade design pattern is used when calling external API services.
 
 ---
 
@@ -30,19 +30,16 @@ A rails backend API for Sweater Weather Final
 
 # <a name="architecture"></a>Architecture
 
-[Back to top](#contents)
-
 # <img src="app/assets/images/schema-diagram.png">
 
-Sweater Weather Final was built with test-driven development, with RSpec used for testing. It is built with Rails conventions over configuration as a guiding principle. A service-facade design pattern is used when calling external API services.
-
 ---
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
 # <a name="database-setup"></a>Database Setup
 
 Instructions to set up a local version of Sweater Weather Final:
 
-Fork and clone the project, then install the required gems with `bundle`. A full list of gems that will be installed can be found in the [gemfile](gemfile).
+Fork and clone the project, then install the required gems with `bundle`. A full list of gems that will be installed can be found in the [gemfile][gemfile-url].
 
 ```sh
 bundle install
@@ -78,12 +75,11 @@ rails s
 ```
 
 ---
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
 # <a name="endpoints"></a>Endpoints
 
 ## <a name="create-user"></a>Create User
-
-[Back to top](#contents)
 
 Creates a new user.
 
@@ -119,10 +115,9 @@ POST '/api/v1/users'
  ```
 
 ---
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
 ## <a name="location-forecast"></a>Weather Forecast by Location
-
-[Back to top](#contents)
 
 Retrieve weather for location.
 
@@ -257,10 +252,9 @@ GET "/api/v1/forecast?location=#{location}"
  ```
 
 ---
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
 ## <a name="location-books"></a>Fetch 5 Books by Location
-
-[Back to top](#contents)
 
 Retrieve top 5 books about searched location.
 
@@ -319,6 +313,7 @@ GET '/api/v1/book-search?location=denver,co&quantity=5'
  ```
 
 ---
+<p align="right">(<a href="#contents">back to top</a>)</p>
 
 <!-- BADGE LINKS -->
 
