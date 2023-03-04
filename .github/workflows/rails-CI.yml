@@ -43,11 +43,6 @@ jobs:
         run: bin/rake
 
       # However you run your tests to generate code coverage
-      - uses: amancevice/setup-code-climate@v1
-        with:
-          cc_test_reporter_id: ${{ secrets.CC_TEST_REPORTER_ID }}
-      - run: cc-test-reporter before-build
-
       - name: Run my tests
         run: |
           bundle exec rspec
@@ -61,6 +56,11 @@ jobs:
         uses: paambaati/codeclimate-action@v3.2.0
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+
+      - uses: amancevice/setup-code-climate@v1
+        with:
+          cc_test_reporter_id: ${{ secrets.CC_TEST_REPORTER_ID }}
+      - run: cc-test-reporter before-build
 
   lint:
     runs-on: ubuntu-latest
