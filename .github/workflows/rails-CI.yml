@@ -57,8 +57,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - run: cc-test-reporter after-build
-
       - name: Test & publish code coverage
         uses: paambaati/codeclimate-action@v3.2.0
         env:
