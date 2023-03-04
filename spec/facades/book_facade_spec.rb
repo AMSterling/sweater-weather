@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe BookFacade do
-  it 'is books that contain Denver, CO in title and weather', :vcr do
+RSpec.describe BookFacade, :vcr do
+  it 'is books that contain Denver, CO in title and weather' do
     response = BookFacade.destination_forecast('denver,co', 5)
 
     expect(response).to be_an OpenStruct

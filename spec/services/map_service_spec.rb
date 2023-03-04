@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe MapService do
-  it 'gets the location', :vcr do
+RSpec.describe MapService, :vcr do
+  it 'gets the location' do
     response = MapService.get_location('denver,co')
 
     expect(response).to be_a Hash

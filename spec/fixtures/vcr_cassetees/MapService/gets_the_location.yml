@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 04 Mar 2023 06:44:32 GMT
+      - Sat, 04 Mar 2023 19:51:27 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -27,17 +27,17 @@ http_interactions:
       X-Ratelimit-Limit-2628000:
       - '15000'
       X-Ratelimit-Remaining-2628000:
-      - '14996'
+      - '14981'
       Ratelimit-Limit:
       - '15000'
       Ratelimit-Remaining:
-      - '14996'
+      - '14981'
       Ratelimit-Reset:
-      - '1379729'
+      - '1332513'
       X-Powered-By:
       - MapQuest
       X-Request-Id:
-      - 04ce7100-ba58-11ed-92d6-2780cd04e11d
+      - f35f8300-bac5-11ed-848e-131ed49eaf81
       Access-Control-Allow-Origin:
       - "*"
       Etag:
@@ -46,5 +46,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"info":{"statuscode":0,"copyright":{"text":"© 2022 MapQuest, Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"©
         2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"denver,co"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"0","unknownInput":"","type":"s","latLng":{"lat":39.74001,"lng":-104.99202},"displayLatLng":{"lat":39.74001,"lng":-104.99202},"mapUrl":""}]}]}'
-  recorded_at: Sat, 04 Mar 2023 06:44:32 GMT
+  recorded_at: Sat, 04 Mar 2023 19:51:27 GMT
 recorded_with: VCR 6.1.0

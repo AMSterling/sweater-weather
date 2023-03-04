@@ -1,13 +1,13 @@
 require 'rails_helper'
 
-RSpec.describe WeatherFacade do
+RSpec.describe WeatherFacade, :vcr do
   describe 'building a forecast' do
     # before :each do
     #   locale = MapService.get_location('denver,co')
     #   @weather = WeatherService.get_weather(locale[:lat], locale[:lng])
     # end
     #
-    it 'builds the complete forecast by location', :vcr do
+    it 'builds the complete forecast by location' do
 
       response = WeatherFacade.weather_forecast('denver,co')
 

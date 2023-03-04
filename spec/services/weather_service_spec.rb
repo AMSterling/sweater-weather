@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe WeatherService do
-  it 'can get weather forecast', :vcr do
+RSpec.describe WeatherService, :vcr do
+  it 'can get weather forecast' do
     response = WeatherService.get_weather(39.738453, -104.984853)
 
     expect(response).to be_a Hash

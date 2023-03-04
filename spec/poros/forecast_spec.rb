@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe Forecast do
-  it 'exists', :vcr do
+RSpec.describe Forecast, :vcr do
+  it 'exists' do
 
     response = WeatherFacade.weather_forecast('denver,co')
 

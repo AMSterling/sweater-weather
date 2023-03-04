@@ -1,7 +1,7 @@
 require 'rails_helper'
 
-RSpec.describe BookService do
-  it 'gets books by location', :vcr do
+RSpec.describe BookService, :vcr do
+  it 'gets books by location' do
     response = BookService.get_books('denver,co', 5)
 
     expect(response).to be_a Hash
