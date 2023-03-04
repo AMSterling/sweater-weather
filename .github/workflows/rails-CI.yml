@@ -40,6 +40,10 @@ jobs:
         run: bin/rails db:schema:load
       # Add or replace test runners here
       - name: Run tests
+      - uses: amancevice/setup-code-climate@v1
+        with:
+          cc_test_reporter_id: ${{ secrets.CC_TEST_REPORTER_ID }}
+      - run: cc-test-reporter before-build
         run: bin/rake
 
       # However you run your tests to generate code coverage
@@ -54,10 +58,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: amancevice/setup-code-climate@v1
-        with:
-          cc_test_reporter_id: ${{ secrets.CC_TEST_REPORTER_ID }}
-      - run: cc-test-reporter before-build
 
   lint:
     runs-on: ubuntu-latest
