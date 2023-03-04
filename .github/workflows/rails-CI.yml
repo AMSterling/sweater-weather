@@ -62,7 +62,7 @@ jobs:
         env:
           CC_TEST_REPORTER_ID: bfafcb30ad0ae9d22a0782b1bb14d77c1de9217c37dae46482b90c2eca31370f
         with:
-          coverageCommand: bin/rake
+          coverageCommand: bundle exec rspec
           debug: true
           coverageLocations: coverage/.resultset.json
 
