@@ -56,13 +56,15 @@ jobs:
         with:
           cc_test_reporter_id: ${{ secrets.CC_TEST_REPORTER_ID }}
       - run: cc-test-reporter before-build
+        run: |
+          bundle exec rspec
+      - run: cc-test-reporter after-build
 
       - name: Test & publish code coverage
         uses: paambaati/codeclimate-action@v3.2.0
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
-      - run: cc-test-reporter after-build
-      
+
   lint:
     runs-on: ubuntu-latest
     steps:
