@@ -40,10 +40,15 @@ jobs:
         run: bin/rails db:schema:load
       # Add or replace test runners here
       - name: Run tests
-        run: |
-          bundle exec rspec
+        run: bin/rake
 
-        uses: joshmfrankel/simplecov-check-action@main
+      # However you run your tests to generate code coverage
+      - name: Run my tests
+        run: |
+          bundle exec rspec specs/
+
+      # Minimum configuration
+      - uses: joshmfrankel/simplecov-check-action@main
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
