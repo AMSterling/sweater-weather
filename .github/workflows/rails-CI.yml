@@ -44,6 +44,10 @@ jobs:
 
       # However you run your tests to generate code coverage
       - name: Run my tests
+      - uses: amancevice/setup-code-climate@v1
+        with:
+          cc_test_reporter_id: ${{ secrets.CC_TEST_REPORTER_ID }}
+      - run: cc-test-reporter before-build
         run: |
           bundle exec rspec
 
@@ -52,12 +56,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: amancevice/setup-code-climate@v1
-        with:
-          cc_test_reporter_id: ${{ secrets.CC_TEST_REPORTER_ID }}
-      - run: cc-test-reporter before-build
-        run: |
-          bundle exec rspec
       - run: cc-test-reporter after-build
 
       - name: Test & publish code coverage
