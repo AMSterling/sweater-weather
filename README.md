@@ -3,7 +3,7 @@
 ## Sweater Weather
 
 [![ruby][ruby]][ruby-url] [![ror][ror]][ror-url] [![Postgres][Postgres]][Postgres-url] [![RSpec][RSpec]][RSpec-url] [![Atom][Atom]][Atom-url]
-  
+
 [![CodeClimate][CodeClimate]][CodeClimate-url]
 
 #### Contributors: [Anna Marie Sterling](https://github.com/AMSterling)
@@ -288,6 +288,67 @@ GET "/api/v1/forecast?location=#{location}"
             }
           }
         }
+ ```
+
+---
+<p align="right">(<a href="#contents">back to top</a>)</p>
+
+## <a name="location-books"></a>Fetch 5 Books by Location
+
+Retrieve top 5 books about searched location.
+
+<br>
+
+```
+GET '/api/v1/book-search?location=denver,co&quantity=5'
+```
+
+<br>
+
+**Sample response (status 200)**
+
+ ```
+ {
+   "data": {
+     "id":nil,
+     "type":"books",
+     "attributes":{
+       "destination":"denver,co",
+       "forecast":{
+         "summary":"broken clouds",
+         "temperature":"54.27 F"
+        },
+      "total_books_found":39,
+      "books":[
+       {
+         "isbn":["0762507845","9780762507849"],
+         "title":"Denver, Co",
+         "publisher":["Universal Map Enterprises"]
+       },
+       {
+         "isbn":["9780607620054", "0607620056"],
+         "title":"Denver west, CO and Bailey, CO: Denver, CO",
+         "publisher":["USGS Branch of Distribution"]
+       },
+       {
+         "isbn":["9780607620047", "0607620048"],
+         "title":"Denver East, CO and Castle Rock, CO: Denver, CO",
+         "publisher":["USGS Branch of Distribution"]
+       },
+       {
+         "isbn":["0762557362", "9780762557363"],
+         "title":"Denver Co Deluxe Flip Map",
+         "publisher":["Universal Map Enterprises"]
+       },
+       {
+         "isbn":["9781427401687", "1427401683"],
+         "title":"University of Denver Co 2007",
+         "publisher":["College Prowler"]
+       }
+      ]
+     }
+   }
+ }
  ```
 
 ---
