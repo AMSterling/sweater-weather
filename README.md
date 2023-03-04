@@ -2,7 +2,7 @@
 
 ## Sweater Weather Final
 
-[![ruby][ruby]][ruby-url] [![ror][ror]][ror-url] [![Postgres][Postgres]][Postgres-url] [![RSpec][RSpec]][RSpec-url] [![Atom][Atom]][Atom-url]
+[![ruby][ruby]][ruby-url] [![ror][ror]][ror-url] [![Postgres][Postgres]][Postgres-url] [![RSpec][RSpec]][RSpec-url] [![Atom][Atom]][Atom-url] [![CodeClimate][CodeClimate]][CodeClimate-url]
 
 #### Contributors: [Anna Marie Sterling](https://github.com/AMSterling)
 
@@ -343,6 +343,9 @@ GET '/api/v1/book-search?location=denver,co&quantity=5'
 
 [CircleCI]: https://img.shields.io/badge/circle%20ci-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white
 [CircleCI-url]: https://circleci.com/developer
+
+[CodeClimate]: https://a11ybadges.com/badge?logo=codeclimate
+[CodeClimate-url]: https://codeclimate.com
 
 [CSS]: https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white
 [CSS-url]: https://en.wikipedia.org/wiki/CSS
