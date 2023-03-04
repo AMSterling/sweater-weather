@@ -7,7 +7,7 @@ RSpec.describe BookService do
     expect(response).to be_a Hash
     expect(response.keys).to eq([:numFound, :start, :numFoundExact, :docs, :num_found, :q, :offset])
     expect(response[:numFound]).to be_an Integer
-    expect(response[:docs].count).to eq 43
+    expect(response[:docs].count).to eq 44
       response[:docs].each do |doc|
         expect(doc).to have_key(:title)
         expect(doc[:title].downcase).to include('denver')
