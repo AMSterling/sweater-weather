@@ -58,8 +58,6 @@ jobs:
         with:
           cc_test_reporter_id: ${{ secrets.CC_TEST_REPORTER_ID }}
       - run: cc-test-reporter before-build
-      # ...
-      - run: cc-test-reporter after-build
 
   lint:
     runs-on: ubuntu-latest
