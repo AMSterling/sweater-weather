@@ -2,7 +2,7 @@
   
 [![Maintainability](https://api.codeclimate.com/v1/badges/a133fd8d67dd3547fa8b/maintainability)](https://codeclimate.com/github/AMSterling/sweater-weather/maintainability)
 
-<div>
+</div>
   
 <div align="center">
 
