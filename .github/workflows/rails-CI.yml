@@ -52,12 +52,20 @@ jobs:
         with:
           bundler-cache: true
       # Add or replace any other lints here
-      - name: Setup Code Climate
+      - name: Code Climate Coverage Action
         # You may pin to the exact commit or the version.
-        # uses: amancevice/setup-code-climate@5be00b4dc2341fc703265918977bc74d5f453df0
-        uses: amancevice/setup-code-climate@v1.1
+        # uses: paambaati/codeclimate-action@ac3f177ece9928d220a8bd1c2f1957926fd3b67e
+        uses: paambaati/codeclimate-action@v3.2.0
         with:
-          # Code Climate test reporter ID
-          cc_test_reporter_id: bfafcb30ad0ae9d22a0782b1bb14d77c1de9217c37dae46482b90c2eca31370f
-          # The version of Code Climate test reporter ID.
-          cc_test_reporter_version: # optional, default is latest
+          # Coverage command to execute
+          coverageCommand: # optional, default is 
+          # Custom working directory for executing the coverage command
+          workingDirectory: # optional, default is 
+          # Enable debugging logs for the Code Climate test reporter
+          debug: # optional, default is false
+          # Locations to find code coverage (Used for builds from multiple locations)
+          coverageLocations: # optional, default is 
+          # See https://docs.codeclimate.com/docs/configuring-test-coverage
+          prefix: # optional, default is 
+          # Verify the downloaded reporter's checksum and GPG signature
+          verifyDownload: # optional, default is true
