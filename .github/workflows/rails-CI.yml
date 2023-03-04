@@ -39,11 +39,11 @@ jobs:
       - name: Set up database schema
         run: bin/rails db:schema:load
       # Add or replace test runners here
-      - name: Run tests
       - uses: amancevice/setup-code-climate@v1
         with:
           cc_test_reporter_id: ${{ secrets.CC_TEST_REPORTER_ID }}
       - run: cc-test-reporter before-build
+      - name: Run tests
         run: bin/rake
 
       # However you run your tests to generate code coverage
