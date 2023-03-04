@@ -61,7 +61,8 @@ jobs:
         uses: paambaati/codeclimate-action@v3.2.0
         env:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
-
+      - run: cc-test-reporter after-build
+      
   lint:
     runs-on: ubuntu-latest
     steps:
