@@ -45,7 +45,7 @@ jobs:
       # However you run your tests to generate code coverage
       - name: Run my tests
         run: |
-          bundle exec rspec specs/
+          bundle exec rspec
 
       # Minimum configuration
       - uses: joshmfrankel/simplecov-check-action@main
@@ -62,5 +62,3 @@ jobs:
         with:
           bundler-cache: true
       # Add or replace any other lints here
-      - name: SimpleCov+ Action
-        uses: joshmfrankel/simplecov-check-action@1.0.0
