@@ -25,8 +25,8 @@ jobs:
     env:
       RAILS_ENV: test
       DATABASE_URL: "postgres://rails:password@localhost:5432/rails_test"
-      map_api_key: ${{ secrets.map_api_key }}
-      weather_api_key: ${{ secrets.weather_api_key }}
+      map_api_key: ${{ secrets.MAP_API_KEY }}
+      weather_api_key: ${{ secrets.WEATHER_API_KEY }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -40,7 +40,12 @@ jobs:
         run: bin/rails db:schema:load
       # Add or replace test runners here
       - name: Run tests
-        run: bin/rake
+        run: |
+          bundle exec rspec
+
+        uses: joshmfrankel/simplecov-check-action@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
   lint:
     runs-on: ubuntu-latest
@@ -52,20 +57,5 @@ jobs:
         with:
           bundler-cache: true
       # Add or replace any other lints here
-      - name: Code Climate Coverage Action
-        # You may pin to the exact commit or the version.
-        # uses: paambaati/codeclimate-action@ac3f177ece9928d220a8bd1c2f1957926fd3b67e
-        uses: paambaati/codeclimate-action@v3.2.0
-        with:
-          # Coverage command to execute
-          coverageCommand: # optional, default is 
-          # Custom working directory for executing the coverage command
-          workingDirectory: # optional, default is 
-          # Enable debugging logs for the Code Climate test reporter
-          debug: # optional, default is false
-          # Locations to find code coverage (Used for builds from multiple locations)
-          coverageLocations: # optional, default is 
-          # See https://docs.codeclimate.com/docs/configuring-test-coverage
-          prefix: # optional, default is 
-          # Verify the downloaded reporter's checksum and GPG signature
-          verifyDownload: # optional, default is true
+      - name: SimpleCov+ Action
+        uses: joshmfrankel/simplecov-check-action@1.0.0
