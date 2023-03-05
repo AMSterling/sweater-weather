@@ -10,7 +10,7 @@
 
 ## Sweater Weather
 
-[![ruby][ruby]][ruby-url] [![ror][ror]][ror-url] [![Postgres][Postgres]][Postgres-url] [![RSpec][RSpec]][RSpec-url] [![Atom][Atom]][Atom-url]
+[![ruby][ruby]][ruby-url] [![ror][ror]][ror-url] [![Postgres][Postgres]][Postgres-url] [![RSpec][RSpec]][RSpec-url] [![Atom][Atom]][Atom-url] [![GitHub Actions][GitHub Actions]][GitHub Actions-url]
 
 [![CodeClimate][CodeClimate]][CodeClimate-url]
 
