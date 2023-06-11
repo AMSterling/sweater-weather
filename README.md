@@ -8,25 +8,24 @@
 
 <div align="center">
 
-## Sweater Weather
+# Sweater Weather
 
-[![ruby][ruby]][ruby-url] [![ror][ror]][ror-url] [![Postgres][Postgres]][Postgres-url] [![RSpec][RSpec]][RSpec-url] [![Atom][Atom]][Atom-url] [![GitHub Actions][GitHub Actions]][GitHub Actions-url]
+[![ruby][ruby]][ruby-url] [![ror][ror]][ror-url] [![Postgres][Postgres]][Postgres-url] [![RSpec][RSpec]][RSpec-url] [![Postman][Postman]][Postman-url] [![Atom][Atom]][Atom-url] [![Git][Git]][Git-url] [![GitHub Actions][GitHub Actions]][GitHub Actions-url]
 
 [![CodeClimate][CodeClimate]][CodeClimate-url]
 
-#### Contributors: [Anna Marie Sterling](https://github.com/AMSterling)
 
 </div>
 
 ---
 
-## Description
+### Description
 
 A rails backend API; Sweater Weather was built with test-driven development, with RSpec used for testing. It is built with Rails conventions over configuration as a guiding principle. A service-facade design pattern is used when calling external API services.
 
 ---
 
-# <a name="contents"></a> Table of contents
+### <a name="contents"></a> Table of contents
 
 - [Architecture](#architecture)
 - [Database setup](#database-setup)
@@ -34,17 +33,18 @@ A rails backend API; Sweater Weather was built with test-driven development, wit
 - [Endpoints](#endpoints)
   - [Create User](#create-user)
   - [Weather Forecast by Location](#location-forecast)
+  - [Fetch 5 Books by Location](#location-books)
 
 ---
 
-# <a name="architecture"></a>Architecture
+### <a name="architecture"></a>Architecture
 
 # <img src="app/assets/images/schema-diagram.png">
 
 ---
 <p align="right">(<a href="#contents">back to top</a>)</p>
 
-# <a name="database-setup"></a>Database Setup
+### <a name="database-setup"></a>Database Setup
 
 Instructions to set up a local version of Sweater Weather:
 
@@ -60,7 +60,7 @@ Reset the database:
 rake db:{drop,create,migrate}
 ```
 
-## <a name="required-keys"></a> Required keys
+### <a name="required-keys"></a> Required keys
 
 Sweater Weather uses <a href="https://developer.mapquest.com/documentation/geocoding-api/" target="_blank" rel="noopener noreferrer">Mapquest Geocoding API</a> and <a href="https://openweathermap.org/api/one-call-api" target="_blank" rel="noopener noreferrer">OpenWeatherMap API</a>
 
@@ -86,9 +86,9 @@ rails s
 ---
 <p align="right">(<a href="#contents">back to top</a>)</p>
 
-# <a name="endpoints"></a>Endpoints
+## <a name="endpoints"></a>Endpoints
 
-## <a name="create-user"></a>Create User
+### <a name="create-user"></a>Create User
 
 Creates a new user.
 
@@ -162,7 +162,7 @@ POST '/api/v1/users'
 ---
 <p align="right">(<a href="#contents">back to top</a>)</p>
 
-## <a name="location-forecast"></a>Weather Forecast by Location
+### <a name="location-forecast"></a>Weather Forecast by Location
 
 Retrieve weather for location.
 
@@ -301,7 +301,7 @@ GET "/api/v1/forecast?location=#{location}"
 ---
 <p align="right">(<a href="#contents">back to top</a>)</p>
 
-## <a name="location-books"></a>Fetch 5 Books by Location
+### <a name="location-books"></a>Fetch 5 Books by Location
 
 Retrieve top 5 books about searched location.
 
@@ -362,6 +362,8 @@ GET '/api/v1/book-search?location=denver,co&quantity=5'
 ---
 <p align="right">(<a href="#contents">back to top</a>)</p>
 
+[![LinkedIn][LinkedIn]][LinkedIn-url]
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
@@ -376,8 +378,8 @@ GET '/api/v1/book-search?location=denver,co&quantity=5'
 [issues-url]: https://github.com/AMSterling/sweater-weather/issues
 [license-shield]: https://img.shields.io/github/license/AMSterling/sweater-weather.svg?style=for-the-badge
 [license-url]: https://github.com/AMSterling/sweater-weather/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/sterling-316a6223a/
+[LinkedIn]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[LinkedIn-url]: https://linkedin.com/in/sterling-316a6223a/
 
 [Atom]: https://img.shields.io/badge/Atom-66595C?style=for-the-badge&logo=Atom&logoColor=white
 [Atom-url]: https://github.com/atom/atom/releases/tag/v1.60.0
@@ -400,11 +402,11 @@ GET '/api/v1/book-search?location=denver,co&quantity=5'
 [Fly]: https://custom-icon-badges.demolab.com/badge/Fly-DCDCDC?style=for-the-badge&logo=fly-io
 [Fly-url]: https://fly.io/
 
-[Git Badge]: https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white
+[Git]: https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white
 [Git-url]: https://git-scm.com/
 
 [GitHub Badge]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
-[GitHub-url]: https://github.com/<Username>/
+[GitHub-url]: https://github.com/enter_url/
 
 [GitHub Actions]: https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white
 [GitHub Actions-url]: https://github.com/features/actions
@@ -427,8 +429,8 @@ GET '/api/v1/book-search?location=denver,co&quantity=5'
 [jQuery]: https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white
 [jQuery-url]: https://github.com/rails/jquery-rails
 
-[LinkedIn Badge]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
-[LinkedIn-url]: https://www.linkedin.com/in/<Username>/
+[LinkedIn Contributor]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
+[LinkedIn Contributor-url]: https://www.linkedin.com/in/enter_url/
 
 [MacOS]: https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0
 [MacOS-url]: https://www.apple.com/macos
@@ -471,6 +473,9 @@ GET '/api/v1/book-search?location=denver,co&quantity=5'
 
 [Tailwind]: https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
 [Tailwind-url]: https://tailwindcss.com/
+
+[Turing]: https://custom-icon-badges.demolab.com/badge/Turing-DCDCDC?style=for-the-badge&logo=turing_school
+[Turing-url]: https://turing.edu/
 
 [Visual Studio Code]: https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white
 [Visual Studio Code-url]: https://code.visualstudio.com/
