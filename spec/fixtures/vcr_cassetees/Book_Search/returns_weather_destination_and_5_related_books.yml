@@ -19,34 +19,38 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 04 Mar 2023 19:51:23 GMT
+      - Sun, 11 Jun 2023 23:37:41 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
       - '797'
+      Connection:
+      - keep-alive
       X-Ratelimit-Limit-2628000:
       - '15000'
       X-Ratelimit-Remaining-2628000:
-      - '14981'
+      - '14991'
       Ratelimit-Limit:
       - '15000'
       Ratelimit-Remaining:
-      - '14981'
+      - '14991'
       Ratelimit-Reset:
-      - '1332517'
+      - '649339'
       X-Powered-By:
       - MapQuest
       X-Request-Id:
-      - f11d5b30-bac5-11ed-b643-09b72b13d05e
+      - f4da0820-08b0-11ee-9396-cd313a9a1043
       Access-Control-Allow-Origin:
       - "*"
+      X-Transaction-Count:
+      - all=1,geocoding=1
       Etag:
       - W/"31d-zftSuFzJHtZuo9xZ/Qg7M7lyAF4"
     body:
       encoding: UTF-8
       string: '{"info":{"statuscode":0,"copyright":{"text":"© 2022 MapQuest, Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"©
         2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"denver,co"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"0","unknownInput":"","type":"s","latLng":{"lat":39.74001,"lng":-104.99202},"displayLatLng":{"lat":39.74001,"lng":-104.99202},"mapUrl":""}]}]}'
-  recorded_at: Sat, 04 Mar 2023 19:51:23 GMT
+  recorded_at: Sun, 11 Jun 2023 23:37:41 GMT
 - request:
     method: get
     uri: http://api.openweathermap.org/data/2.5/onecall?appid=<weather_api_key>&exclude=minutely,alerts&lat=39.74001&lon=-104.99202&units=imperial
@@ -68,11 +72,11 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Sat, 04 Mar 2023 19:51:23 GMT
+      - Sun, 11 Jun 2023 23:37:41 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '17477'
+      - '18154'
       Connection:
       - keep-alive
       X-Cache-Key:
@@ -85,63 +89,65 @@ http_interactions:
       - GET, POST
     body:
       encoding: UTF-8
-      string: '{"lat":39.74,"lon":-104.992,"timezone":"America/Denver","timezone_offset":-25200,"current":{"dt":1677959483,"sunrise":1677936544,"sunset":1677977681,"temp":42.33,"feels_like":41,"pressure":1006,"humidity":46,"dew_point":24.06,"uvi":4.27,"clouds":14,"visibility":10000,"wind_speed":3,"wind_deg":30,"wind_gust":8.01,"weather":[{"id":801,"main":"Clouds","description":"few
-        clouds","icon":"02d"}]},"hourly":[{"dt":1677956400,"temp":42.19,"feels_like":39.16,"pressure":1007,"humidity":43,"dew_point":22.53,"uvi":4.7,"clouds":12,"visibility":10000,"wind_speed":4.83,"wind_deg":339,"wind_gust":4.34,"weather":[{"id":801,"main":"Clouds","description":"few
-        clouds","icon":"02d"}],"pop":0},{"dt":1677960000,"temp":42.33,"feels_like":39.04,"pressure":1006,"humidity":46,"dew_point":24.06,"uvi":4.27,"clouds":14,"visibility":10000,"wind_speed":5.23,"wind_deg":352,"wind_gust":5.44,"weather":[{"id":801,"main":"Clouds","description":"few
-        clouds","icon":"02d"}],"pop":0},{"dt":1677963600,"temp":42.98,"feels_like":39.29,"pressure":1006,"humidity":42,"dew_point":22.68,"uvi":3.15,"clouds":20,"visibility":10000,"wind_speed":6.04,"wind_deg":339,"wind_gust":5.59,"weather":[{"id":801,"main":"Clouds","description":"few
-        clouds","icon":"02d"}],"pop":0},{"dt":1677967200,"temp":43.97,"feels_like":39.74,"pressure":1006,"humidity":38,"dew_point":21.38,"uvi":1.44,"clouds":29,"visibility":10000,"wind_speed":7.34,"wind_deg":318,"wind_gust":5.39,"weather":[{"id":802,"main":"Clouds","description":"scattered
-        clouds","icon":"03d"}],"pop":0},{"dt":1677970800,"temp":44.51,"feels_like":39.94,"pressure":1005,"humidity":35,"dew_point":20.08,"uvi":0.59,"clouds":42,"visibility":10000,"wind_speed":8.3,"wind_deg":301,"wind_gust":6.11,"weather":[{"id":802,"main":"Clouds","description":"scattered
-        clouds","icon":"03d"}],"pop":0},{"dt":1677974400,"temp":43.66,"feels_like":40.32,"pressure":1005,"humidity":34,"dew_point":18.81,"uvi":0.14,"clouds":56,"visibility":10000,"wind_speed":5.68,"wind_deg":296,"wind_gust":7.54,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04d"}],"pop":0},{"dt":1677978000,"temp":43.05,"feels_like":41.54,"pressure":1005,"humidity":37,"dew_point":18.41,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":3.27,"wind_deg":111,"wind_gust":13.2,"weather":[{"id":804,"main":"Clouds","description":"overcast
-        clouds","icon":"04n"}],"pop":0},{"dt":1677981600,"temp":43.16,"feels_like":39.04,"pressure":1004,"humidity":43,"dew_point":21.96,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":6.82,"wind_deg":162,"wind_gust":17.98,"weather":[{"id":804,"main":"Clouds","description":"overcast
-        clouds","icon":"04n"}],"pop":0},{"dt":1677985200,"temp":42.48,"feels_like":38.7,"pressure":1004,"humidity":43,"dew_point":21.15,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":6.02,"wind_deg":189,"wind_gust":14.36,"weather":[{"id":804,"main":"Clouds","description":"overcast
-        clouds","icon":"04n"}],"pop":0},{"dt":1677988800,"temp":40.35,"feels_like":36.46,"pressure":1004,"humidity":48,"dew_point":21.74,"uvi":0,"clouds":84,"visibility":10000,"wind_speed":5.57,"wind_deg":265,"wind_gust":9.06,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04n"}],"pop":0},{"dt":1677992400,"temp":37.35,"feels_like":31.46,"pressure":1006,"humidity":55,"dew_point":22.35,"uvi":0,"clouds":67,"visibility":10000,"wind_speed":7.83,"wind_deg":316,"wind_gust":13.15,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04n"}],"pop":0},{"dt":1677996000,"temp":36.5,"feels_like":33.3,"pressure":1006,"humidity":56,"dew_point":22.14,"uvi":0,"clouds":56,"visibility":10000,"wind_speed":3.98,"wind_deg":349,"wind_gust":6.35,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04n"}],"pop":0},{"dt":1677999600,"temp":35.47,"feels_like":35.47,"pressure":1006,"humidity":60,"dew_point":22.68,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":2.73,"wind_deg":62,"wind_gust":3.18,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1678003200,"temp":35.24,"feels_like":35.24,"pressure":1007,"humidity":60,"dew_point":22.48,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":2.62,"wind_deg":131,"wind_gust":3.22,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1678006800,"temp":35.08,"feels_like":35.08,"pressure":1006,"humidity":58,"dew_point":21.4,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":1.59,"wind_deg":178,"wind_gust":2.48,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1678010400,"temp":35.1,"feels_like":35.1,"pressure":1006,"humidity":54,"dew_point":19.62,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":2.71,"wind_deg":243,"wind_gust":3.6,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1678014000,"temp":35.1,"feels_like":35.1,"pressure":1006,"humidity":50,"dew_point":17.94,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":2.93,"wind_deg":239,"wind_gust":3.8,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1678017600,"temp":35.08,"feels_like":32.22,"pressure":1006,"humidity":47,"dew_point":16.48,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":3.47,"wind_deg":216,"wind_gust":4.18,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1678021200,"temp":35.19,"feels_like":30.2,"pressure":1006,"humidity":44,"dew_point":15.13,"uvi":0,"clouds":0,"visibility":10000,"wind_speed":5.77,"wind_deg":211,"wind_gust":8.1,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1678024800,"temp":35.44,"feels_like":29.46,"pressure":1006,"humidity":40,"dew_point":13.35,"uvi":0.16,"clouds":0,"visibility":10000,"wind_speed":7.29,"wind_deg":217,"wind_gust":16.33,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1678028400,"temp":38.91,"feels_like":33.24,"pressure":1006,"humidity":33,"dew_point":12.49,"uvi":0.7,"clouds":0,"visibility":10000,"wind_speed":8.03,"wind_deg":215,"wind_gust":22.97,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1678032000,"temp":45.27,"feels_like":40.51,"pressure":1004,"humidity":23,"dew_point":9.41,"uvi":1.68,"clouds":0,"visibility":10000,"wind_speed":9.13,"wind_deg":207,"wind_gust":24.9,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1678035600,"temp":50.25,"feels_like":45.68,"pressure":1002,"humidity":15,"dew_point":3.63,"uvi":2.88,"clouds":0,"visibility":10000,"wind_speed":15.57,"wind_deg":206,"wind_gust":37.76,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1678039200,"temp":52.68,"feels_like":48.25,"pressure":1001,"humidity":13,"dew_point":2.97,"uvi":3.86,"clouds":0,"visibility":10000,"wind_speed":18.88,"wind_deg":225,"wind_gust":42.81,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1678042800,"temp":54.34,"feels_like":49.98,"pressure":1000,"humidity":11,"dew_point":1.18,"uvi":4.17,"clouds":0,"visibility":10000,"wind_speed":19.08,"wind_deg":228,"wind_gust":42.5,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1678046400,"temp":54.77,"feels_like":50.5,"pressure":1000,"humidity":12,"dew_point":3,"uvi":3.8,"clouds":0,"visibility":10000,"wind_speed":17.9,"wind_deg":234,"wind_gust":39.95,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1678050000,"temp":54.48,"feels_like":50.23,"pressure":1000,"humidity":13,"dew_point":5.22,"uvi":2.83,"clouds":2,"visibility":10000,"wind_speed":19.22,"wind_deg":235,"wind_gust":38.88,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0.04},{"dt":1678053600,"temp":53.44,"feels_like":49.23,"pressure":1000,"humidity":16,"dew_point":7.74,"uvi":1.67,"clouds":2,"visibility":10000,"wind_speed":19.24,"wind_deg":239,"wind_gust":35.97,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0.04},{"dt":1678057200,"temp":52.12,"feels_like":47.88,"pressure":1001,"humidity":18,"dew_point":9.39,"uvi":0.69,"clouds":1,"visibility":10000,"wind_speed":17.74,"wind_deg":234,"wind_gust":36.57,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0.04},{"dt":1678060800,"temp":50.63,"feels_like":46.33,"pressure":1001,"humidity":20,"dew_point":10.51,"uvi":0.17,"clouds":1,"visibility":10000,"wind_speed":13.78,"wind_deg":220,"wind_gust":28.1,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0.08},{"dt":1678064400,"temp":47.84,"feels_like":42.75,"pressure":1002,"humidity":24,"dew_point":12.16,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":11.86,"wind_deg":224,"wind_gust":21.59,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0.11},{"dt":1678068000,"temp":46.06,"feels_like":42.82,"pressure":1004,"humidity":27,"dew_point":13.73,"uvi":0,"clouds":1,"visibility":10000,"wind_speed":6.26,"wind_deg":219,"wind_gust":13.98,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0.08},{"dt":1678071600,"temp":43.39,"feels_like":43.39,"pressure":1005,"humidity":32,"dew_point":15.01,"uvi":0,"clouds":3,"visibility":10000,"wind_speed":2.44,"wind_deg":113,"wind_gust":7.09,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0.08},{"dt":1678075200,"temp":38.59,"feels_like":32.61,"pressure":1009,"humidity":40,"dew_point":15.66,"uvi":0,"clouds":17,"visibility":10000,"wind_speed":8.5,"wind_deg":46,"wind_gust":11.16,"weather":[{"id":801,"main":"Clouds","description":"few
-        clouds","icon":"02n"}],"pop":0.08},{"dt":1678078800,"temp":36.09,"feels_like":29.28,"pressure":1011,"humidity":42,"dew_point":15.01,"uvi":0,"clouds":34,"visibility":10000,"wind_speed":9.01,"wind_deg":59,"wind_gust":13.15,"weather":[{"id":802,"main":"Clouds","description":"scattered
-        clouds","icon":"03n"}],"pop":0.08},{"dt":1678082400,"temp":36.21,"feels_like":31.87,"pressure":1011,"humidity":40,"dew_point":13.57,"uvi":0,"clouds":45,"visibility":10000,"wind_speed":5.19,"wind_deg":70,"wind_gust":8.79,"weather":[{"id":802,"main":"Clouds","description":"scattered
-        clouds","icon":"03n"}],"pop":0.08},{"dt":1678086000,"temp":35.89,"feels_like":35.89,"pressure":1012,"humidity":39,"dew_point":12.88,"uvi":0,"clouds":99,"visibility":10000,"wind_speed":2.86,"wind_deg":74,"wind_gust":4.76,"weather":[{"id":804,"main":"Clouds","description":"overcast
-        clouds","icon":"04n"}],"pop":0},{"dt":1678089600,"temp":35.53,"feels_like":35.53,"pressure":1012,"humidity":38,"dew_point":11.88,"uvi":0,"clouds":98,"visibility":10000,"wind_speed":2.98,"wind_deg":129,"wind_gust":4.09,"weather":[{"id":804,"main":"Clouds","description":"overcast
-        clouds","icon":"04n"}],"pop":0},{"dt":1678093200,"temp":35.38,"feels_like":32.81,"pressure":1012,"humidity":36,"dew_point":10.62,"uvi":0,"clouds":98,"visibility":10000,"wind_speed":3.27,"wind_deg":128,"wind_gust":4.88,"weather":[{"id":804,"main":"Clouds","description":"overcast
-        clouds","icon":"04n"}],"pop":0},{"dt":1678096800,"temp":34.81,"feels_like":34.81,"pressure":1013,"humidity":36,"dew_point":9.88,"uvi":0,"clouds":95,"visibility":10000,"wind_speed":1.5,"wind_deg":155,"wind_gust":2.26,"weather":[{"id":804,"main":"Clouds","description":"overcast
-        clouds","icon":"04n"}],"pop":0},{"dt":1678100400,"temp":34.3,"feels_like":34.3,"pressure":1013,"humidity":36,"dew_point":9.43,"uvi":0,"clouds":78,"visibility":10000,"wind_speed":1.01,"wind_deg":52,"wind_gust":1.23,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04n"}],"pop":0},{"dt":1678104000,"temp":33.37,"feels_like":33.37,"pressure":1014,"humidity":36,"dew_point":9.16,"uvi":0,"clouds":66,"visibility":10000,"wind_speed":2.93,"wind_deg":48,"wind_gust":3.83,"weather":[{"id":803,"main":"Clouds","description":"broken
-        clouds","icon":"04n"}],"pop":0},{"dt":1678107600,"temp":32.25,"feels_like":29.25,"pressure":1016,"humidity":38,"dew_point":9.46,"uvi":0,"clouds":7,"visibility":10000,"wind_speed":3.27,"wind_deg":65,"wind_gust":5.21,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01n"}],"pop":0},{"dt":1678111200,"temp":32.22,"feels_like":32.22,"pressure":1016,"humidity":41,"dew_point":10.94,"uvi":0.19,"clouds":6,"visibility":10000,"wind_speed":2.86,"wind_deg":89,"wind_gust":4.74,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1678114800,"temp":34.21,"feels_like":30.92,"pressure":1016,"humidity":38,"dew_point":10.78,"uvi":0.79,"clouds":4,"visibility":10000,"wind_speed":3.74,"wind_deg":115,"wind_gust":5.19,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1678118400,"temp":36.63,"feels_like":32.27,"pressure":1016,"humidity":31,"dew_point":8.33,"uvi":1.92,"clouds":3,"visibility":10000,"wind_speed":5.3,"wind_deg":116,"wind_gust":7.43,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1678122000,"temp":38.93,"feels_like":34.68,"pressure":1015,"humidity":25,"dew_point":6.21,"uvi":3.29,"clouds":2,"visibility":10000,"wind_speed":5.7,"wind_deg":109,"wind_gust":7.27,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0},{"dt":1678125600,"temp":41.49,"feels_like":37.22,"pressure":1013,"humidity":23,"dew_point":5.99,"uvi":4.41,"clouds":2,"visibility":10000,"wind_speed":6.49,"wind_deg":90,"wind_gust":7.47,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"pop":0}],"daily":[{"dt":1677956400,"sunrise":1677936544,"sunset":1677977681,"moonrise":1677968040,"moonset":1677933000,"moon_phase":0.42,"temp":{"day":42.19,"min":30.79,"max":44.51,"night":36.5,"eve":43.05,"morn":30.92},"feels_like":{"day":39.16,"night":33.3,"eve":41.54,"morn":30.92},"pressure":1007,"humidity":43,"dew_point":22.53,"wind_speed":8.3,"wind_deg":301,"wind_gust":17.98,"weather":[{"id":801,"main":"Clouds","description":"few
-        clouds","icon":"02d"}],"clouds":12,"pop":0,"uvi":4.7},{"dt":1678042800,"sunrise":1678022852,"sunset":1678064145,"moonrise":1678058160,"moonset":1678021140,"moon_phase":0.45,"temp":{"day":54.34,"min":35.08,"max":54.77,"night":36.21,"eve":47.84,"morn":35.19},"feels_like":{"day":49.98,"night":31.87,"eve":42.75,"morn":30.2},"pressure":1000,"humidity":11,"dew_point":1.18,"wind_speed":19.24,"wind_deg":239,"wind_gust":42.81,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"clouds":0,"pop":0.11,"uvi":4.17},{"dt":1678129200,"sunrise":1678109160,"sunset":1678150609,"moonrise":1678148280,"moonset":1678109040,"moon_phase":0.48,"temp":{"day":43.52,"min":32.22,"max":49.39,"night":34.18,"eve":41.92,"morn":32.25},"feels_like":{"day":39.47,"night":27.84,"eve":34.63,"morn":29.25},"pressure":1012,"humidity":22,"dew_point":7,"wind_speed":13.91,"wind_deg":36,"wind_gust":18.79,"weather":[{"id":800,"main":"Clear","description":"clear
-        sky","icon":"01d"}],"clouds":0,"pop":0,"uvi":4.89},{"dt":1678215600,"sunrise":1678195467,"sunset":1678237073,"moonrise":1678238340,"moonset":1678196820,"moon_phase":0.5,"temp":{"day":35.55,"min":26.83,"max":38.01,"night":26.83,"eve":37.72,"morn":30.79},"feels_like":{"day":29.61,"night":26.83,"eve":29.91,"morn":25.09},"pressure":1015,"humidity":65,"dew_point":24.69,"wind_speed":13.47,"wind_deg":8,"wind_gust":22.01,"weather":[{"id":600,"main":"Snow","description":"light
-        snow","icon":"13d"}],"clouds":93,"pop":0.87,"snow":2.06,"uvi":2.22},{"dt":1678302000,"sunrise":1678281774,"sunset":1678323536,"moonrise":1678328460,"moonset":1678284480,"moon_phase":0.54,"temp":{"day":34.41,"min":27.75,"max":40.51,"night":30.58,"eve":40.51,"morn":28.02},"feels_like":{"day":28.8,"night":23.14,"eve":36.63,"morn":28.02},"pressure":1022,"humidity":33,"dew_point":7.84,"wind_speed":8.68,"wind_deg":86,"wind_gust":11.43,"weather":[{"id":600,"main":"Snow","description":"light
-        snow","icon":"13d"}],"clouds":98,"pop":0.43,"snow":1.12,"uvi":4.43},{"dt":1678388400,"sunrise":1678368080,"sunset":1678409999,"moonrise":1678418580,"moonset":1678372200,"moon_phase":0.57,"temp":{"day":34.83,"min":28.78,"max":38.79,"night":31.32,"eve":34.93,"morn":28.78},"feels_like":{"day":30.24,"night":25.03,"eve":28.99,"morn":24.04},"pressure":1012,"humidity":68,"dew_point":24.94,"wind_speed":7.87,"wind_deg":132,"wind_gust":13.58,"weather":[{"id":601,"main":"Snow","description":"snow","icon":"13d"}],"clouds":97,"pop":1,"snow":7.6,"uvi":5},{"dt":1678474800,"sunrise":1678454386,"sunset":1678496461,"moonrise":1678508880,"moonset":1678459920,"moon_phase":0.6,"temp":{"day":26.8,"min":21.22,"max":29.35,"night":21.22,"eve":26.87,"morn":24.44},"feels_like":{"day":15.1,"night":9.7,"eve":14.27,"morn":13.06},"pressure":1007,"humidity":94,"dew_point":24.57,"wind_speed":17,"wind_deg":355,"wind_gust":28.07,"weather":[{"id":601,"main":"Snow","description":"snow","icon":"13d"}],"clouds":100,"pop":1,"snow":14.8,"uvi":5},{"dt":1678561200,"sunrise":1678540691,"sunset":1678582924,"moonrise":1678599300,"moonset":1678547760,"moon_phase":0.64,"temp":{"day":25.63,"min":18.73,"max":26.17,"night":18.73,"eve":23.72,"morn":20.23},"feels_like":{"day":16.54,"night":11.55,"eve":12.16,"morn":14},"pressure":1014,"humidity":73,"dew_point":17.67,"wind_speed":16.2,"wind_deg":15,"wind_gust":25.43,"weather":[{"id":600,"main":"Snow","description":"light
-        snow","icon":"13d"}],"clouds":100,"pop":0.65,"snow":1.44,"uvi":5}]}'
-  recorded_at: Sat, 04 Mar 2023 19:51:23 GMT
+      string: '{"lat":39.74,"lon":-104.992,"timezone":"America/Denver","timezone_offset":-21600,"current":{"dt":1686526661,"sunrise":1686483098,"sunset":1686536865,"temp":59.09,"feels_like":58.84,"pressure":1013,"humidity":88,"dew_point":55.54,"uvi":0.3,"clouds":97,"visibility":8161,"wind_speed":3,"wind_deg":179,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}]},"hourly":[{"dt":1686524400,"temp":59.29,"feels_like":58.96,"pressure":1013,"humidity":86,"dew_point":55.11,"uvi":0.64,"clouds":97,"visibility":3349,"wind_speed":9.51,"wind_deg":293,"wind_gust":8.52,"weather":[{"id":502,"main":"Rain","description":"heavy
+        intensity rain","icon":"10d"}],"pop":0.88,"rain":{"1h":4.44}},{"dt":1686528000,"temp":59.09,"feels_like":58.84,"pressure":1013,"humidity":88,"dew_point":55.54,"uvi":0.3,"clouds":97,"visibility":8161,"wind_speed":12.08,"wind_deg":330,"wind_gust":23.06,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0.76},{"dt":1686531600,"temp":58.62,"feels_like":58.28,"pressure":1013,"humidity":87,"dew_point":54.77,"uvi":0.1,"clouds":98,"visibility":10000,"wind_speed":10.63,"wind_deg":10,"wind_gust":20.65,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0.8},{"dt":1686535200,"temp":57.83,"feels_like":57.54,"pressure":1014,"humidity":90,"dew_point":54.91,"uvi":0,"clouds":98,"visibility":10000,"wind_speed":9.08,"wind_deg":28,"wind_gust":17.92,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0.8},{"dt":1686538800,"temp":56.44,"feels_like":56.07,"pressure":1014,"humidity":91,"dew_point":53.85,"uvi":0,"clouds":99,"visibility":10000,"wind_speed":10.85,"wind_deg":359,"wind_gust":16.58,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10n"}],"pop":1,"rain":{"1h":0.75}},{"dt":1686542400,"temp":55.18,"feels_like":54.73,"pressure":1015,"humidity":92,"dew_point":52.9,"uvi":0,"clouds":99,"visibility":5764,"wind_speed":13.15,"wind_deg":318,"wind_gust":18.34,"weather":[{"id":501,"main":"Rain","description":"moderate
+        rain","icon":"10n"}],"pop":1,"rain":{"1h":1.56}},{"dt":1686546000,"temp":52.74,"feels_like":52.18,"pressure":1016,"humidity":95,"dew_point":50.94,"uvi":0,"clouds":100,"visibility":5077,"wind_speed":3.76,"wind_deg":325,"wind_gust":6.06,"weather":[{"id":502,"main":"Rain","description":"heavy
+        intensity rain","icon":"10n"}],"pop":1,"rain":{"1h":7.44}},{"dt":1686549600,"temp":53.29,"feels_like":52.65,"pressure":1016,"humidity":92,"dew_point":50.59,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":5.93,"wind_deg":207,"wind_gust":8.05,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10n"}],"pop":1,"rain":{"1h":0.75}},{"dt":1686553200,"temp":52.92,"feels_like":52.09,"pressure":1015,"humidity":89,"dew_point":49.5,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":3.74,"wind_deg":169,"wind_gust":6.04,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0.32},{"dt":1686556800,"temp":52.05,"feels_like":51.04,"pressure":1015,"humidity":87,"dew_point":48.06,"uvi":0,"clouds":99,"visibility":10000,"wind_speed":5.3,"wind_deg":167,"wind_gust":8.95,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0.36},{"dt":1686560400,"temp":51.96,"feels_like":50.85,"pressure":1014,"humidity":85,"dew_point":47.41,"uvi":0,"clouds":99,"visibility":10000,"wind_speed":5.55,"wind_deg":174,"wind_gust":10.51,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0.32},{"dt":1686564000,"temp":51.82,"feels_like":50.7,"pressure":1013,"humidity":85,"dew_point":46.87,"uvi":0,"clouds":99,"visibility":10000,"wind_speed":4.52,"wind_deg":189,"wind_gust":8.72,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0.28},{"dt":1686567600,"temp":51.51,"feels_like":50.36,"pressure":1012,"humidity":85,"dew_point":46.69,"uvi":0,"clouds":81,"visibility":10000,"wind_speed":2.77,"wind_deg":203,"wind_gust":3.36,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04n"}],"pop":0.24},{"dt":1686571200,"temp":51.57,"feels_like":50.41,"pressure":1012,"humidity":85,"dew_point":46.83,"uvi":0,"clouds":69,"visibility":10000,"wind_speed":2.19,"wind_deg":278,"wind_gust":2.46,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"pop":0.16},{"dt":1686574800,"temp":53.26,"feels_like":52.14,"pressure":1012,"humidity":82,"dew_point":47.7,"uvi":0.46,"clouds":100,"visibility":10000,"wind_speed":4.03,"wind_deg":314,"wind_gust":7.02,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0},{"dt":1686578400,"temp":55.42,"feels_like":54.37,"pressure":1012,"humidity":79,"dew_point":48.52,"uvi":1.4,"clouds":100,"visibility":10000,"wind_speed":6.13,"wind_deg":346,"wind_gust":7.4,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0},{"dt":1686582000,"temp":58.15,"feels_like":57.09,"pressure":1011,"humidity":73,"dew_point":49.14,"uvi":3.02,"clouds":68,"visibility":10000,"wind_speed":3.76,"wind_deg":352,"wind_gust":3.42,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"pop":0.08},{"dt":1686585600,"temp":61.65,"feels_like":60.51,"pressure":1010,"humidity":64,"dew_point":48.96,"uvi":4.92,"clouds":51,"visibility":10000,"wind_speed":3.04,"wind_deg":334,"wind_gust":4.03,"weather":[{"id":803,"main":"Clouds","description":"broken
+        clouds","icon":"04d"}],"pop":0.16},{"dt":1686589200,"temp":65.05,"feels_like":63.93,"pressure":1009,"humidity":57,"dew_point":48.88,"uvi":6.98,"clouds":41,"visibility":10000,"wind_speed":3.83,"wind_deg":353,"wind_gust":3.83,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"pop":0.12},{"dt":1686592800,"temp":67.84,"feels_like":66.67,"pressure":1007,"humidity":50,"dew_point":48.6,"uvi":8.5,"clouds":34,"visibility":10000,"wind_speed":6.8,"wind_deg":23,"wind_gust":5.39,"weather":[{"id":802,"main":"Clouds","description":"scattered
+        clouds","icon":"03d"}],"pop":0.2},{"dt":1686596400,"temp":70.54,"feels_like":69.46,"pressure":1006,"humidity":46,"dew_point":48.36,"uvi":9.33,"clouds":5,"visibility":10000,"wind_speed":12.44,"wind_deg":3,"wind_gust":9.42,"weather":[{"id":800,"main":"Clear","description":"clear
+        sky","icon":"01d"}],"pop":0.36},{"dt":1686600000,"temp":70.36,"feels_like":69.3,"pressure":1005,"humidity":47,"dew_point":49.03,"uvi":8.75,"clouds":3,"visibility":10000,"wind_speed":15.3,"wind_deg":349,"wind_gust":12.77,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"}],"pop":0.44,"rain":{"1h":0.13}},{"dt":1686603600,"temp":70.9,"feels_like":69.85,"pressure":1005,"humidity":46,"dew_point":48.6,"uvi":7.18,"clouds":11,"visibility":10000,"wind_speed":17,"wind_deg":340,"wind_gust":12.08,"weather":[{"id":501,"main":"Rain","description":"moderate
+        rain","icon":"10d"}],"pop":0.6,"rain":{"1h":1.38}},{"dt":1686607200,"temp":64.42,"feels_like":63.19,"pressure":1005,"humidity":56,"dew_point":48.24,"uvi":3.96,"clouds":33,"visibility":10000,"wind_speed":17.96,"wind_deg":300,"wind_gust":22.15,"weather":[{"id":501,"main":"Rain","description":"moderate
+        rain","icon":"10d"}],"pop":0.68,"rain":{"1h":1.25}},{"dt":1686610800,"temp":61.34,"feels_like":60.19,"pressure":1007,"humidity":64,"dew_point":48.96,"uvi":2.33,"clouds":47,"visibility":10000,"wind_speed":9.19,"wind_deg":282,"wind_gust":17.94,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"}],"pop":0.92,"rain":{"1h":1}},{"dt":1686614400,"temp":58.19,"feels_like":57.24,"pressure":1008,"humidity":75,"dew_point":49.86,"uvi":1.08,"clouds":56,"visibility":10000,"wind_speed":6.64,"wind_deg":195,"wind_gust":9.93,"weather":[{"id":501,"main":"Rain","description":"moderate
+        rain","icon":"10d"}],"pop":1,"rain":{"1h":2.06}},{"dt":1686618000,"temp":59.07,"feels_like":58.06,"pressure":1010,"humidity":72,"dew_point":49.64,"uvi":0.13,"clouds":100,"visibility":10000,"wind_speed":2.53,"wind_deg":235,"wind_gust":12.1,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"}],"pop":0.92,"rain":{"1h":0.44}},{"dt":1686621600,"temp":57.52,"feels_like":56.55,"pressure":1010,"humidity":76,"dew_point":49.93,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":9.28,"wind_deg":337,"wind_gust":17.72,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"}],"pop":0.88,"rain":{"1h":0.31}},{"dt":1686625200,"temp":54.68,"feels_like":53.98,"pressure":1011,"humidity":88,"dew_point":50.76,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":12.5,"wind_deg":329,"wind_gust":26.84,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10n"}],"pop":0.88,"rain":{"1h":0.88}},{"dt":1686628800,"temp":55.06,"feels_like":54.27,"pressure":1012,"humidity":85,"dew_point":50.47,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":9.19,"wind_deg":300,"wind_gust":23.06,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10n"}],"pop":0.8,"rain":{"1h":0.81}},{"dt":1686632400,"temp":54.23,"feels_like":53.44,"pressure":1012,"humidity":87,"dew_point":50.04,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":5.32,"wind_deg":246,"wind_gust":9.64,"weather":[{"id":501,"main":"Rain","description":"moderate
+        rain","icon":"10n"}],"pop":0.8,"rain":{"1h":1.44}},{"dt":1686636000,"temp":54.73,"feels_like":54.09,"pressure":1011,"humidity":89,"dew_point":51.19,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":5.28,"wind_deg":234,"wind_gust":9.86,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10n"}],"pop":0.8,"rain":{"1h":0.38}},{"dt":1686639600,"temp":55.4,"feels_like":54.73,"pressure":1011,"humidity":87,"dew_point":51.19,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":0.36,"wind_deg":64,"wind_gust":2.1,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0.24},{"dt":1686643200,"temp":55.06,"feels_like":54.3,"pressure":1012,"humidity":86,"dew_point":50.65,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":3.09,"wind_deg":357,"wind_gust":7.23,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04n"}],"pop":0.24},{"dt":1686646800,"temp":54.28,"feels_like":53.46,"pressure":1012,"humidity":86,"dew_point":49.96,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":4.83,"wind_deg":336,"wind_gust":11.41,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10n"}],"pop":0.36,"rain":{"1h":0.25}},{"dt":1686650400,"temp":53.64,"feels_like":52.84,"pressure":1012,"humidity":88,"dew_point":49.96,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":3.69,"wind_deg":337,"wind_gust":8.3,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10n"}],"pop":0.48,"rain":{"1h":0.31}},{"dt":1686654000,"temp":53.58,"feels_like":52.92,"pressure":1013,"humidity":91,"dew_point":50.54,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":3.78,"wind_deg":6,"wind_gust":6.93,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10n"}],"pop":0.48,"rain":{"1h":0.38}},{"dt":1686657600,"temp":53.83,"feels_like":53.15,"pressure":1013,"humidity":90,"dew_point":50.77,"uvi":0,"clouds":100,"visibility":10000,"wind_speed":3.29,"wind_deg":343,"wind_gust":5.14,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"}],"pop":0.48,"rain":{"1h":0.38}},{"dt":1686661200,"temp":54.41,"feels_like":53.69,"pressure":1014,"humidity":88,"dew_point":50.74,"uvi":0.39,"clouds":100,"visibility":10000,"wind_speed":4.83,"wind_deg":326,"wind_gust":6.82,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0.44},{"dt":1686664800,"temp":55.72,"feels_like":54.95,"pressure":1014,"humidity":84,"dew_point":50.68,"uvi":1.18,"clouds":100,"visibility":10000,"wind_speed":3.94,"wind_deg":326,"wind_gust":5.59,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0.4},{"dt":1686668400,"temp":58.51,"feels_like":57.63,"pressure":1014,"humidity":76,"dew_point":50.77,"uvi":2.54,"clouds":100,"visibility":10000,"wind_speed":2.64,"wind_deg":264,"wind_gust":2.53,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0.36},{"dt":1686672000,"temp":61.34,"feels_like":60.33,"pressure":1013,"humidity":67,"dew_point":49.89,"uvi":4.68,"clouds":99,"visibility":10000,"wind_speed":1.39,"wind_deg":242,"wind_gust":1.39,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0.36},{"dt":1686675600,"temp":64.53,"feels_like":63.36,"pressure":1012,"humidity":57,"dew_point":48.72,"uvi":6.64,"clouds":99,"visibility":10000,"wind_speed":1.45,"wind_deg":69,"wind_gust":2.26,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0.44},{"dt":1686679200,"temp":67.41,"feels_like":66.06,"pressure":1011,"humidity":47,"dew_point":46.62,"uvi":8.09,"clouds":99,"visibility":10000,"wind_speed":4.65,"wind_deg":69,"wind_gust":5.64,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0.64},{"dt":1686682800,"temp":69.39,"feels_like":68,"pressure":1011,"humidity":42,"dew_point":45.48,"uvi":9.31,"clouds":100,"visibility":10000,"wind_speed":5.86,"wind_deg":51,"wind_gust":5.86,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0.68},{"dt":1686686400,"temp":70.65,"feels_like":69.33,"pressure":1010,"humidity":41,"dew_point":45.72,"uvi":8.73,"clouds":100,"visibility":10000,"wind_speed":5.95,"wind_deg":55,"wind_gust":3.83,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0.6},{"dt":1686690000,"temp":71.6,"feels_like":70.34,"pressure":1009,"humidity":40,"dew_point":45.75,"uvi":7.16,"clouds":100,"visibility":10000,"wind_speed":5.41,"wind_deg":60,"wind_gust":3.62,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0.6},{"dt":1686693600,"temp":72.37,"feels_like":71.1,"pressure":1009,"humidity":38,"dew_point":45.32,"uvi":2.92,"clouds":100,"visibility":10000,"wind_speed":3.6,"wind_deg":321,"wind_gust":4.5,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"pop":0.56}],"daily":[{"dt":1686506400,"sunrise":1686483098,"sunset":1686536865,"moonrise":1686469800,"moonset":1686513300,"moon_phase":0.78,"temp":{"day":64.15,"min":52.74,"max":66.76,"night":52.74,"eve":59.09,"morn":54.84},"feels_like":{"day":63.03,"night":52.18,"eve":58.84,"morn":54.07},"pressure":1014,"humidity":59,"dew_point":49.1,"wind_speed":13.15,"wind_deg":318,"wind_gust":23.06,"weather":[{"id":502,"main":"Rain","description":"heavy
+        intensity rain","icon":"10d"}],"clouds":99,"pop":1,"rain":15.89,"uvi":7.17},{"dt":1686592800,"sunrise":1686569493,"sunset":1686623293,"moonrise":1686557580,"moonset":1686603780,"moon_phase":0.82,"temp":{"day":67.84,"min":51.51,"max":70.9,"night":54.23,"eve":58.19,"morn":51.57},"feels_like":{"day":66.67,"night":53.44,"eve":57.24,"morn":50.41},"pressure":1007,"humidity":50,"dew_point":48.6,"wind_speed":17.96,"wind_deg":300,"wind_gust":26.84,"weather":[{"id":501,"main":"Rain","description":"moderate
+        rain","icon":"10d"}],"clouds":34,"pop":1,"rain":10.45,"uvi":9.33},{"dt":1686682800,"sunrise":1686655889,"sunset":1686709721,"moonrise":1686645420,"moonset":1686694320,"moon_phase":0.85,"temp":{"day":69.39,"min":53.58,"max":72.37,"night":57.78,"eve":66.56,"morn":54.41},"feels_like":{"day":68,"night":56.73,"eve":65.32,"morn":53.69},"pressure":1011,"humidity":42,"dew_point":45.48,"wind_speed":8.19,"wind_deg":272,"wind_gust":17.27,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"}],"clouds":100,"pop":1,"rain":2.89,"uvi":9.31},{"dt":1686769200,"sunrise":1686742288,"sunset":1686796146,"moonrise":1686733380,"moonset":1686784860,"moon_phase":0.89,"temp":{"day":73.6,"min":57.33,"max":73.6,"night":63.25,"eve":66.97,"morn":57.36},"feels_like":{"day":71.98,"night":62.19,"eve":65.71,"morn":55.9},"pressure":1004,"humidity":28,"dew_point":38.82,"wind_speed":7.92,"wind_deg":160,"wind_gust":17.98,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"}],"clouds":100,"pop":0.8,"rain":0.69,"uvi":7.34},{"dt":1686855600,"sunrise":1686828688,"sunset":1686882570,"moonrise":1686821520,"moonset":1686875340,"moon_phase":0.92,"temp":{"day":78.37,"min":58.6,"max":81.39,"night":60.53,"eve":65.68,"morn":58.6},"feels_like":{"day":77.18,"night":60.04,"eve":64.72,"morn":56.89},"pressure":1006,"humidity":27,"dew_point":41.72,"wind_speed":6.02,"wind_deg":49,"wind_gust":11.01,"weather":[{"id":501,"main":"Rain","description":"moderate
+        rain","icon":"10d"}],"clouds":52,"pop":1,"rain":7.5,"uvi":10.09},{"dt":1686942000,"sunrise":1686915090,"sunset":1686968992,"moonrise":1686909900,"moonset":1686965760,"moon_phase":0.95,"temp":{"day":74.21,"min":56.82,"max":80.78,"night":63.72,"eve":73,"morn":56.82},"feels_like":{"day":73.02,"night":62.83,"eve":71.89,"morn":55.45},"pressure":1012,"humidity":36,"dew_point":45.59,"wind_speed":7.54,"wind_deg":188,"wind_gust":12.77,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"}],"clouds":24,"pop":0.8,"rain":0.38,"uvi":11},{"dt":1687028400,"sunrise":1687001493,"sunset":1687055412,"moonrise":1686998700,"moonset":1687055820,"moon_phase":0,"temp":{"day":80.69,"min":59.2,"max":81.34,"night":65.21,"eve":75.58,"morn":59.2},"feels_like":{"day":78.84,"night":63.91,"eve":74.19,"morn":57.13},"pressure":1004,"humidity":16,"dew_point":30.42,"wind_speed":9.15,"wind_deg":35,"wind_gust":14.79,"weather":[{"id":500,"main":"Rain","description":"light
+        rain","icon":"10d"}],"clouds":48,"pop":0.44,"rain":0.56,"uvi":11},{"dt":1687114800,"sunrise":1687087899,"sunset":1687141831,"moonrise":1687087980,"moonset":1687145580,"moon_phase":0.02,"temp":{"day":81.03,"min":59.61,"max":83.61,"night":72.63,"eve":79.54,"morn":59.61},"feels_like":{"day":79.09,"night":71.19,"eve":79.54,"morn":57.63},"pressure":998,"humidity":17,"dew_point":31.41,"wind_speed":6.78,"wind_deg":205,"wind_gust":15.68,"weather":[{"id":804,"main":"Clouds","description":"overcast
+        clouds","icon":"04d"}],"clouds":85,"pop":0.2,"uvi":11}]}'
+  recorded_at: Sun, 11 Jun 2023 23:37:41 GMT
 - request:
     method: get
     uri: http://openlibrary.org/search.json?title=denver,co
@@ -163,7 +169,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Sat, 04 Mar 2023 19:51:25 GMT
+      - Sun, 11 Jun 2023 23:37:41 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -177,14 +183,14 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"SR 1 1.255 TT 0 1.262"'
+      - '"SR 1 0.046 TT 0 0.053"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
       encoding: UTF-8
       string: |-
         {
-            "numFound": 44,
+            "numFound": 45,
             "start": 0,
             "numFoundExact": true,
             "docs": [
@@ -198,6 +204,7 @@ http_interactions:
                     ],
                     "title": "Denver, Co",
                     "title_suggest": "Denver, Co",
+                    "title_sort": "Denver, Co",
                     "edition_count": 1,
                     "edition_key": [
                         "OL10909613M"
@@ -233,7 +240,7 @@ http_interactions:
                     "publisher_facet": [
                         "Universal Map Enterprises"
                     ],
-                    "_version_": 1735677215044009984,
+                    "_version_": 1759801544632434690,
                     "author_facet": [
                         "OL2843451A Universal Map"
                     ]
@@ -248,6 +255,7 @@ http_interactions:
                     ],
                     "title": "Denver west, CO and Bailey, CO: Denver, CO",
                     "title_suggest": "Denver west, CO and Bailey, CO: Denver, CO",
+                    "title_sort": "Denver west, CO and Bailey, CO: Denver, CO",
                     "subtitle": "39105, digital raster graphic data",
                     "edition_count": 1,
                     "edition_key": [
@@ -261,8 +269,8 @@ http_interactions:
                     ],
                     "first_publish_year": 1996,
                     "isbn": [
-                        "9780607620054",
-                        "0607620056"
+                        "0607620056",
+                        "9780607620054"
                     ],
                     "last_modified_i": 1272517172,
                     "ebook_count_i": 0,
@@ -282,20 +290,20 @@ http_interactions:
                         "United States Geological Survey"
                     ],
                     "author_alternative_name": [
-                        "U.S. Geological Survey",
-                        "Geological Survey. (U.S.)",
                         "Geological Survey (U .S.)",
-                        "Geological Survey (U.S.)",
-                        "Geological Survey (U. S.)",
-                        "United States. Geological survey.",
+                        "Geological Survey. (U.S.)",
+                        "Geological Survey (U.S.) 088",
                         "United States. Geological Survey",
                         "United States. Geological Survey.",
-                        "Geological Survey (U.S.) 088"
+                        "U.S. Geological Survey",
+                        "Geological Survey (U.S.)",
+                        "United States. Geological survey.",
+                        "Geological Survey (U. S.)"
                     ],
                     "publisher_facet": [
                         "USGS Branch of Distribution"
                     ],
-                    "_version_": 1735677676908183553,
+                    "_version_": 1759802487286530049,
                     "author_facet": [
                         "OL79165A United States Geological Survey"
                     ]
@@ -310,6 +318,7 @@ http_interactions:
                     ],
                     "title": "Denver East, CO and Castle Rock, CO: Denver, CO",
                     "title_suggest": "Denver East, CO and Castle Rock, CO: Denver, CO",
+                    "title_sort": "Denver East, CO and Castle Rock, CO: Denver, CO",
                     "subtitle": "39104, digital raster graphic data",
                     "edition_count": 1,
                     "edition_key": [
@@ -344,20 +353,20 @@ http_interactions:
                         "United States Geological Survey"
                     ],
                     "author_alternative_name": [
-                        "U.S. Geological Survey",
-                        "Geological Survey. (U.S.)",
                         "Geological Survey (U .S.)",
-                        "Geological Survey (U.S.)",
-                        "Geological Survey (U. S.)",
-                        "United States. Geological survey.",
+                        "Geological Survey. (U.S.)",
+                        "Geological Survey (U.S.) 088",
                         "United States. Geological Survey",
                         "United States. Geological Survey.",
-                        "Geological Survey (U.S.) 088"
+                        "U.S. Geological Survey",
+                        "Geological Survey (U.S.)",
+                        "United States. Geological survey.",
+                        "Geological Survey (U. S.)"
                     ],
                     "publisher_facet": [
                         "USGS Branch of Distribution"
                     ],
-                    "_version_": 1735677677151453185,
+                    "_version_": 1759802487500439552,
                     "author_facet": [
                         "OL79165A United States Geological Survey"
                     ]
@@ -371,6 +380,7 @@ http_interactions:
                     ],
                     "title": "Denver Regional, CO",
                     "title_suggest": "Denver Regional, CO",
+                    "title_sort": "Denver Regional, CO",
                     "edition_count": 1,
                     "edition_key": [
                         "OL7772425M"
@@ -417,57 +427,7 @@ http_interactions:
                     "publisher_facet": [
                         "Rand McNally & Company"
                     ],
-                    "_version_": 1752094724541382657
-                },
-                {
-                    "key": "/works/OL4437736W",
-                    "type": "work",
-                    "seed": [
-                        "/books/OL10911511M",
-                        "/works/OL4437736W",
-                        "/authors/OL882946A"
-                    ],
-                    "title": "Denver Co Deluxe Flip Map",
-                    "title_suggest": "Denver Co Deluxe Flip Map",
-                    "edition_count": 1,
-                    "edition_key": [
-                        "OL10911511M"
-                    ],
-                    "publish_date": [
-                        "January 2003"
-                    ],
-                    "publish_year": [
-                        2003
-                    ],
-                    "first_publish_year": 2003,
-                    "isbn": [
-                        "0762557362",
-                        "9780762557363"
-                    ],
-                    "last_modified_i": 1260838560,
-                    "ebook_count_i": 0,
-                    "ebook_access": "no_ebook",
-                    "has_fulltext": false,
-                    "public_scan_b": false,
-                    "publisher": [
-                        "Universal Map Enterprises"
-                    ],
-                    "language": [
-                        "eng"
-                    ],
-                    "author_key": [
-                        "OL882946A"
-                    ],
-                    "author_name": [
-                        "Laura Ryder"
-                    ],
-                    "publisher_facet": [
-                        "Universal Map Enterprises"
-                    ],
-                    "_version_": 1735672139959238658,
-                    "author_facet": [
-                        "OL882946A Laura Ryder"
-                    ]
+                    "_version_": 1759784321817772034
                 },
                 {
                     "key": "/works/OL8808821W",
@@ -479,6 +439,7 @@ http_interactions:
                     ],
                     "title": "University of Denver Co 2007",
                     "title_suggest": "University of Denver Co 2007",
+                    "title_sort": "University of Denver Co 2007",
                     "edition_count": 1,
                     "edition_key": [
                         "OL8537031M"
@@ -495,8 +456,8 @@ http_interactions:
                         "150368610"
                     ],
                     "isbn": [
-                        "9781427401687",
-                        "1427401683"
+                        "1427401683",
+                        "9781427401687"
                     ],
                     "last_modified_i": 1304171421,
                     "ebook_count_i": 0,
@@ -523,9 +484,60 @@ http_interactions:
                     "publisher_facet": [
                         "College Prowler"
                     ],
-                    "_version_": 1735677464197201922,
+                    "_version_": 1759802390192586752,
                     "author_facet": [
                         "OL3010394A College Prowler"
+                    ]
+                },
+                {
+                    "key": "/works/OL4437736W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL10911511M",
+                        "/works/OL4437736W",
+                        "/authors/OL882946A"
+                    ],
+                    "title": "Denver Co Deluxe Flip Map",
+                    "title_suggest": "Denver Co Deluxe Flip Map",
+                    "title_sort": "Denver Co Deluxe Flip Map",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL10911511M"
+                    ],
+                    "publish_date": [
+                        "January 2003"
+                    ],
+                    "publish_year": [
+                        2003
+                    ],
+                    "first_publish_year": 2003,
+                    "isbn": [
+                        "9780762557363",
+                        "0762557362"
+                    ],
+                    "last_modified_i": 1260838560,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Universal Map Enterprises"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL882946A"
+                    ],
+                    "author_name": [
+                        "Laura Ryder"
+                    ],
+                    "publisher_facet": [
+                        "Universal Map Enterprises"
+                    ],
+                    "_version_": 1759792514991128576,
+                    "author_facet": [
+                        "OL882946A Laura Ryder"
                     ]
                 },
                 {
@@ -543,6 +555,7 @@ http_interactions:
                     ],
                     "title": "Photovoltaic safety, Denver, CO, 1988",
                     "title_suggest": "Photovoltaic safety, Denver, CO, 1988",
+                    "title_sort": "Photovoltaic safety, Denver, CO, 1988",
                     "edition_count": 1,
                     "edition_key": [
                         "OL2061373M"
@@ -563,8 +576,8 @@ http_interactions:
                     ],
                     "contributor": [
                         "Photovoltaics Safety Conference (2nd : 1988 : Denver, Colo.)",
-                        "Luft, Werner.",
-                        "Solar Energy Research Institute."
+                        "Solar Energy Research Institute.",
+                        "Luft, Werner."
                     ],
                     "lcc": [
                         "TK-8322.00000000.P46 1988"
@@ -573,8 +586,8 @@ http_interactions:
                         "621.31244"
                     ],
                     "isbn": [
-                        "9780883183663",
-                        "0883183668"
+                        "0883183668",
+                        "9780883183663"
                     ],
                     "last_modified_i": 1673688483,
                     "ebook_count_i": 1,
@@ -636,7 +649,7 @@ http_interactions:
                         "Safety measures",
                         "Solar cells"
                     ],
-                    "_version_": 1754989578361503745,
+                    "_version_": 1759760293379964929,
                     "lcc_sort": "TK-8322.00000000.P46 1988",
                     "author_facet": [
                         "OL714790A Werner Luft"
@@ -659,6 +672,7 @@ http_interactions:
                     ],
                     "title": "Denver, Co Vicinity (City Wall Maps)",
                     "title_suggest": "Denver, Co Vicinity (City Wall Maps)",
+                    "title_sort": "Denver, Co Vicinity (City Wall Maps)",
                     "edition_count": 1,
                     "edition_key": [
                         "OL10910782M"
@@ -671,10 +685,10 @@ http_interactions:
                     ],
                     "first_publish_year": 2001,
                     "isbn": [
-                        "0762538627",
-                        "9780762538621"
+                        "9780762538621",
+                        "0762538627"
                     ],
-                    "last_modified_i": 1655272482,
+                    "last_modified_i": 1678280698,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
@@ -688,7 +702,207 @@ http_interactions:
                     "publisher_facet": [
                         "Universal Map Enterprises"
                     ],
-                    "_version_": 1735678998732603392
+                    "_version_": 1759804862698094592
+                },
+                {
+                    "key": "/works/OL24993703W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL33223956M",
+                        "/works/OL24993703W",
+                        "/authors/OL7546291A"
+                    ],
+                    "title": "Denver, CO, US Dot-Grid Notebook",
+                    "title_suggest": "Denver, CO, US Dot-Grid Notebook",
+                    "title_sort": "Denver, CO, US Dot-Grid Notebook",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL33223956M"
+                    ],
+                    "publish_date": [
+                        "Dec 17, 2016"
+                    ],
+                    "publish_year": [
+                        2016
+                    ],
+                    "first_publish_year": 2016,
+                    "number_of_pages_median": 158,
+                    "isbn": [
+                        "1541184254",
+                        "9781541184251"
+                    ],
+                    "last_modified_i": 1631123055,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "cover_edition_key": "OL33223956M",
+                    "cover_i": 11936540,
+                    "publisher": [
+                        "Createspace Independent Publishing Platform",
+                        "CreateSpace Independent Publishing Platform"
+                    ],
+                    "author_key": [
+                        "OL7546291A"
+                    ],
+                    "author_name": [
+                        "N.D. Author Services"
+                    ],
+                    "publisher_facet": [
+                        "CreateSpace Independent Publishing Platform",
+                        "Createspace Independent Publishing Platform"
+                    ],
+                    "_version_": 1759771387900198912,
+                    "author_facet": [
+                        "OL7546291A N.D. Author Services"
+                    ]
+                },
+                {
+                    "key": "/works/OL8541064W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL9197762M",
+                        "/works/OL8541064W",
+                        "/authors/OL2859862A"
+                    ],
+                    "title": "Insight Fleximap Denver, CO (Insight Fleximaps)",
+                    "title_suggest": "Insight Fleximap Denver, CO (Insight Fleximaps)",
+                    "title_sort": "Insight Fleximap Denver, CO (Insight Fleximaps)",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL9197762M"
+                    ],
+                    "publish_date": [
+                        "January 30, 2006"
+                    ],
+                    "publish_year": [
+                        2006
+                    ],
+                    "first_publish_year": 2006,
+                    "number_of_pages_median": 1,
+                    "oclc": [
+                        "64038908"
+                    ],
+                    "isbn": [
+                        "9789812582621",
+                        "9812582622"
+                    ],
+                    "last_modified_i": 1670155218,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "cover_edition_key": "OL9197762M",
+                    "cover_i": 2302739,
+                    "publisher": [
+                        "American Map Corporation"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL2859862A"
+                    ],
+                    "author_name": [
+                        "American Map Corp"
+                    ],
+                    "publisher_facet": [
+                        "American Map Corporation"
+                    ],
+                    "_version_": 1759801657676267521,
+                    "author_facet": [
+                        "OL2859862A American Map Corp"
+                    ]
+                },
+                {
+                    "key": "/works/OL8415118W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL7900786M",
+                        "/works/OL8415118W",
+                        "/subjects/african_americans_west_(u.s.)",
+                        "/subjects/denver_(colo.)_history",
+                        "/subjects/african_americans",
+                        "/subjects/history",
+                        "/authors/OL2806763A"
+                    ],
+                    "title": "Five Points Neighborhood of Denver  (CO)",
+                    "title_suggest": "Five Points Neighborhood of Denver  (CO)",
+                    "title_sort": "Five Points Neighborhood of Denver  (CO)",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL7900786M"
+                    ],
+                    "publish_date": [
+                        "June 11, 2001"
+                    ],
+                    "publish_year": [
+                        2001
+                    ],
+                    "first_publish_year": 2001,
+                    "number_of_pages_median": 128,
+                    "lccn": [
+                        "2001088811"
+                    ],
+                    "oclc": [
+                        "47691535"
+                    ],
+                    "isbn": [
+                        "0738518700",
+                        "9780738518701"
+                    ],
+                    "last_modified_i": 1677135457,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "cover_edition_key": "OL7900786M",
+                    "cover_i": 1371298,
+                    "first_sentence": [
+                        "After the Civil War, freed slaves came west from the south looking for work."
+                    ],
+                    "publisher": [
+                        "Arcadia  Publishing (SC)",
+                        "Arcadia"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL2806763A"
+                    ],
+                    "author_name": [
+                        "Laura M. Mauck"
+                    ],
+                    "subject": [
+                        "African americans, west (u.s.)",
+                        "Denver (colo.), history",
+                        "African Americans",
+                        "History"
+                    ],
+                    "id_librarything": [
+                        "3305602"
+                    ],
+                    "publisher_facet": [
+                        "Arcadia",
+                        "Arcadia  Publishing (SC)"
+                    ],
+                    "subject_facet": [
+                        "African Americans",
+                        "African americans, west (u.s.)",
+                        "Denver (colo.), history",
+                        "History"
+                    ],
+                    "_version_": 1759801461685878784,
+                    "author_facet": [
+                        "OL2806763A Laura M. Mauck"
+                    ],
+                    "subject_key": [
+                        "african_americans",
+                        "african_americans_west_(u.s.)",
+                        "denver_(colo.)_history",
+                        "history"
+                    ]
                 },
                 {
                     "key": "/works/OL4437737W",
@@ -700,6 +914,7 @@ http_interactions:
                     ],
                     "title": "Denver DLX Flip Map Co267",
                     "title_suggest": "Denver DLX Flip Map Co267",
+                    "title_sort": "Denver DLX Flip Map Co267",
                     "edition_count": 1,
                     "edition_key": [
                         "OL10910520M"
@@ -739,206 +954,9 @@ http_interactions:
                     "publisher_facet": [
                         "Universal Map Enterprises"
                     ],
-                    "_version_": 1735672139984404482,
+                    "_version_": 1759792515244883968,
                     "author_facet": [
                         "OL882946A Laura Ryder"
-                    ]
-                },
-                {
-                    "key": "/works/OL24993703W",
-                    "type": "work",
-                    "seed": [
-                        "/books/OL33223956M",
-                        "/works/OL24993703W",
-                        "/authors/OL7546291A"
-                    ],
-                    "title": "Denver, CO, US Dot-Grid Notebook",
-                    "title_suggest": "Denver, CO, US Dot-Grid Notebook",
-                    "edition_count": 1,
-                    "edition_key": [
-                        "OL33223956M"
-                    ],
-                    "publish_date": [
-                        "Dec 17, 2016"
-                    ],
-                    "publish_year": [
-                        2016
-                    ],
-                    "first_publish_year": 2016,
-                    "number_of_pages_median": 158,
-                    "isbn": [
-                        "9781541184251",
-                        "1541184254"
-                    ],
-                    "last_modified_i": 1631123055,
-                    "ebook_count_i": 0,
-                    "ebook_access": "no_ebook",
-                    "has_fulltext": false,
-                    "public_scan_b": false,
-                    "cover_edition_key": "OL33223956M",
-                    "cover_i": 11936540,
-                    "publisher": [
-                        "Createspace Independent Publishing Platform",
-                        "CreateSpace Independent Publishing Platform"
-                    ],
-                    "author_key": [
-                        "OL7546291A"
-                    ],
-                    "author_name": [
-                        "N.D. Author Services"
-                    ],
-                    "publisher_facet": [
-                        "CreateSpace Independent Publishing Platform",
-                        "Createspace Independent Publishing Platform"
-                    ],
-                    "_version_": 1735666952497528832,
-                    "author_facet": [
-                        "OL7546291A N.D. Author Services"
-                    ]
-                },
-                {
-                    "key": "/works/OL8541064W",
-                    "type": "work",
-                    "seed": [
-                        "/books/OL9197762M",
-                        "/works/OL8541064W",
-                        "/authors/OL2859862A"
-                    ],
-                    "title": "Insight Fleximap Denver, CO (Insight Fleximaps)",
-                    "title_suggest": "Insight Fleximap Denver, CO (Insight Fleximaps)",
-                    "edition_count": 1,
-                    "edition_key": [
-                        "OL9197762M"
-                    ],
-                    "publish_date": [
-                        "January 30, 2006"
-                    ],
-                    "publish_year": [
-                        2006
-                    ],
-                    "first_publish_year": 2006,
-                    "number_of_pages_median": 1,
-                    "oclc": [
-                        "64038908"
-                    ],
-                    "isbn": [
-                        "9812582622",
-                        "9789812582621"
-                    ],
-                    "last_modified_i": 1670155218,
-                    "ebook_count_i": 0,
-                    "ebook_access": "no_ebook",
-                    "has_fulltext": false,
-                    "public_scan_b": false,
-                    "cover_edition_key": "OL9197762M",
-                    "cover_i": 2302739,
-                    "publisher": [
-                        "American Map Corporation"
-                    ],
-                    "language": [
-                        "eng"
-                    ],
-                    "author_key": [
-                        "OL2859862A"
-                    ],
-                    "author_name": [
-                        "American Map Corp"
-                    ],
-                    "publisher_facet": [
-                        "American Map Corporation"
-                    ],
-                    "_version_": 1751284689453187073,
-                    "author_facet": [
-                        "OL2859862A American Map Corp"
-                    ]
-                },
-                {
-                    "key": "/works/OL8415118W",
-                    "type": "work",
-                    "seed": [
-                        "/books/OL7900786M",
-                        "/works/OL8415118W",
-                        "/subjects/african_americans_west_(u.s.)",
-                        "/subjects/denver_(colo.)_history",
-                        "/subjects/african_americans",
-                        "/subjects/history",
-                        "/authors/OL2806763A"
-                    ],
-                    "title": "Five Points Neighborhood of Denver  (CO)",
-                    "title_suggest": "Five Points Neighborhood of Denver  (CO)",
-                    "edition_count": 1,
-                    "edition_key": [
-                        "OL7900786M"
-                    ],
-                    "publish_date": [
-                        "June 11, 2001"
-                    ],
-                    "publish_year": [
-                        2001
-                    ],
-                    "first_publish_year": 2001,
-                    "number_of_pages_median": 128,
-                    "lccn": [
-                        "2001088811"
-                    ],
-                    "oclc": [
-                        "47691535"
-                    ],
-                    "isbn": [
-                        "0738518700",
-                        "9780738518701"
-                    ],
-                    "last_modified_i": 1677135457,
-                    "ebook_count_i": 0,
-                    "ebook_access": "no_ebook",
-                    "has_fulltext": false,
-                    "public_scan_b": false,
-                    "cover_edition_key": "OL7900786M",
-                    "cover_i": 1371298,
-                    "first_sentence": [
-                        "After the Civil War, freed slaves came west from the south looking for work."
-                    ],
-                    "publisher": [
-                        "Arcadia",
-                        "Arcadia  Publishing (SC)"
-                    ],
-                    "language": [
-                        "eng"
-                    ],
-                    "author_key": [
-                        "OL2806763A"
-                    ],
-                    "author_name": [
-                        "Laura M. Mauck"
-                    ],
-                    "subject": [
-                        "African americans, west (u.s.)",
-                        "Denver (colo.), history",
-                        "African Americans",
-                        "History"
-                    ],
-                    "id_librarything": [
-                        "3305602"
-                    ],
-                    "publisher_facet": [
-                        "Arcadia",
-                        "Arcadia  Publishing (SC)"
-                    ],
-                    "subject_facet": [
-                        "African Americans",
-                        "African americans, west (u.s.)",
-                        "Denver (colo.), history",
-                        "History"
-                    ],
-                    "_version_": 1758603994735837184,
-                    "author_facet": [
-                        "OL2806763A Laura M. Mauck"
-                    ],
-                    "subject_key": [
-                        "african_americans",
-                        "african_americans_west_(u.s.)",
-                        "denver_(colo.)_history",
-                        "history"
                     ]
                 },
                 {
@@ -946,8 +964,8 @@ http_interactions:
                     "type": "work",
                     "seed": [
                         "/books/OL17665953M",
-                        "/books/OL17801719M",
                         "/books/OL2663740M",
+                        "/books/OL17801719M",
                         "/works/OL4930574W",
                         "/subjects/government_executives",
                         "/subjects/training_of",
@@ -957,11 +975,12 @@ http_interactions:
                     ],
                     "title": "Relocation of Western Executive Seminar Center from Denver to Grand Junction, CO",
                     "title_suggest": "Relocation of Western Executive Seminar Center from Denver to Grand Junction, CO",
+                    "title_sort": "Relocation of Western Executive Seminar Center from Denver to Grand Junction, CO",
                     "edition_count": 3,
                     "edition_key": [
                         "OL17665953M",
-                        "OL17801719M",
-                        "OL2663740M"
+                        "OL2663740M",
+                        "OL17801719M"
                     ],
                     "publish_date": [
                         "1984"
@@ -1026,7 +1045,7 @@ http_interactions:
                         "Training of",
                         "Western Executive Seminar Center (Denver, Colo.)"
                     ],
-                    "_version_": 1735672853767913472,
+                    "_version_": 1759793771651792900,
                     "place_facet": [
                         "United States"
                     ],
@@ -1050,6 +1069,7 @@ http_interactions:
                     ],
                     "title": "Denver, Co (City & County Street Folding Maps)",
                     "title_suggest": "Denver, Co (City & County Street Folding Maps)",
+                    "title_sort": "Denver, Co (City & County Street Folding Maps)",
                     "edition_count": 1,
                     "edition_key": [
                         "OL10910559M"
@@ -1062,10 +1082,10 @@ http_interactions:
                     ],
                     "first_publish_year": 2001,
                     "isbn": [
-                        "0762532475",
-                        "9780762532476"
+                        "9780762532476",
+                        "0762532475"
                     ],
-                    "last_modified_i": 1655272481,
+                    "last_modified_i": 1678280698,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
@@ -1079,7 +1099,7 @@ http_interactions:
                     "publisher_facet": [
                         "Universal Map Enterprises"
                     ],
-                    "_version_": 1735678998561685506
+                    "_version_": 1759804862686560256
                 },
                 {
                     "key": "/works/OL8415359W",
@@ -1096,6 +1116,7 @@ http_interactions:
                     ],
                     "title": "Rails Around Denver (CO) (Images of Rail)",
                     "title_suggest": "Rails Around Denver (CO) (Images of Rail)",
+                    "title_sort": "Rails Around Denver (CO) (Images of Rail)",
                     "edition_count": 1,
                     "edition_key": [
                         "OL7902353M"
@@ -1118,14 +1139,18 @@ http_interactions:
                         "TF-0025.00000000.D427 L49 2007"
                     ],
                     "isbn": [
-                        "0738548022",
-                        "9780738548029"
+                        "9780738548029",
+                        "0738548022"
                     ],
-                    "last_modified_i": 1668855879,
+                    "last_modified_i": 1684372879,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
                     "public_scan_b": false,
+                    "readinglog_count": 0,
+                    "want_to_read_count": 0,
+                    "currently_reading_count": 0,
+                    "already_read_count": 0,
                     "cover_edition_key": "OL7902353M",
                     "cover_i": 1373092,
                     "publisher": [
@@ -1163,7 +1188,7 @@ http_interactions:
                         "Railroads",
                         "Railroads, pictorial works"
                     ],
-                    "_version_": 1749922224088809484,
+                    "_version_": 1766192979899318272,
                     "lcc_sort": "TF-0025.00000000.D427 L49 2007",
                     "author_facet": [
                         "OL2807038A Allan C. Lewis"
@@ -1189,6 +1214,7 @@ http_interactions:
                     ],
                     "title": "Thriving at Home, North Metro Denver, CO Edition",
                     "title_suggest": "Thriving at Home, North Metro Denver, CO Edition",
+                    "title_sort": "Thriving at Home, North Metro Denver, CO Edition",
                     "edition_count": 1,
                     "edition_key": [
                         "OL37733650M"
@@ -1201,8 +1227,8 @@ http_interactions:
                     ],
                     "first_publish_year": 2021,
                     "isbn": [
-                        "9781736525623",
-                        "173652562X"
+                        "173652562X",
+                        "9781736525623"
                     ],
                     "last_modified_i": 1646368640,
                     "ebook_count_i": 0,
@@ -1234,7 +1260,7 @@ http_interactions:
                         "Health",
                         "Self-help techniques"
                     ],
-                    "_version_": 1735669758881169409,
+                    "_version_": 1759776407921098753,
                     "author_facet": [
                         "OL10333974A Vanessa Sutton",
                         "OL9802020A Dave Tasto"
@@ -1254,6 +1280,7 @@ http_interactions:
                     ],
                     "title": "Key Issues Confronting the Black Community in Denver, CO",
                     "title_suggest": "Key Issues Confronting the Black Community in Denver, CO",
+                    "title_sort": "Key Issues Confronting the Black Community in Denver, CO",
                     "edition_count": 1,
                     "edition_key": [
                         "OL35871322M"
@@ -1289,7 +1316,7 @@ http_interactions:
                     "publisher_facet": [
                         "Cambridge Scholars Publisher"
                     ],
-                    "_version_": 1735668551446953985,
+                    "_version_": 1759774283894095872,
                     "author_facet": [
                         "OL812880A David W. Jackson"
                     ]
@@ -1303,6 +1330,7 @@ http_interactions:
                     ],
                     "title": "1987 IEEE Ultrasonic Symposium Denver, Co October 1987/Ch24927",
                     "title_suggest": "1987 IEEE Ultrasonic Symposium Denver, Co October 1987/Ch24927",
+                    "title_sort": "1987 IEEE Ultrasonic Symposium Denver, Co October 1987/Ch24927",
                     "edition_count": 1,
                     "edition_key": [
                         "OL13388286M"
@@ -1315,10 +1343,10 @@ http_interactions:
                     ],
                     "first_publish_year": 1987,
                     "isbn": [
-                        "9789999104159",
-                        "9999104150"
+                        "9999104150",
+                        "9789999104159"
                     ],
-                    "last_modified_i": 1655272865,
+                    "last_modified_i": 1678281031,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
@@ -1329,7 +1357,7 @@ http_interactions:
                     "publisher_facet": [
                         "Ieee"
                     ],
-                    "_version_": 1735679400583626753
+                    "_version_": 1759805211355906049
                 },
                 {
                     "key": "/works/OL24922548W",
@@ -1349,6 +1377,7 @@ http_interactions:
                     ],
                     "title": "Denver Seed and Floral Co's descriptive list of reliable seeds",
                     "title_suggest": "Denver Seed and Floral Co's descriptive list of reliable seeds",
+                    "title_sort": "Denver Seed and Floral Co's descriptive list of reliable seeds",
                     "edition_count": 1,
                     "edition_key": [
                         "OL33127872M"
@@ -1378,6 +1407,13 @@ http_interactions:
                     "ia": [
                         "CAT31286550"
                     ],
+                    "ia_collection": [
+                        "americana",
+                        "biodiversity",
+                        "fedlink",
+                        "usda-nurseryandseedcatalog",
+                        "usdanationalagriculturallibrary"
+                    ],
                     "ia_collection_s": "americana;biodiversity;fedlink;usda-nurseryandseedcatalog;usdanationalagriculturallibrary",
                     "lending_edition_s": "OL33127872M",
                     "lending_identifier_s": "CAT31286550",
@@ -1405,8 +1441,7 @@ http_interactions:
                         "Vegetables",
                         "Seeds",
                         "Flowers",
-                        "Cereal grasses",
-                        "Accessible book"
+                        "Cereal grasses"
                     ],
                     "publisher_facet": [
                         "Denver Seed and Floral Company"
@@ -1416,7 +1451,6 @@ http_interactions:
                         "denver"
                     ],
                     "subject_facet": [
-                        "Accessible book",
                         "Catalogs",
                         "Cereal grasses",
                         "Flowers",
@@ -1424,7 +1458,7 @@ http_interactions:
                         "Seeds",
                         "Vegetables"
                     ],
-                    "_version_": 1735666880574652417,
+                    "_version_": 1759771080388509698,
                     "place_facet": [
                         "Colorado",
                         "Denver"
@@ -1433,7 +1467,6 @@ http_interactions:
                         "OL9396042A Denver Seed and Floral Company"
                     ],
                     "subject_key": [
-                        "accessible_book",
                         "catalogs",
                         "cereal_grasses",
                         "flowers",
@@ -1454,6 +1487,7 @@ http_interactions:
                     ],
                     "title": "1979 Corrugated Containers Conference proceedings, October 10-12, Hilton, Denver, CO",
                     "title_suggest": "1979 Corrugated Containers Conference proceedings, October 10-12, Hilton, Denver, CO",
+                    "title_sort": "1979 Corrugated Containers Conference proceedings, October 10-12, Hilton, Denver, CO",
                     "edition_count": 1,
                     "edition_key": [
                         "OL14477927M"
@@ -1503,84 +1537,13 @@ http_interactions:
                         "Congresses",
                         "Corrugated paperboard"
                     ],
-                    "_version_": 1735651708991700995,
+                    "_version_": 1759742978749890561,
                     "author_facet": [
                         "OL4601798A Corrugated Containers Conference (1979 Denver)"
                     ],
                     "subject_key": [
                         "congresses",
                         "corrugated_paperboard"
-                    ]
-                },
-                {
-                    "key": "/works/OL13129724W",
-                    "type": "work",
-                    "seed": [
-                        "/books/OL21803925M",
-                        "/works/OL13129724W",
-                        "/subjects/railroads",
-                        "/subjects/collective_labor_agreements",
-                        "/subjects/place:united_states",
-                        "/authors/OL160226A"
-                    ],
-                    "title": "The Denver & Rio Grande Railroad Co.  Colorado lines and Utah lines",
-                    "title_suggest": "The Denver & Rio Grande Railroad Co.  Colorado lines and Utah lines",
-                    "edition_count": 1,
-                    "edition_key": [
-                        "OL21803925M"
-                    ],
-                    "publish_date": [
-                        "1917"
-                    ],
-                    "publish_year": [
-                        1917
-                    ],
-                    "first_publish_year": 1917,
-                    "publish_place": [
-                        "[n.p"
-                    ],
-                    "last_modified_i": 1297461833,
-                    "ebook_count_i": 0,
-                    "ebook_access": "no_ebook",
-                    "has_fulltext": false,
-                    "public_scan_b": false,
-                    "language": [
-                        "eng"
-                    ],
-                    "author_key": [
-                        "OL160226A"
-                    ],
-                    "author_name": [
-                        "Denver and Rio Grande Railroad Company."
-                    ],
-                    "author_alternative_name": [
-                        "Denver and Rio Grande Railroad Company",
-                        "Denver and Rio Grande railroad"
-                    ],
-                    "place": [
-                        "United States"
-                    ],
-                    "subject": [
-                        "Railroads",
-                        "Collective labor agreements"
-                    ],
-                    "place_key": [
-                        "united_states"
-                    ],
-                    "subject_facet": [
-                        "Collective labor agreements",
-                        "Railroads"
-                    ],
-                    "_version_": 1735653972363968513,
-                    "place_facet": [
-                        "United States"
-                    ],
-                    "author_facet": [
-                        "OL160226A Denver and Rio Grande Railroad Company."
-                    ],
-                    "subject_key": [
-                        "collective_labor_agreements",
-                        "railroads"
                     ]
                 },
                 {
@@ -1593,6 +1556,7 @@ http_interactions:
                     ],
                     "title": "2017 Remodelmax Unit Cost Estimating Manual for Remodeling - Denver Co & Vicinity",
                     "title_suggest": "2017 Remodelmax Unit Cost Estimating Manual for Remodeling - Denver Co & Vicinity",
+                    "title_sort": "2017 Remodelmax Unit Cost Estimating Manual for Remodeling - Denver Co & Vicinity",
                     "edition_count": 1,
                     "edition_key": [
                         "OL40043735M"
@@ -1628,9 +1592,181 @@ http_interactions:
                     "publisher_facet": [
                         "Lulu Press, Inc."
                     ],
-                    "_version_": 1747084029764567041,
+                    "_version_": 1759779246018920449,
                     "author_facet": [
                         "OL7520254A Bill O'Donnell"
+                    ]
+                },
+                {
+                    "key": "/works/OL13129724W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL21803925M",
+                        "/works/OL13129724W",
+                        "/subjects/railroads",
+                        "/subjects/collective_labor_agreements",
+                        "/subjects/place:united_states",
+                        "/authors/OL160226A"
+                    ],
+                    "title": "The Denver & Rio Grande Railroad Co.  Colorado lines and Utah lines",
+                    "title_suggest": "The Denver & Rio Grande Railroad Co.  Colorado lines and Utah lines",
+                    "title_sort": "The Denver & Rio Grande Railroad Co.  Colorado lines and Utah lines",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL21803925M"
+                    ],
+                    "publish_date": [
+                        "1917"
+                    ],
+                    "publish_year": [
+                        1917
+                    ],
+                    "first_publish_year": 1917,
+                    "publish_place": [
+                        "[n.p"
+                    ],
+                    "last_modified_i": 1297461833,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL160226A"
+                    ],
+                    "author_name": [
+                        "Denver and Rio Grande Railroad Company."
+                    ],
+                    "author_alternative_name": [
+                        "Denver and Rio Grande railroad",
+                        "Denver and Rio Grande Railroad Company"
+                    ],
+                    "place": [
+                        "United States"
+                    ],
+                    "subject": [
+                        "Railroads",
+                        "Collective labor agreements"
+                    ],
+                    "place_key": [
+                        "united_states"
+                    ],
+                    "subject_facet": [
+                        "Collective labor agreements",
+                        "Railroads"
+                    ],
+                    "_version_": 1759747705941262338,
+                    "place_facet": [
+                        "United States"
+                    ],
+                    "author_facet": [
+                        "OL160226A Denver and Rio Grande Railroad Company."
+                    ],
+                    "subject_key": [
+                        "collective_labor_agreements",
+                        "railroads"
+                    ]
+                },
+                {
+                    "key": "/works/OL16873068W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL25495839M",
+                        "/works/OL16873068W",
+                        "/subjects/environmental_aspects",
+                        "/subjects/oil_and_gas_leases",
+                        "/subjects/pipelines",
+                        "/subjects/gas_well_drilling",
+                        "/subjects/place:the_southwest",
+                        "/subjects/place:colorado",
+                        "/authors/OL4548346A"
+                    ],
+                    "title": "Draft environmental statement on the C\u00d3 project, Wasson field/Denver unit",
+                    "title_suggest": "Draft environmental statement on the C\u00d3 project, Wasson field/Denver unit",
+                    "title_sort": "Draft environmental statement on the C\u00d3 project, Wasson field/Denver unit",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL25495839M"
+                    ],
+                    "publish_date": [
+                        "1979"
+                    ],
+                    "publish_year": [
+                        1979
+                    ],
+                    "first_publish_year": 1979,
+                    "number_of_pages_median": 380,
+                    "publish_place": [
+                        "Santa Fe]"
+                    ],
+                    "last_modified_i": 1589585772,
+                    "ebook_count_i": 1,
+                    "ebook_access": "public",
+                    "has_fulltext": true,
+                    "public_scan_b": true,
+                    "ia": [
+                        "draftenvironment25946unit"
+                    ],
+                    "ia_collection": [
+                        "americana",
+                        "blmlibrary",
+                        "fedlink"
+                    ],
+                    "ia_collection_s": "americana;blmlibrary;fedlink",
+                    "lending_edition_s": "OL25495839M",
+                    "lending_identifier_s": "draftenvironment25946unit",
+                    "cover_edition_key": "OL25495839M",
+                    "cover_i": 9491147,
+                    "publisher": [
+                        "The Office"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL4548346A"
+                    ],
+                    "author_name": [
+                        "United States. Bureau of Land Management. New Mexico State Office"
+                    ],
+                    "place": [
+                        "The Southwest",
+                        "Colorado"
+                    ],
+                    "subject": [
+                        "Environmental aspects",
+                        "Oil and gas leases",
+                        "Pipelines",
+                        "Gas well drilling"
+                    ],
+                    "publisher_facet": [
+                        "The Office"
+                    ],
+                    "place_key": [
+                        "colorado",
+                        "the_southwest"
+                    ],
+                    "subject_facet": [
+                        "Environmental aspects",
+                        "Gas well drilling",
+                        "Oil and gas leases",
+                        "Pipelines"
+                    ],
+                    "_version_": 1759754240486539265,
+                    "place_facet": [
+                        "Colorado",
+                        "The Southwest"
+                    ],
+                    "author_facet": [
+                        "OL4548346A United States. Bureau of Land Management. New Mexico State Office"
+                    ],
+                    "subject_key": [
+                        "environmental_aspects",
+                        "gas_well_drilling",
+                        "oil_and_gas_leases",
+                        "pipelines"
                     ]
                 },
                 {
@@ -1642,6 +1778,7 @@ http_interactions:
                     ],
                     "title": "Occupational Compensation Survey: Temporary Help Supply Services, Denver, CO, December 1994, (Summary)",
                     "title_suggest": "Occupational Compensation Survey: Temporary Help Supply Services, Denver, CO, December 1994, (Summary)",
+                    "title_sort": "Occupational Compensation Survey: Temporary Help Supply Services, Denver, CO, December 1994, (Summary)",
                     "edition_count": 1,
                     "edition_key": [
                         "OL22205996M"
@@ -1649,7 +1786,7 @@ http_interactions:
                     "contributor": [
                         "United States. Bureau of Labor Statistics"
                     ],
-                    "last_modified_i": 1655273917,
+                    "last_modified_i": 1678281983,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
@@ -1657,7 +1794,7 @@ http_interactions:
                     "language": [
                         "eng"
                     ],
-                    "_version_": 1735680504387076097
+                    "_version_": 1759806209973551105
                 },
                 {
                     "key": "/works/OL923827W",
@@ -1679,6 +1816,7 @@ http_interactions:
                     ],
                     "title": "Draft environmental statement on the CO2 project, Wasson field/Denver unit",
                     "title_suggest": "Draft environmental statement on the CO2 project, Wasson field/Denver unit",
+                    "title_sort": "Draft environmental statement on the CO2 project, Wasson field/Denver unit",
                     "edition_count": 1,
                     "edition_key": [
                         "OL22285947M"
@@ -1716,9 +1854,9 @@ http_interactions:
                     ],
                     "author_alternative_name": [
                         "United States Bureau of Land Management",
-                        "UNITED STATES.  BUREAU OF LAND MANAGEMENT",
                         "United States ; Bureau of Land Management",
-                        "United States. Bureau of Land Management"
+                        "United States. Bureau of Land Management",
+                        "UNITED STATES.  BUREAU OF LAND MANAGEMENT"
                     ],
                     "place": [
                         "Southwestern States"
@@ -1751,7 +1889,7 @@ http_interactions:
                         "Piping",
                         "Secondary recovery of oil"
                     ],
-                    "_version_": 1735677942861660160,
+                    "_version_": 1759803339567005696,
                     "place_facet": [
                         "Southwestern States"
                     ],
@@ -1789,6 +1927,7 @@ http_interactions:
                     ],
                     "title": "Draft environmental statement on the CO2 project, Wasson field/Denver unit",
                     "title_suggest": "Draft environmental statement on the CO2 project, Wasson field/Denver unit",
+                    "title_sort": "Draft environmental statement on the CO2 project, Wasson field/Denver unit",
                     "edition_count": 1,
                     "edition_key": [
                         "OL33157529M"
@@ -1818,6 +1957,11 @@ http_interactions:
                     "ia": [
                         "draftenvironment00unit_7"
                     ],
+                    "ia_collection": [
+                        "americana",
+                        "blmlibrary",
+                        "fedlink"
+                    ],
                     "ia_collection_s": "americana;blmlibrary;fedlink",
                     "lending_edition_s": "OL33157529M",
                     "lending_identifier_s": "draftenvironment00unit_7",
@@ -1846,8 +1990,7 @@ http_interactions:
                         "Gas well drilling",
                         "Oil and gas leases",
                         "Public lands",
-                        "Management",
-                        "Accessible book"
+                        "Management"
                     ],
                     "publisher_facet": [
                         "The Office"
@@ -1858,7 +2001,6 @@ http_interactions:
                         "the_southwest"
                     ],
                     "subject_facet": [
-                        "Accessible book",
                         "Environmental aspects",
                         "Gas well drilling",
                         "Management",
@@ -1866,7 +2008,7 @@ http_interactions:
                         "Pipelines",
                         "Public lands"
                     ],
-                    "_version_": 1735666819474128898,
+                    "_version_": 1759771211037933569,
                     "place_facet": [
                         "Colorado",
                         "New Mexico",
@@ -1877,13 +2019,61 @@ http_interactions:
                         "OL4548346A United States. Bureau of Land Management. New Mexico State Office"
                     ],
                     "subject_key": [
-                        "accessible_book",
                         "environmental_aspects",
                         "gas_well_drilling",
                         "management",
                         "oil_and_gas_leases",
                         "pipelines",
                         "public_lands"
+                    ]
+                },
+                {
+                    "key": "/works/OL27695560W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL37773868M",
+                        "/works/OL27695560W",
+                        "/authors/OL2949492A"
+                    ],
+                    "title": "StreetSmart Denver by VanDam \u2014 Laminated pocket size Center City Street Map to Denver, CO with all attractions, sights, museums, hotels and shopping",
+                    "title_suggest": "StreetSmart Denver by VanDam \u2014 Laminated pocket size Center City Street Map to Denver, CO with all attractions, sights, museums, hotels and shopping",
+                    "title_sort": "StreetSmart Denver by VanDam \u2014 Laminated pocket size Center City Street Map to Denver, CO with all attractions, sights, museums, hotels and shopping",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL37773868M"
+                    ],
+                    "publish_date": [
+                        "Dec 31, 2010"
+                    ],
+                    "publish_year": [
+                        2010
+                    ],
+                    "first_publish_year": 2010,
+                    "number_of_pages_median": 2,
+                    "isbn": [
+                        "9781932527988",
+                        "1932527982"
+                    ],
+                    "last_modified_i": 1647925015,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "VanDam, Inc."
+                    ],
+                    "author_key": [
+                        "OL2949492A"
+                    ],
+                    "author_name": [
+                        "Stephan Van Dam"
+                    ],
+                    "publisher_facet": [
+                        "VanDam, Inc."
+                    ],
+                    "_version_": 1759776569661849600,
+                    "author_facet": [
+                        "OL2949492A Stephan Van Dam"
                     ]
                 },
                 {
@@ -1905,6 +2095,7 @@ http_interactions:
                     ],
                     "title": "Draft environmental statement on the CO\u001bb2\u001bs project, Wasson field/Denver unit",
                     "title_suggest": "Draft environmental statement on the CO\u001bb2\u001bs project, Wasson field/Denver unit",
+                    "title_sort": "Draft environmental statement on the CO\u001bb2\u001bs project, Wasson field/Denver unit",
                     "edition_count": 1,
                     "edition_key": [
                         "OL14912916M"
@@ -1941,10 +2132,10 @@ http_interactions:
                         "United States. Bureau of Land Management."
                     ],
                     "author_alternative_name": [
-                        "United States Bureau of Land Management",
-                        "United States. Bureau of Land Management",
                         "UNITED STATES.  BUREAU OF LAND MANAGEMENT",
-                        "United States ; Bureau of Land Management"
+                        "United States Bureau of Land Management",
+                        "United States ; Bureau of Land Management",
+                        "United States. Bureau of Land Management"
                     ],
                     "place": [
                         "Southwestern States"
@@ -1975,7 +2166,7 @@ http_interactions:
                         "Pipelines",
                         "Secondary recovery of oil"
                     ],
-                    "_version_": 1735651440769105920,
+                    "_version_": 1759742326164422656,
                     "place_facet": [
                         "Southwestern States"
                     ],
@@ -1994,54 +2185,6 @@ http_interactions:
                     ]
                 },
                 {
-                    "key": "/works/OL27695560W",
-                    "type": "work",
-                    "seed": [
-                        "/books/OL37773868M",
-                        "/works/OL27695560W",
-                        "/authors/OL2949492A"
-                    ],
-                    "title": "StreetSmart Denver by VanDam \u2014 Laminated pocket size Center City Street Map to Denver, CO with all attractions, sights, museums, hotels and shopping",
-                    "title_suggest": "StreetSmart Denver by VanDam \u2014 Laminated pocket size Center City Street Map to Denver, CO with all attractions, sights, museums, hotels and shopping",
-                    "edition_count": 1,
-                    "edition_key": [
-                        "OL37773868M"
-                    ],
-                    "publish_date": [
-                        "Dec 31, 2010"
-                    ],
-                    "publish_year": [
-                        2010
-                    ],
-                    "first_publish_year": 2010,
-                    "number_of_pages_median": 2,
-                    "isbn": [
-                        "9781932527988",
-                        "1932527982"
-                    ],
-                    "last_modified_i": 1647925015,
-                    "ebook_count_i": 0,
-                    "ebook_access": "no_ebook",
-                    "has_fulltext": false,
-                    "public_scan_b": false,
-                    "publisher": [
-                        "VanDam, Inc."
-                    ],
-                    "author_key": [
-                        "OL2949492A"
-                    ],
-                    "author_name": [
-                        "Stephan Van Dam"
-                    ],
-                    "publisher_facet": [
-                        "VanDam, Inc."
-                    ],
-                    "_version_": 1735669728241778694,
-                    "author_facet": [
-                        "OL2949492A Stephan Van Dam"
-                    ]
-                },
-                {
                     "key": "/works/OL7342263W",
                     "type": "work",
                     "seed": [
@@ -2051,6 +2194,7 @@ http_interactions:
                     ],
                     "title": "Management & Design of Long-Life Systems, Apr. 24-26, 1973, Denver, Co (Science & Technology Ser)",
                     "title_suggest": "Management & Design of Long-Life Systems, Apr. 24-26, 1973, Denver, Co (Science & Technology Ser)",
+                    "title_sort": "Management & Design of Long-Life Systems, Apr. 24-26, 1973, Denver, Co (Science & Technology Ser)",
                     "edition_count": 1,
                     "edition_key": [
                         "OL11168955M"
@@ -2087,7 +2231,7 @@ http_interactions:
                     "publisher_facet": [
                         "Univelt"
                     ],
-                    "_version_": 1751281427967639552,
+                    "_version_": 1759799145721233408,
                     "author_facet": [
                         "OL2170894A Harris M. Schurmeier"
                     ]
@@ -2101,6 +2245,7 @@ http_interactions:
                     ],
                     "title": "IEEE National Symposium 1989 on Electromagnetic Compatibility Proceedings May 1989 Denver, Co./89Ch27367-Pbl",
                     "title_suggest": "IEEE National Symposium 1989 on Electromagnetic Compatibility Proceedings May 1989 Denver, Co./89Ch27367-Pbl",
+                    "title_sort": "IEEE National Symposium 1989 on Electromagnetic Compatibility Proceedings May 1989 Denver, Co./89Ch27367-Pbl",
                     "edition_count": 1,
                     "edition_key": [
                         "OL13256117M"
@@ -2116,7 +2261,7 @@ http_interactions:
                         "9789991695532",
                         "9991695532"
                     ],
-                    "last_modified_i": 1655272829,
+                    "last_modified_i": 1678280991,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
@@ -2127,7 +2272,7 @@ http_interactions:
                     "publisher_facet": [
                         "Ieee"
                     ],
-                    "_version_": 1735679363144220672
+                    "_version_": 1759805169447469056
                 },
                 {
                     "key": "/works/OL10890745W",
@@ -2143,6 +2288,7 @@ http_interactions:
                     ],
                     "title": "Granting to the Denver, Cripple Creek and South-Western R. R. Co., a right of way",
                     "title_suggest": "Granting to the Denver, Cripple Creek and South-Western R. R. Co., a right of way",
+                    "title_sort": "Granting to the Denver, Cripple Creek and South-Western R. R. Co., a right of way",
                     "edition_count": 1,
                     "edition_key": [
                         "OL16037891M"
@@ -2178,11 +2324,11 @@ http_interactions:
                         "United States. Congress. House"
                     ],
                     "author_alternative_name": [
-                        "United States. Congress House.",
                         "United States. Congress. House.",
-                        "United States Congress House",
+                        "United States. Congress House.",
+                        "United States. Congress House",
                         "United States Congress. House",
-                        "United States. Congress House"
+                        "United States Congress House"
                     ],
                     "subject": [
                         "Denver, Cripple Creek, and Southwestern Railroad Company",
@@ -2199,7 +2345,7 @@ http_interactions:
                         "Railroads",
                         "Right of way"
                     ],
-                    "_version_": 1735651515664695296,
+                    "_version_": 1759742496851623936,
                     "author_facet": [
                         "OL4529419A United States. Congress. House"
                     ],
@@ -2208,54 +2354,6 @@ http_interactions:
                         "forests_and_forestry",
                         "railroads",
                         "right_of_way"
-                    ]
-                },
-                {
-                    "key": "/works/OL31190286W",
-                    "type": "work",
-                    "seed": [
-                        "/books/OL42850450M",
-                        "/works/OL31190286W",
-                        "/authors/OL11395974A"
-                    ],
-                    "title": "Denver Chemical Mfg Co v. Lilley U.S. Supreme Court Transcript of Record with Supporting Pleadings",
-                    "title_suggest": "Denver Chemical Mfg Co v. Lilley U.S. Supreme Court Transcript of Record with Supporting Pleadings",
-                    "edition_count": 1,
-                    "edition_key": [
-                        "OL42850450M"
-                    ],
-                    "publish_date": [
-                        "Oct 26, 2011"
-                    ],
-                    "publish_year": [
-                        2011
-                    ],
-                    "first_publish_year": 2011,
-                    "number_of_pages_median": 68,
-                    "isbn": [
-                        "9781270139454",
-                        "1270139452"
-                    ],
-                    "last_modified_i": 1670096264,
-                    "ebook_count_i": 0,
-                    "ebook_access": "no_ebook",
-                    "has_fulltext": false,
-                    "public_scan_b": false,
-                    "publisher": [
-                        "Gale, U.S. Supreme Court Records"
-                    ],
-                    "author_key": [
-                        "OL11395974A"
-                    ],
-                    "author_name": [
-                        "HENRY D ESTABROOK"
-                    ],
-                    "publisher_facet": [
-                        "Gale, U.S. Supreme Court Records"
-                    ],
-                    "_version_": 1751238321834557440,
-                    "author_facet": [
-                        "OL11395974A HENRY D ESTABROOK"
                     ]
                 },
                 {
@@ -2268,6 +2366,7 @@ http_interactions:
                     ],
                     "title": "U.S. Supreme Court Transcript of Record City of Englewood v. Denver & S P R Co",
                     "title_suggest": "U.S. Supreme Court Transcript of Record City of Englewood v. Denver & S P R Co",
+                    "title_sort": "U.S. Supreme Court Transcript of Record City of Englewood v. Denver & S P R Co",
                     "edition_count": 1,
                     "edition_key": [
                         "OL42868864M"
@@ -2301,9 +2400,58 @@ http_interactions:
                     "publisher_facet": [
                         "Gale, U.S. Supreme Court Records"
                     ],
-                    "_version_": 1751243600909303809,
+                    "_version_": 1759783619479470081,
                     "author_facet": [
                         "OL7785040A U.S. Supreme Court"
+                    ]
+                },
+                {
+                    "key": "/works/OL31190286W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL42850450M",
+                        "/works/OL31190286W",
+                        "/authors/OL11395974A"
+                    ],
+                    "title": "Denver Chemical Mfg Co v. Lilley U.S. Supreme Court Transcript of Record with Supporting Pleadings",
+                    "title_suggest": "Denver Chemical Mfg Co v. Lilley U.S. Supreme Court Transcript of Record with Supporting Pleadings",
+                    "title_sort": "Denver Chemical Mfg Co v. Lilley U.S. Supreme Court Transcript of Record with Supporting Pleadings",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL42850450M"
+                    ],
+                    "publish_date": [
+                        "Oct 26, 2011"
+                    ],
+                    "publish_year": [
+                        2011
+                    ],
+                    "first_publish_year": 2011,
+                    "number_of_pages_median": 68,
+                    "isbn": [
+                        "9781270139454",
+                        "1270139452"
+                    ],
+                    "last_modified_i": 1670096264,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Gale, U.S. Supreme Court Records"
+                    ],
+                    "author_key": [
+                        "OL11395974A"
+                    ],
+                    "author_name": [
+                        "HENRY D ESTABROOK"
+                    ],
+                    "publisher_facet": [
+                        "Gale, U.S. Supreme Court Records"
+                    ],
+                    "_version_": 1759783559181107200,
+                    "author_facet": [
+                        "OL11395974A HENRY D ESTABROOK"
                     ]
                 },
                 {
@@ -2315,6 +2463,7 @@ http_interactions:
                     ],
                     "title": "OVERSIGHT VISIT TO WICHITA, KS, DENVER, CO..., REPORT... COMM. ON  TRANSPORTATION & INFRASTRUCTURE... HOUSE OF REPS... INFRASTRUCTURE... HOUSE.",
                     "title_suggest": "OVERSIGHT VISIT TO WICHITA, KS, DENVER, CO..., REPORT... COMM. ON  TRANSPORTATION & INFRASTRUCTURE... HOUSE OF REPS... INFRASTRUCTURE... HOUSE.",
+                    "title_sort": "OVERSIGHT VISIT TO WICHITA, KS, DENVER, CO..., REPORT... COMM. ON  TRANSPORTATION & INFRASTRUCTURE... HOUSE OF REPS... INFRASTRUCTURE... HOUSE.",
                     "edition_count": 1,
                     "edition_key": [
                         "OL16307297M"
@@ -2332,7 +2481,7 @@ http_interactions:
                     "contributor": [
                         "United States. Congress. House. Committee on Transportation and Infrastructure."
                     ],
-                    "last_modified_i": 1655273202,
+                    "last_modified_i": 1678281342,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
@@ -2346,7 +2495,7 @@ http_interactions:
                     "publisher_facet": [
                         "Sine nomine"
                     ],
-                    "_version_": 1735679753696837632
+                    "_version_": 1759805538101624832
                 },
                 {
                     "key": "/works/OL31191872W",
@@ -2358,6 +2507,7 @@ http_interactions:
                     ],
                     "title": "Norgate v. Denver & R G R Co U.S. Supreme Court Transcript of Record with Supporting Pleadings",
                     "title_suggest": "Norgate v. Denver & R G R Co U.S. Supreme Court Transcript of Record with Supporting Pleadings",
+                    "title_sort": "Norgate v. Denver & R G R Co U.S. Supreme Court Transcript of Record with Supporting Pleadings",
                     "edition_count": 1,
                     "edition_key": [
                         "OL42852052M"
@@ -2391,7 +2541,7 @@ http_interactions:
                     "publisher_facet": [
                         "Gale, U.S. Supreme Court Records"
                     ],
-                    "_version_": 1751238784763035648,
+                    "_version_": 1759783609354420224,
                     "author_facet": [
                         "OL11396856A WILLIAM T SKELTON"
                     ]
@@ -2406,6 +2556,7 @@ http_interactions:
                     ],
                     "title": "Arctic and Alpine Environments [Volume 10, Proceedings VII Congress Int Assoc Quaternary Research, Boulder-Denver, Co, 1965]",
                     "title_suggest": "Arctic and Alpine Environments [Volume 10, Proceedings VII Congress Int Assoc Quaternary Research, Boulder-Denver, Co, 1965]",
+                    "title_sort": "Arctic and Alpine Environments [Volume 10, Proceedings VII Congress Int Assoc Quaternary Research, Boulder-Denver, Co, 1965]",
                     "edition_count": 1,
                     "edition_key": [
                         "OL45676699M"
@@ -2440,7 +2591,7 @@ http_interactions:
                     "publisher_facet": [
                         "Indiana Univ Press"
                     ],
-                    "_version_": 1754975968530792448,
+                    "_version_": 1759788508901277697,
                     "author_facet": [
                         "OL12201857A Wright, H.E. & Osburn, W.H. (Eds)"
                     ]
@@ -2455,6 +2606,7 @@ http_interactions:
                     ],
                     "title": "2005 IEEE Region 5 and IEEE Denver Section Technical, Professional and Student Development Workshop, Boulder, Co, April 7-8, 2005",
                     "title_suggest": "2005 IEEE Region 5 and IEEE Denver Section Technical, Professional and Student Development Workshop, Boulder, Co, April 7-8, 2005",
+                    "title_sort": "2005 IEEE Region 5 and IEEE Denver Section Technical, Professional and Student Development Workshop, Boulder, Co, April 7-8, 2005",
                     "edition_count": 1,
                     "edition_key": [
                         "OL11000561M"
@@ -2471,8 +2623,8 @@ http_interactions:
                         "2004116426"
                     ],
                     "isbn": [
-                        "0780388984",
-                        "9780780388987"
+                        "9780780388987",
+                        "0780388984"
                     ],
                     "last_modified_i": 1607441752,
                     "ebook_count_i": 0,
@@ -2497,7 +2649,7 @@ http_interactions:
                     "publisher_facet": [
                         "Institute of Electrical & Electronics Enginee"
                     ],
-                    "_version_": 1735678323735920640,
+                    "_version_": 1759803673400049664,
                     "author_facet": [
                         "OL3523996A Ieee Region 5. and Ieee Denver Section T"
                     ]
@@ -2514,6 +2666,7 @@ http_interactions:
                     ],
                     "title": "Proceedings of the twelfth Biennial Symposium, the American Academy of Veterinary Pharmacology and Therapeutics, Denver, CO, May 22-24, 2001",
                     "title_suggest": "Proceedings of the twelfth Biennial Symposium, the American Academy of Veterinary Pharmacology and Therapeutics, Denver, CO, May 22-24, 2001",
+                    "title_sort": "Proceedings of the twelfth Biennial Symposium, the American Academy of Veterinary Pharmacology and Therapeutics, Denver, CO, May 22-24, 2001",
                     "edition_count": 1,
                     "edition_key": [
                         "OL21701074M"
@@ -2563,7 +2716,7 @@ http_interactions:
                         "Congresses",
                         "Veterinary pharmacology"
                     ],
-                    "_version_": 1735651868172877825,
+                    "_version_": 1759743267051667456,
                     "author_facet": [
                         "OL4667320A American Academy of Veterinary Pharmacology and Therapeutics. Symposium"
                     ],
@@ -2584,6 +2737,7 @@ http_interactions:
                     ],
                     "title": "Official report of the Tenth International Sunday-school convention, Trinity Methodist Episcopal Church, Denver, CO, June 26 to 30, 1902",
                     "title_suggest": "Official report of the Tenth International Sunday-school convention, Trinity Methodist Episcopal Church, Denver, CO, June 26 to 30, 1902",
+                    "title_sort": "Official report of the Tenth International Sunday-school convention, Trinity Methodist Episcopal Church, Denver, CO, June 26 to 30, 1902",
                     "edition_count": 1,
                     "edition_key": [
                         "OL28672267M"
@@ -2627,7 +2781,7 @@ http_interactions:
                         "Congresses",
                         "Sunday schools"
                     ],
-                    "_version_": 1735662913596686339,
+                    "_version_": 1759763918002061312,
                     "author_facet": [
                         "OL8108405A International Sunday-school convention of the United States and British American provinces 1902 Denver)"
                     ],
@@ -2653,6 +2807,7 @@ http_interactions:
                     ],
                     "title": "Models In Software Engineering Workshops And Symposia At Models 2009 Denver Co Usa October 49 2009 Reports And Revised Selected Papers",
                     "title_suggest": "Models In Software Engineering Workshops And Symposia At Models 2009 Denver Co Usa October 49 2009 Reports And Revised Selected Papers",
+                    "title_sort": "Models In Software Engineering Workshops And Symposia At Models 2009 Denver Co Usa October 49 2009 Reports And Revised Selected Papers",
                     "edition_count": 1,
                     "edition_key": [
                         "OL25982097M"
@@ -2668,8 +2823,8 @@ http_interactions:
                         "QA-0076.75800000"
                     ],
                     "isbn": [
-                        "3642122604",
-                        "9783642122606"
+                        "9783642122606",
+                        "3642122604"
                     ],
                     "last_modified_i": 1645827400,
                     "ebook_count_i": 1,
@@ -2678,6 +2833,10 @@ http_interactions:
                     "public_scan_b": false,
                     "ia": [
                         "modelssoftwareen00ghos"
+                    ],
+                    "ia_collection": [
+                        "librarygenesis",
+                        "printdisabled"
                     ],
                     "ia_collection_s": "librarygenesis;printdisabled",
                     "printdisabled_s": "OL25982097M",
@@ -2699,37 +2858,31 @@ http_interactions:
                         "Computer science",
                         "Software engineering",
                         "Computer software",
-                        "Uml (computer science)",
-                        "Accessible book",
-                        "Protected DAISY"
+                        "Uml (computer science)"
                     ],
                     "publisher_facet": [
                         "Springer"
                     ],
                     "subject_facet": [
-                        "Accessible book",
                         "Computer science",
                         "Computer simulation",
                         "Computer software",
                         "Information Systems",
                         "Logic design",
-                        "Protected DAISY",
                         "Software engineering",
                         "Uml (computer science)"
                     ],
-                    "_version_": 1735657846101508098,
+                    "_version_": 1759755035763277825,
                     "lcc_sort": "QA-0076.75800000",
                     "author_facet": [
                         "OL7303319A Sudipto Ghosh"
                     ],
                     "subject_key": [
-                        "accessible_book",
                         "computer_science",
                         "computer_simulation",
                         "computer_software",
                         "information_systems",
                         "logic_design",
-                        "protected_daisy",
                         "software_engineering",
                         "uml_(computer_science)"
                     ]
@@ -2744,6 +2897,7 @@ http_interactions:
                     ],
                     "title": "Report of the re-organization committee of the Denver & Rio Grande Western R\u02bcY Co. to the bond and stockholders of the Rio Grande Western Railway Co. upon the conclusion of their work",
                     "title_suggest": "Report of the re-organization committee of the Denver & Rio Grande Western R\u02bcY Co. to the bond and stockholders of the Rio Grande Western Railway Co. upon the conclusion of their work",
+                    "title_sort": "Report of the re-organization committee of the Denver & Rio Grande Western R\u02bcY Co. to the bond and stockholders of the Rio Grande Western Railway Co. upon the conclusion of their work",
                     "edition_count": 1,
                     "edition_key": [
                         "OL2950967M"
@@ -2782,7 +2936,7 @@ http_interactions:
                     "publisher_facet": [
                         "Sine nomine"
                     ],
-                    "_version_": 1735673388293160960,
+                    "_version_": 1759794764126879744,
                     "author_facet": [
                         "OL1270814A Denver and Rio Grande Western Railway Company."
                     ]
@@ -2796,6 +2950,7 @@ http_interactions:
                     ],
                     "title": "KEPNER MIDDLE SCHOOL, DENVER, CO. SCHOOLS ON THE MOVE: STORIES OF URBAN SCHOOLS ENGAGED IN INCLUSIVE JOURNEYS OF CHANGE... ED463357... U.S.",
                     "title_suggest": "KEPNER MIDDLE SCHOOL, DENVER, CO. SCHOOLS ON THE MOVE: STORIES OF URBAN SCHOOLS ENGAGED IN INCLUSIVE JOURNEYS OF CHANGE... ED463357... U.S.",
+                    "title_sort": "KEPNER MIDDLE SCHOOL, DENVER, CO. SCHOOLS ON THE MOVE: STORIES OF URBAN SCHOOLS ENGAGED IN INCLUSIVE JOURNEYS OF CHANGE... ED463357... U.S.",
                     "edition_count": 1,
                     "edition_key": [
                         "OL19546665M"
@@ -2813,7 +2968,7 @@ http_interactions:
                     "contributor": [
                         "United States. Office of Educational Research and Improvement."
                     ],
-                    "last_modified_i": 1655273600,
+                    "last_modified_i": 1678281700,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
@@ -2827,7 +2982,7 @@ http_interactions:
                     "publisher_facet": [
                         "Sine nomine"
                     ],
-                    "_version_": 1735680172512772097
+                    "_version_": 1759805913368100864
                 },
                 {
                     "key": "/works/OL19107078W",
@@ -2841,6 +2996,7 @@ http_interactions:
                     ],
                     "title": "Mine drainage: proceedings of the first International Mine Drainage Symposium, Denver, Colorado, May 1979.  edtied by George O. Argall and C.O. Brawner",
                     "title_suggest": "Mine drainage: proceedings of the first International Mine Drainage Symposium, Denver, Colorado, May 1979.  edtied by George O. Argall and C.O. Brawner",
+                    "title_sort": "Mine drainage: proceedings of the first International Mine Drainage Symposium, Denver, Colorado, May 1979.  edtied by George O. Argall and C.O. Brawner",
                     "edition_count": 1,
                     "edition_key": [
                         "OL22030053M"
@@ -2861,8 +3017,8 @@ http_interactions:
                         "TN-0321.00000000 M664 1979"
                     ],
                     "isbn": [
-                        "0879301228",
-                        "9780879301224"
+                        "9780879301224",
+                        "0879301228"
                     ],
                     "last_modified_i": 1670210690,
                     "ebook_count_i": 1,
@@ -2881,6 +3037,10 @@ http_interactions:
                     "lending_edition_s": "OL22030053M",
                     "lending_identifier_s": "minedrainageproc0000inte",
                     "printdisabled_s": "OL22030053M",
+                    "readinglog_count": 1,
+                    "want_to_read_count": 1,
+                    "currently_reading_count": 0,
+                    "already_read_count": 0,
                     "cover_edition_key": "OL22030053M",
                     "cover_i": 12848361,
                     "publisher": [
@@ -2909,7 +3069,7 @@ http_interactions:
                         "Congresses",
                         "Mine drainage"
                     ],
-                    "_version_": 1751590471522582596,
+                    "_version_": 1759759249807769601,
                     "lcc_sort": "TN-0321.00000000 M664 1979",
                     "author_facet": [
                         "OL3633560A C. O. Brawner"
@@ -2930,6 +3090,7 @@ http_interactions:
                     ],
                     "title": "Tutorials on Emerging Methodologies and Applications in Operations Research: Presented at INFORMS 2004, Denver, CO (International Series in Operations Research & Management Science Book 76)",
                     "title_suggest": "Tutorials on Emerging Methodologies and Applications in Operations Research: Presented at INFORMS 2004, Denver, CO (International Series in Operations Research & Management Science Book 76)",
+                    "title_sort": "Tutorials on Emerging Methodologies and Applications in Operations Research: Presented at INFORMS 2004, Denver, CO (International Series in Operations Research & Management Science Book 76)",
                     "edition_count": 1,
                     "edition_key": [
                         "OL26770395M"
@@ -2971,7 +3132,7 @@ http_interactions:
                     "subject_facet": [
                         "Operations research"
                     ],
-                    "_version_": 1735660313860112384,
+                    "_version_": 1759759356202582016,
                     "author_facet": [
                         "OL3273411A Harvey J. Greenberg"
                     ],
@@ -2992,6 +3153,7 @@ http_interactions:
                     ],
                     "title": "Oversight visit to Wichita, KS, Denver, CO, Seattle, WA, Long Beach, CA, and Memphis, TN, February 18-21, 1997: Report prepared for the use of the ... of the U.S. House of Representatives",
                     "title_suggest": "Oversight visit to Wichita, KS, Denver, CO, Seattle, WA, Long Beach, CA, and Memphis, TN, February 18-21, 1997: Report prepared for the use of the ... of the U.S. House of Representatives",
+                    "title_sort": "Oversight visit to Wichita, KS, Denver, CO, Seattle, WA, Long Beach, CA, and Memphis, TN, February 18-21, 1997: Report prepared for the use of the ... of the U.S. House of Representatives",
                     "edition_count": 1,
                     "edition_key": [
                         "OL288047M"
@@ -3020,8 +3182,8 @@ http_interactions:
                         "HD-9711.50000000.U6 O93 1997"
                     ],
                     "isbn": [
-                        "0160543738",
-                        "9780160543739"
+                        "9780160543739",
+                        "0160543738"
                     ],
                     "last_modified_i": 1606422557,
                     "ebook_count_i": 0,
@@ -3031,8 +3193,8 @@ http_interactions:
                     "cover_edition_key": "OL288047M",
                     "cover_i": 3719289,
                     "publisher": [
-                        "U.S. G.P.O.",
-                        "For sale by the U.S. G.P.O., Supt. of Docs., Congressional Sales Office"
+                        "For sale by the U.S. G.P.O., Supt. of Docs., Congressional Sales Office",
+                        "U.S. G.P.O."
                     ],
                     "language": [
                         "eng"
@@ -3060,7 +3222,7 @@ http_interactions:
                         "Aircraft industry",
                         "Federal Express Corporation"
                     ],
-                    "_version_": 1735659887710437376,
+                    "_version_": 1759758662120767488,
                     "lcc_sort": "HD-9711.50000000.U6 O93 1997",
                     "author_facet": [
                         "OL4595462A United States. Congress. House. Committee on Transportation and Infrastructure"
@@ -3072,9 +3234,9 @@ http_interactions:
                     ]
                 }
             ],
-            "num_found": 44,
+            "num_found": 45,
             "q": "",
             "offset": null
         }
-  recorded_at: Sat, 04 Mar 2023 19:51:25 GMT
+  recorded_at: Sun, 11 Jun 2023 23:37:41 GMT
 recorded_with: VCR 6.1.0
