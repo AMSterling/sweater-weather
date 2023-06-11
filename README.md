@@ -8,6 +8,15 @@
 
 <div align="center">
 
+  <div>
+
+    <a href="https://github.com/AMSterling/sweater-weather">
+      <img src="https://media.giphy.com/media/j9DsoUDjA8cpL5nWAV/giphy.gif">
+    </a>
+
+  </div>
+
+
 # Sweater Weather
 
 [![ruby][ruby]][ruby-url] [![ror][ror]][ror-url] [![Postgres][Postgres]][Postgres-url] [![RSpec][RSpec]][RSpec-url] [![Postman][Postman]][Postman-url] [![Atom][Atom]][Atom-url] [![Git][Git]][Git-url] [![GitHub Actions][GitHub Actions]][GitHub Actions-url]
