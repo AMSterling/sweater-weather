@@ -13,7 +13,8 @@
   <p>
     <a href="https://github.com/AMSterling/sweater-weather">
       <!-- <img src="https://media.giphy.com/media/j9DsoUDjA8cpL5nWAV/giphy.gif"> -->
-      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmE3Yzk4cWs4NWJzYWJmM2J2NXpyNzJpN3hsNDFhOHA1emdpZTkwZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/D0h583flkaxvVYc6Bh/giphy.gif">
+      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2FpdXJkbmc2ajhoaGhsdW5hMzV2cHFlNjV5MjRtc20xMHRscHl2ZCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/FhcAZGmwsUegBaLMni/giphy.gif">
+      <!-- <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmE3Yzk4cWs4NWJzYWJmM2J2NXpyNzJpN3hsNDFhOHA1emdpZTkwZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/D0h583flkaxvVYc6Bh/giphy.gif"> -->
     </a>
   </p>
 
