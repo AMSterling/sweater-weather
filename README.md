@@ -1,7 +1,7 @@
 <div align="right">
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a133fd8d67dd3547fa8b/maintainability)](https://codeclimate.com/github/AMSterling/sweater-weather/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a133fd8d67dd3547fa8b/test_coverage)](https://codeclimate.com/github/AMSterling/sweater-weather/test_coverage)
+<!-- [![Test Coverage](https://api.codeclimate.com/v1/badges/a133fd8d67dd3547fa8b/test_coverage)](https://codeclimate.com/github/AMSterling/sweater-weather/test_coverage) -->
 [![Ruby on Rails CI](https://github.com/AMSterling/sweater-weather/actions/workflows/rails-CI.yml/badge.svg)](https://github.com/AMSterling/sweater-weather/actions/workflows/rails-CI.yml)
 [![Coverage](badge.svg)](https://github.com/AMSterling/sweater-weather)
 
