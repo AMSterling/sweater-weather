@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 11 Jun 2023 23:37:43 GMT
+      - Wed, 14 Feb 2024 00:14:19 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -27,28 +27,26 @@ http_interactions:
       Connection:
       - keep-alive
       X-Ratelimit-Limit-2628000:
-      - '15000'
+      - '1000000000'
       X-Ratelimit-Remaining-2628000:
-      - '14989'
+      - '999999983'
       Ratelimit-Limit:
-      - '15000'
+      - '1000000000'
       Ratelimit-Remaining:
-      - '14989'
+      - '999999983'
       Ratelimit-Reset:
-      - '649338'
+      - '330341'
       X-Powered-By:
       - MapQuest
       X-Request-Id:
-      - f5efbde0-08b0-11ee-ae95-b587ca6a70ef
+      - ff32cd90-cacd-11ee-a2a0-236b9a0404d1
       Access-Control-Allow-Origin:
       - "*"
-      X-Transaction-Count:
-      - all=1,geocoding=1
       Etag:
-      - W/"31d-zftSuFzJHtZuo9xZ/Qg7M7lyAF4"
+      - W/"31d-UWl4xqMA+XoeHsC3eT5D4hq+shg"
     body:
       encoding: UTF-8
-      string: '{"info":{"statuscode":0,"copyright":{"text":"© 2022 MapQuest, Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"©
-        2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"denver,co"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"0","unknownInput":"","type":"s","latLng":{"lat":39.74001,"lng":-104.99202},"displayLatLng":{"lat":39.74001,"lng":-104.99202},"mapUrl":""}]}]}'
-  recorded_at: Sun, 11 Jun 2023 23:37:43 GMT
+      string: '{"info":{"statuscode":0,"copyright":{"text":"© 2024 MapQuest, Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"©
+        2024 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"denver,co"},"locations":[{"street":"","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"","geocodeQualityCode":"A5XAX","geocodeQuality":"CITY","dragPoint":false,"sideOfStreet":"N","linkId":"0","unknownInput":"","type":"s","latLng":{"lat":39.74001,"lng":-104.99202},"displayLatLng":{"lat":39.74001,"lng":-104.99202},"mapUrl":""}]}]}'
+  recorded_at: Wed, 14 Feb 2024 00:14:19 GMT
 recorded_with: VCR 6.1.0

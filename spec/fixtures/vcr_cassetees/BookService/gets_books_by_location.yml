@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.18.0 (Ubuntu)
       Date:
-      - Sun, 11 Jun 2023 23:37:42 GMT
+      - Wed, 14 Feb 2024 00:14:18 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -35,7 +35,7 @@ http_interactions:
       Access-Control-Max-Age:
       - '86400'
       X-Ol-Stats:
-      - '"SR 1 0.030 TT 0 0.037"'
+      - '"SR 1 0.033 TT 0 0.039"'
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
@@ -92,7 +92,7 @@ http_interactions:
                     "publisher_facet": [
                         "Universal Map Enterprises"
                     ],
-                    "_version_": 1759801544632434690,
+                    "_version_": 1767942895778660352,
                     "author_facet": [
                         "OL2843451A Universal Map"
                     ]
@@ -121,8 +121,8 @@ http_interactions:
                     ],
                     "first_publish_year": 1996,
                     "isbn": [
-                        "0607620056",
-                        "9780607620054"
+                        "9780607620054",
+                        "0607620056"
                     ],
                     "last_modified_i": 1272517172,
                     "ebook_count_i": 0,
@@ -142,20 +142,20 @@ http_interactions:
                         "United States Geological Survey"
                     ],
                     "author_alternative_name": [
-                        "Geological Survey (U .S.)",
-                        "Geological Survey. (U.S.)",
+                        "Geological Survey (U. S.)",
                         "Geological Survey (U.S.) 088",
-                        "United States. Geological Survey",
-                        "United States. Geological Survey.",
-                        "U.S. Geological Survey",
-                        "Geological Survey (U.S.)",
                         "United States. Geological survey.",
-                        "Geological Survey (U. S.)"
+                        "United States. Geological Survey",
+                        "U.S. Geological Survey",
+                        "Geological Survey. (U.S.)",
+                        "Geological Survey (U .S.)",
+                        "Geological Survey (U.S.)",
+                        "United States. Geological Survey."
                     ],
                     "publisher_facet": [
                         "USGS Branch of Distribution"
                     ],
-                    "_version_": 1759802487286530049,
+                    "_version_": 1767943587095379970,
                     "author_facet": [
                         "OL79165A United States Geological Survey"
                     ]
@@ -184,8 +184,8 @@ http_interactions:
                     ],
                     "first_publish_year": 1996,
                     "isbn": [
-                        "9780607620047",
-                        "0607620048"
+                        "0607620048",
+                        "9780607620047"
                     ],
                     "last_modified_i": 1272517172,
                     "ebook_count_i": 0,
@@ -205,20 +205,20 @@ http_interactions:
                         "United States Geological Survey"
                     ],
                     "author_alternative_name": [
-                        "Geological Survey (U .S.)",
-                        "Geological Survey. (U.S.)",
+                        "Geological Survey (U. S.)",
                         "Geological Survey (U.S.) 088",
-                        "United States. Geological Survey",
-                        "United States. Geological Survey.",
-                        "U.S. Geological Survey",
-                        "Geological Survey (U.S.)",
                         "United States. Geological survey.",
-                        "Geological Survey (U. S.)"
+                        "United States. Geological Survey",
+                        "U.S. Geological Survey",
+                        "Geological Survey. (U.S.)",
+                        "Geological Survey (U .S.)",
+                        "Geological Survey (U.S.)",
+                        "United States. Geological Survey."
                     ],
                     "publisher_facet": [
                         "USGS Branch of Distribution"
                     ],
-                    "_version_": 1759802487500439552,
+                    "_version_": 1767943587270492162,
                     "author_facet": [
                         "OL79165A United States Geological Survey"
                     ]
@@ -279,7 +279,58 @@ http_interactions:
                     "publisher_facet": [
                         "Rand McNally & Company"
                     ],
-                    "_version_": 1759784321817772034
+                    "_version_": 1767927443616694273
+                },
+                {
+                    "key": "/works/OL4437736W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL10911511M",
+                        "/works/OL4437736W",
+                        "/authors/OL882946A"
+                    ],
+                    "title": "Denver Co Deluxe Flip Map",
+                    "title_suggest": "Denver Co Deluxe Flip Map",
+                    "title_sort": "Denver Co Deluxe Flip Map",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL10911511M"
+                    ],
+                    "publish_date": [
+                        "January 2003"
+                    ],
+                    "publish_year": [
+                        2003
+                    ],
+                    "first_publish_year": 2003,
+                    "isbn": [
+                        "0762557362",
+                        "9780762557363"
+                    ],
+                    "last_modified_i": 1260838560,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Universal Map Enterprises"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL882946A"
+                    ],
+                    "author_name": [
+                        "Laura Ryder"
+                    ],
+                    "publisher_facet": [
+                        "Universal Map Enterprises"
+                    ],
+                    "_version_": 1767935634853330944,
+                    "author_facet": [
+                        "OL882946A Laura Ryder"
+                    ]
                 },
                 {
                     "key": "/works/OL8808821W",
@@ -308,8 +359,8 @@ http_interactions:
                         "150368610"
                     ],
                     "isbn": [
-                        "1427401683",
-                        "9781427401687"
+                        "9781427401687",
+                        "1427401683"
                     ],
                     "last_modified_i": 1304171421,
                     "ebook_count_i": 0,
@@ -336,60 +387,9 @@ http_interactions:
                     "publisher_facet": [
                         "College Prowler"
                     ],
-                    "_version_": 1759802390192586752,
+                    "_version_": 1767943535849373696,
                     "author_facet": [
                         "OL3010394A College Prowler"
-                    ]
-                },
-                {
-                    "key": "/works/OL4437736W",
-                    "type": "work",
-                    "seed": [
-                        "/books/OL10911511M",
-                        "/works/OL4437736W",
-                        "/authors/OL882946A"
-                    ],
-                    "title": "Denver Co Deluxe Flip Map",
-                    "title_suggest": "Denver Co Deluxe Flip Map",
-                    "title_sort": "Denver Co Deluxe Flip Map",
-                    "edition_count": 1,
-                    "edition_key": [
-                        "OL10911511M"
-                    ],
-                    "publish_date": [
-                        "January 2003"
-                    ],
-                    "publish_year": [
-                        2003
-                    ],
-                    "first_publish_year": 2003,
-                    "isbn": [
-                        "9780762557363",
-                        "0762557362"
-                    ],
-                    "last_modified_i": 1260838560,
-                    "ebook_count_i": 0,
-                    "ebook_access": "no_ebook",
-                    "has_fulltext": false,
-                    "public_scan_b": false,
-                    "publisher": [
-                        "Universal Map Enterprises"
-                    ],
-                    "language": [
-                        "eng"
-                    ],
-                    "author_key": [
-                        "OL882946A"
-                    ],
-                    "author_name": [
-                        "Laura Ryder"
-                    ],
-                    "publisher_facet": [
-                        "Universal Map Enterprises"
-                    ],
-                    "_version_": 1759792514991128576,
-                    "author_facet": [
-                        "OL882946A Laura Ryder"
                     ]
                 },
                 {
@@ -438,8 +438,8 @@ http_interactions:
                         "621.31244"
                     ],
                     "isbn": [
-                        "0883183668",
-                        "9780883183663"
+                        "9780883183663",
+                        "0883183668"
                     ],
                     "last_modified_i": 1673688483,
                     "ebook_count_i": 1,
@@ -501,7 +501,7 @@ http_interactions:
                         "Safety measures",
                         "Solar cells"
                     ],
-                    "_version_": 1759760293379964929,
+                    "_version_": 1767906723904880641,
                     "lcc_sort": "TK-8322.00000000.P46 1988",
                     "author_facet": [
                         "OL714790A Werner Luft"
@@ -516,31 +516,36 @@ http_interactions:
                     "ddc_sort": "621.31244"
                 },
                 {
-                    "key": "/works/OL10910782M",
+                    "key": "/works/OL4437737W",
                     "type": "work",
                     "seed": [
-                        "/books/OL10910782M",
-                        "/works/OL10910782M"
+                        "/books/OL10910520M",
+                        "/works/OL4437737W",
+                        "/authors/OL882946A"
                     ],
-                    "title": "Denver, Co Vicinity (City Wall Maps)",
-                    "title_suggest": "Denver, Co Vicinity (City Wall Maps)",
-                    "title_sort": "Denver, Co Vicinity (City Wall Maps)",
+                    "title": "Denver DLX Flip Map Co267",
+                    "title_suggest": "Denver DLX Flip Map Co267",
+                    "title_sort": "Denver DLX Flip Map Co267",
                     "edition_count": 1,
                     "edition_key": [
-                        "OL10910782M"
+                        "OL10910520M"
                     ],
                     "publish_date": [
-                        "January 2001"
+                        "January 2003"
                     ],
                     "publish_year": [
-                        2001
+                        2003
                     ],
-                    "first_publish_year": 2001,
+                    "first_publish_year": 2003,
+                    "number_of_pages_median": 1,
+                    "oclc": [
+                        "67517781"
+                    ],
                     "isbn": [
-                        "9780762538621",
-                        "0762538627"
+                        "9780762531639",
+                        "0762531630"
                     ],
-                    "last_modified_i": 1678280698,
+                    "last_modified_i": 1338943603,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
@@ -551,10 +556,19 @@ http_interactions:
                     "language": [
                         "eng"
                     ],
+                    "author_key": [
+                        "OL882946A"
+                    ],
+                    "author_name": [
+                        "Laura Ryder"
+                    ],
                     "publisher_facet": [
                         "Universal Map Enterprises"
                     ],
-                    "_version_": 1759804862698094592
+                    "_version_": 1767935634562875392,
+                    "author_facet": [
+                        "OL882946A Laura Ryder"
+                    ]
                 },
                 {
                     "key": "/works/OL24993703W",
@@ -580,8 +594,8 @@ http_interactions:
                     "first_publish_year": 2016,
                     "number_of_pages_median": 158,
                     "isbn": [
-                        "1541184254",
-                        "9781541184251"
+                        "9781541184251",
+                        "1541184254"
                     ],
                     "last_modified_i": 1631123055,
                     "ebook_count_i": 0,
@@ -591,8 +605,8 @@ http_interactions:
                     "cover_edition_key": "OL33223956M",
                     "cover_i": 11936540,
                     "publisher": [
-                        "Createspace Independent Publishing Platform",
-                        "CreateSpace Independent Publishing Platform"
+                        "CreateSpace Independent Publishing Platform",
+                        "Createspace Independent Publishing Platform"
                     ],
                     "author_key": [
                         "OL7546291A"
@@ -604,10 +618,51 @@ http_interactions:
                         "CreateSpace Independent Publishing Platform",
                         "Createspace Independent Publishing Platform"
                     ],
-                    "_version_": 1759771387900198912,
+                    "_version_": 1767916750777614338,
                     "author_facet": [
                         "OL7546291A N.D. Author Services"
                     ]
+                },
+                {
+                    "key": "/works/OL10910782M",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL10910782M",
+                        "/works/OL10910782M"
+                    ],
+                    "title": "Denver, Co Vicinity (City Wall Maps)",
+                    "title_suggest": "Denver, Co Vicinity (City Wall Maps)",
+                    "title_sort": "Denver, Co Vicinity (City Wall Maps)",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL10910782M"
+                    ],
+                    "publish_date": [
+                        "January 2001"
+                    ],
+                    "publish_year": [
+                        2001
+                    ],
+                    "first_publish_year": 2001,
+                    "isbn": [
+                        "0762538627",
+                        "9780762538621"
+                    ],
+                    "last_modified_i": 1686044194,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Universal Map Enterprises"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "publisher_facet": [
+                        "Universal Map Enterprises"
+                    ],
+                    "_version_": 1767945477546835968
                 },
                 {
                     "key": "/works/OL8541064W",
@@ -661,7 +716,7 @@ http_interactions:
                     "publisher_facet": [
                         "American Map Corporation"
                     ],
-                    "_version_": 1759801657676267521,
+                    "_version_": 1767943005266771969,
                     "author_facet": [
                         "OL2859862A American Map Corp"
                     ]
@@ -700,8 +755,8 @@ http_interactions:
                         "47691535"
                     ],
                     "isbn": [
-                        "0738518700",
-                        "9780738518701"
+                        "9780738518701",
+                        "0738518700"
                     ],
                     "last_modified_i": 1677135457,
                     "ebook_count_i": 0,
@@ -714,8 +769,8 @@ http_interactions:
                         "After the Civil War, freed slaves came west from the south looking for work."
                     ],
                     "publisher": [
-                        "Arcadia  Publishing (SC)",
-                        "Arcadia"
+                        "Arcadia",
+                        "Arcadia  Publishing (SC)"
                     ],
                     "language": [
                         "eng"
@@ -745,7 +800,7 @@ http_interactions:
                         "Denver (colo.), history",
                         "History"
                     ],
-                    "_version_": 1759801461685878784,
+                    "_version_": 1767942828320620544,
                     "author_facet": [
                         "OL2806763A Laura M. Mauck"
                     ],
@@ -754,61 +809,6 @@ http_interactions:
                         "african_americans_west_(u.s.)",
                         "denver_(colo.)_history",
                         "history"
-                    ]
-                },
-                {
-                    "key": "/works/OL4437737W",
-                    "type": "work",
-                    "seed": [
-                        "/books/OL10910520M",
-                        "/works/OL4437737W",
-                        "/authors/OL882946A"
-                    ],
-                    "title": "Denver DLX Flip Map Co267",
-                    "title_suggest": "Denver DLX Flip Map Co267",
-                    "title_sort": "Denver DLX Flip Map Co267",
-                    "edition_count": 1,
-                    "edition_key": [
-                        "OL10910520M"
-                    ],
-                    "publish_date": [
-                        "January 2003"
-                    ],
-                    "publish_year": [
-                        2003
-                    ],
-                    "first_publish_year": 2003,
-                    "number_of_pages_median": 1,
-                    "oclc": [
-                        "67517781"
-                    ],
-                    "isbn": [
-                        "0762531630",
-                        "9780762531639"
-                    ],
-                    "last_modified_i": 1338943603,
-                    "ebook_count_i": 0,
-                    "ebook_access": "no_ebook",
-                    "has_fulltext": false,
-                    "public_scan_b": false,
-                    "publisher": [
-                        "Universal Map Enterprises"
-                    ],
-                    "language": [
-                        "eng"
-                    ],
-                    "author_key": [
-                        "OL882946A"
-                    ],
-                    "author_name": [
-                        "Laura Ryder"
-                    ],
-                    "publisher_facet": [
-                        "Universal Map Enterprises"
-                    ],
-                    "_version_": 1759792515244883968,
-                    "author_facet": [
-                        "OL882946A Laura Ryder"
                     ]
                 },
                 {
@@ -897,7 +897,7 @@ http_interactions:
                         "Training of",
                         "Western Executive Seminar Center (Denver, Colo.)"
                     ],
-                    "_version_": 1759793771651792900,
+                    "_version_": 1767936597438758912,
                     "place_facet": [
                         "United States"
                     ],
@@ -934,10 +934,10 @@ http_interactions:
                     ],
                     "first_publish_year": 2001,
                     "isbn": [
-                        "9780762532476",
-                        "0762532475"
+                        "0762532475",
+                        "9780762532476"
                     ],
-                    "last_modified_i": 1678280698,
+                    "last_modified_i": 1686044194,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
@@ -951,7 +951,7 @@ http_interactions:
                     "publisher_facet": [
                         "Universal Map Enterprises"
                     ],
-                    "_version_": 1759804862686560256
+                    "_version_": 1767945477670567936
                 },
                 {
                     "key": "/works/OL8415359W",
@@ -991,18 +991,14 @@ http_interactions:
                         "TF-0025.00000000.D427 L49 2007"
                     ],
                     "isbn": [
-                        "9780738548029",
-                        "0738548022"
+                        "0738548022",
+                        "9780738548029"
                     ],
                     "last_modified_i": 1684372879,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
                     "public_scan_b": false,
-                    "readinglog_count": 0,
-                    "want_to_read_count": 0,
-                    "currently_reading_count": 0,
-                    "already_read_count": 0,
                     "cover_edition_key": "OL7902353M",
                     "cover_i": 1373092,
                     "publisher": [
@@ -1040,7 +1036,7 @@ http_interactions:
                         "Railroads",
                         "Railroads, pictorial works"
                     ],
-                    "_version_": 1766192979899318272,
+                    "_version_": 1767942828548161536,
                     "lcc_sort": "TF-0025.00000000.D427 L49 2007",
                     "author_facet": [
                         "OL2807038A Allan C. Lewis"
@@ -1079,8 +1075,8 @@ http_interactions:
                     ],
                     "first_publish_year": 2021,
                     "isbn": [
-                        "173652562X",
-                        "9781736525623"
+                        "9781736525623",
+                        "173652562X"
                     ],
                     "last_modified_i": 1646368640,
                     "ebook_count_i": 0,
@@ -1112,7 +1108,7 @@ http_interactions:
                         "Health",
                         "Self-help techniques"
                     ],
-                    "_version_": 1759776407921098753,
+                    "_version_": 1767921239215570945,
                     "author_facet": [
                         "OL10333974A Vanessa Sutton",
                         "OL9802020A Dave Tasto"
@@ -1145,8 +1141,8 @@ http_interactions:
                     ],
                     "first_publish_year": 2021,
                     "isbn": [
-                        "1527575527",
-                        "9781527575523"
+                        "9781527575523",
+                        "1527575527"
                     ],
                     "last_modified_i": 1640511004,
                     "ebook_count_i": 0,
@@ -1168,48 +1164,10 @@ http_interactions:
                     "publisher_facet": [
                         "Cambridge Scholars Publisher"
                     ],
-                    "_version_": 1759774283894095872,
+                    "_version_": 1767919182758805504,
                     "author_facet": [
                         "OL812880A David W. Jackson"
                     ]
-                },
-                {
-                    "key": "/works/OL13388286M",
-                    "type": "work",
-                    "seed": [
-                        "/books/OL13388286M",
-                        "/works/OL13388286M"
-                    ],
-                    "title": "1987 IEEE Ultrasonic Symposium Denver, Co October 1987/Ch24927",
-                    "title_suggest": "1987 IEEE Ultrasonic Symposium Denver, Co October 1987/Ch24927",
-                    "title_sort": "1987 IEEE Ultrasonic Symposium Denver, Co October 1987/Ch24927",
-                    "edition_count": 1,
-                    "edition_key": [
-                        "OL13388286M"
-                    ],
-                    "publish_date": [
-                        "November 1987"
-                    ],
-                    "publish_year": [
-                        1987
-                    ],
-                    "first_publish_year": 1987,
-                    "isbn": [
-                        "9999104150",
-                        "9789999104159"
-                    ],
-                    "last_modified_i": 1678281031,
-                    "ebook_count_i": 0,
-                    "ebook_access": "no_ebook",
-                    "has_fulltext": false,
-                    "public_scan_b": false,
-                    "publisher": [
-                        "Ieee"
-                    ],
-                    "publisher_facet": [
-                        "Ieee"
-                    ],
-                    "_version_": 1759805211355906049
                 },
                 {
                     "key": "/works/OL24922548W",
@@ -1310,7 +1268,7 @@ http_interactions:
                         "Seeds",
                         "Vegetables"
                     ],
-                    "_version_": 1759771080388509698,
+                    "_version_": 1767916719519563777,
                     "place_facet": [
                         "Colorado",
                         "Denver"
@@ -1328,198 +1286,42 @@ http_interactions:
                     ]
                 },
                 {
-                    "key": "/works/OL11048519W",
+                    "key": "/works/OL13388286M",
                     "type": "work",
                     "seed": [
-                        "/books/OL14477927M",
-                        "/works/OL11048519W",
-                        "/subjects/corrugated_paperboard",
-                        "/subjects/congresses",
-                        "/authors/OL4601798A"
+                        "/books/OL13388286M",
+                        "/works/OL13388286M"
                     ],
-                    "title": "1979 Corrugated Containers Conference proceedings, October 10-12, Hilton, Denver, CO",
-                    "title_suggest": "1979 Corrugated Containers Conference proceedings, October 10-12, Hilton, Denver, CO",
-                    "title_sort": "1979 Corrugated Containers Conference proceedings, October 10-12, Hilton, Denver, CO",
+                    "title": "1987 IEEE Ultrasonic Symposium Denver, Co October 1987/Ch24927",
+                    "title_suggest": "1987 IEEE Ultrasonic Symposium Denver, Co October 1987/Ch24927",
+                    "title_sort": "1987 IEEE Ultrasonic Symposium Denver, Co October 1987/Ch24927",
                     "edition_count": 1,
                     "edition_key": [
-                        "OL14477927M"
+                        "OL13388286M"
                     ],
                     "publish_date": [
-                        "1979"
+                        "November 1987"
                     ],
                     "publish_year": [
-                        1979
+                        1987
                     ],
-                    "first_publish_year": 1979,
-                    "number_of_pages_median": 70,
-                    "lccn": [
-                        "80106738"
-                    ],
-                    "publish_place": [
-                        "Atlanta, Ga"
-                    ],
-                    "contributor": [
-                        "Technical Association of the Pulp and Paper Industry"
-                    ],
-                    "last_modified_i": 1263866143,
-                    "ebook_count_i": 0,
-                    "ebook_access": "no_ebook",
-                    "has_fulltext": false,
-                    "public_scan_b": false,
-                    "publisher": [
-                        "Technical Association of the Pulp and Paper Industry"
-                    ],
-                    "language": [
-                        "eng"
-                    ],
-                    "author_key": [
-                        "OL4601798A"
-                    ],
-                    "author_name": [
-                        "Corrugated Containers Conference (1979 Denver)"
-                    ],
-                    "subject": [
-                        "Corrugated paperboard",
-                        "Congresses"
-                    ],
-                    "publisher_facet": [
-                        "Technical Association of the Pulp and Paper Industry"
-                    ],
-                    "subject_facet": [
-                        "Congresses",
-                        "Corrugated paperboard"
-                    ],
-                    "_version_": 1759742978749890561,
-                    "author_facet": [
-                        "OL4601798A Corrugated Containers Conference (1979 Denver)"
-                    ],
-                    "subject_key": [
-                        "congresses",
-                        "corrugated_paperboard"
-                    ]
-                },
-                {
-                    "key": "/works/OL29114804W",
-                    "type": "work",
-                    "seed": [
-                        "/books/OL40043735M",
-                        "/works/OL29114804W",
-                        "/authors/OL7520254A"
-                    ],
-                    "title": "2017 Remodelmax Unit Cost Estimating Manual for Remodeling - Denver Co & Vicinity",
-                    "title_suggest": "2017 Remodelmax Unit Cost Estimating Manual for Remodeling - Denver Co & Vicinity",
-                    "title_sort": "2017 Remodelmax Unit Cost Estimating Manual for Remodeling - Denver Co & Vicinity",
-                    "edition_count": 1,
-                    "edition_key": [
-                        "OL40043735M"
-                    ],
-                    "publish_date": [
-                        "2017"
-                    ],
-                    "publish_year": [
-                        2017
-                    ],
-                    "first_publish_year": 2017,
+                    "first_publish_year": 1987,
                     "isbn": [
-                        "1365694798",
-                        "9781365694790"
+                        "9789999104159",
+                        "9999104150"
                     ],
-                    "last_modified_i": 1666149166,
+                    "last_modified_i": 1686044499,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
                     "public_scan_b": false,
                     "publisher": [
-                        "Lulu Press, Inc."
-                    ],
-                    "language": [
-                        "eng"
-                    ],
-                    "author_key": [
-                        "OL7520254A"
-                    ],
-                    "author_name": [
-                        "Bill O'Donnell"
+                        "Ieee"
                     ],
                     "publisher_facet": [
-                        "Lulu Press, Inc."
+                        "Ieee"
                     ],
-                    "_version_": 1759779246018920449,
-                    "author_facet": [
-                        "OL7520254A Bill O'Donnell"
-                    ]
-                },
-                {
-                    "key": "/works/OL13129724W",
-                    "type": "work",
-                    "seed": [
-                        "/books/OL21803925M",
-                        "/works/OL13129724W",
-                        "/subjects/railroads",
-                        "/subjects/collective_labor_agreements",
-                        "/subjects/place:united_states",
-                        "/authors/OL160226A"
-                    ],
-                    "title": "The Denver & Rio Grande Railroad Co.  Colorado lines and Utah lines",
-                    "title_suggest": "The Denver & Rio Grande Railroad Co.  Colorado lines and Utah lines",
-                    "title_sort": "The Denver & Rio Grande Railroad Co.  Colorado lines and Utah lines",
-                    "edition_count": 1,
-                    "edition_key": [
-                        "OL21803925M"
-                    ],
-                    "publish_date": [
-                        "1917"
-                    ],
-                    "publish_year": [
-                        1917
-                    ],
-                    "first_publish_year": 1917,
-                    "publish_place": [
-                        "[n.p"
-                    ],
-                    "last_modified_i": 1297461833,
-                    "ebook_count_i": 0,
-                    "ebook_access": "no_ebook",
-                    "has_fulltext": false,
-                    "public_scan_b": false,
-                    "language": [
-                        "eng"
-                    ],
-                    "author_key": [
-                        "OL160226A"
-                    ],
-                    "author_name": [
-                        "Denver and Rio Grande Railroad Company."
-                    ],
-                    "author_alternative_name": [
-                        "Denver and Rio Grande railroad",
-                        "Denver and Rio Grande Railroad Company"
-                    ],
-                    "place": [
-                        "United States"
-                    ],
-                    "subject": [
-                        "Railroads",
-                        "Collective labor agreements"
-                    ],
-                    "place_key": [
-                        "united_states"
-                    ],
-                    "subject_facet": [
-                        "Collective labor agreements",
-                        "Railroads"
-                    ],
-                    "_version_": 1759747705941262338,
-                    "place_facet": [
-                        "United States"
-                    ],
-                    "author_facet": [
-                        "OL160226A Denver and Rio Grande Railroad Company."
-                    ],
-                    "subject_key": [
-                        "collective_labor_agreements",
-                        "railroads"
-                    ]
+                    "_version_": 1767945798355517441
                 },
                 {
                     "key": "/works/OL16873068W",
@@ -1606,7 +1408,7 @@ http_interactions:
                         "Oil and gas leases",
                         "Pipelines"
                     ],
-                    "_version_": 1759754240486539265,
+                    "_version_": 1767901518908882945,
                     "place_facet": [
                         "Colorado",
                         "The Southwest"
@@ -1622,56 +1424,21 @@ http_interactions:
                     ]
                 },
                 {
-                    "key": "/works/OL22205996M",
+                    "key": "/works/OL11048519W",
                     "type": "work",
                     "seed": [
-                        "/books/OL22205996M",
-                        "/works/OL22205996M"
+                        "/books/OL14477927M",
+                        "/works/OL11048519W",
+                        "/subjects/corrugated_paperboard",
+                        "/subjects/congresses",
+                        "/authors/OL4601798A"
                     ],
-                    "title": "Occupational Compensation Survey: Temporary Help Supply Services, Denver, CO, December 1994, (Summary)",
-                    "title_suggest": "Occupational Compensation Survey: Temporary Help Supply Services, Denver, CO, December 1994, (Summary)",
-                    "title_sort": "Occupational Compensation Survey: Temporary Help Supply Services, Denver, CO, December 1994, (Summary)",
+                    "title": "1979 Corrugated Containers Conference proceedings, October 10-12, Hilton, Denver, CO",
+                    "title_suggest": "1979 Corrugated Containers Conference proceedings, October 10-12, Hilton, Denver, CO",
+                    "title_sort": "1979 Corrugated Containers Conference proceedings, October 10-12, Hilton, Denver, CO",
                     "edition_count": 1,
                     "edition_key": [
-                        "OL22205996M"
-                    ],
-                    "contributor": [
-                        "United States. Bureau of Labor Statistics"
-                    ],
-                    "last_modified_i": 1678281983,
-                    "ebook_count_i": 0,
-                    "ebook_access": "no_ebook",
-                    "has_fulltext": false,
-                    "public_scan_b": false,
-                    "language": [
-                        "eng"
-                    ],
-                    "_version_": 1759806209973551105
-                },
-                {
-                    "key": "/works/OL923827W",
-                    "type": "work",
-                    "seed": [
-                        "/books/OL22285947M",
-                        "/works/OL923827W",
-                        "/subjects/environmental_aspects_of_piping",
-                        "/subjects/oil_wells",
-                        "/subjects/pipelines",
-                        "/subjects/gas_lift",
-                        "/subjects/oil_field_flooding",
-                        "/subjects/secondary_recovery_of_oil",
-                        "/subjects/piping",
-                        "/subjects/environmental_aspects_of_pipelines",
-                        "/subjects/environmental_aspects_of_secondary_recovery_of_oil",
-                        "/subjects/place:southwestern_states",
-                        "/authors/OL81660A"
-                    ],
-                    "title": "Draft environmental statement on the CO2 project, Wasson field/Denver unit",
-                    "title_suggest": "Draft environmental statement on the CO2 project, Wasson field/Denver unit",
-                    "title_sort": "Draft environmental statement on the CO2 project, Wasson field/Denver unit",
-                    "edition_count": 1,
-                    "edition_key": [
-                        "OL22285947M"
+                        "OL14477927M"
                     ],
                     "publish_date": [
                         "1979"
@@ -1680,84 +1447,174 @@ http_interactions:
                         1979
                     ],
                     "first_publish_year": 1979,
-                    "number_of_pages_median": 10,
+                    "number_of_pages_median": 70,
+                    "lccn": [
+                        "80106738"
+                    ],
                     "publish_place": [
-                        "[Santa Fe, N.M.]"
+                        "Atlanta, Ga"
                     ],
                     "contributor": [
-                        "United States. Bureau of Land Management. New Mexico State Office"
+                        "Technical Association of the Pulp and Paper Industry"
                     ],
-                    "last_modified_i": 1268696265,
+                    "last_modified_i": 1263866143,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
                     "public_scan_b": false,
                     "publisher": [
-                        "Dept. of the Interior, Bureau of Land Management, New Mexico State Office"
+                        "Technical Association of the Pulp and Paper Industry"
                     ],
                     "language": [
                         "eng"
                     ],
                     "author_key": [
-                        "OL81660A"
+                        "OL4601798A"
                     ],
                     "author_name": [
-                        "United States. Bureau of Land Management."
-                    ],
-                    "author_alternative_name": [
-                        "United States Bureau of Land Management",
-                        "United States ; Bureau of Land Management",
-                        "United States. Bureau of Land Management",
-                        "UNITED STATES.  BUREAU OF LAND MANAGEMENT"
-                    ],
-                    "place": [
-                        "Southwestern States"
+                        "Corrugated Containers Conference (1979 Denver)"
                     ],
                     "subject": [
-                        "Environmental aspects of Piping",
-                        "Oil wells",
-                        "Pipelines",
-                        "Gas lift",
-                        "Oil field flooding",
-                        "Secondary recovery of oil",
-                        "Piping",
-                        "Environmental aspects of Pipelines",
-                        "Environmental aspects of Secondary recovery of oil"
+                        "Corrugated paperboard",
+                        "Congresses"
                     ],
                     "publisher_facet": [
-                        "Dept. of the Interior, Bureau of Land Management, New Mexico State Office"
-                    ],
-                    "place_key": [
-                        "southwestern_states"
+                        "Technical Association of the Pulp and Paper Industry"
                     ],
                     "subject_facet": [
-                        "Environmental aspects of Pipelines",
-                        "Environmental aspects of Piping",
-                        "Environmental aspects of Secondary recovery of oil",
-                        "Gas lift",
-                        "Oil field flooding",
-                        "Oil wells",
-                        "Pipelines",
-                        "Piping",
-                        "Secondary recovery of oil"
+                        "Congresses",
+                        "Corrugated paperboard"
                     ],
-                    "_version_": 1759803339567005696,
-                    "place_facet": [
-                        "Southwestern States"
-                    ],
+                    "_version_": 1767891918506688512,
                     "author_facet": [
-                        "OL81660A United States. Bureau of Land Management."
+                        "OL4601798A Corrugated Containers Conference (1979 Denver)"
                     ],
                     "subject_key": [
-                        "environmental_aspects_of_pipelines",
-                        "environmental_aspects_of_piping",
-                        "environmental_aspects_of_secondary_recovery_of_oil",
-                        "gas_lift",
-                        "oil_field_flooding",
-                        "oil_wells",
-                        "pipelines",
-                        "piping",
-                        "secondary_recovery_of_oil"
+                        "congresses",
+                        "corrugated_paperboard"
+                    ]
+                },
+                {
+                    "key": "/works/OL13129724W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL21803925M",
+                        "/works/OL13129724W",
+                        "/subjects/railroads",
+                        "/subjects/collective_labor_agreements",
+                        "/subjects/place:united_states",
+                        "/authors/OL160226A"
+                    ],
+                    "title": "The Denver & Rio Grande Railroad Co.  Colorado lines and Utah lines",
+                    "title_suggest": "The Denver & Rio Grande Railroad Co.  Colorado lines and Utah lines",
+                    "title_sort": "The Denver & Rio Grande Railroad Co.  Colorado lines and Utah lines",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL21803925M"
+                    ],
+                    "publish_date": [
+                        "1917"
+                    ],
+                    "publish_year": [
+                        1917
+                    ],
+                    "first_publish_year": 1917,
+                    "publish_place": [
+                        "[n.p"
+                    ],
+                    "last_modified_i": 1297461833,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL160226A"
+                    ],
+                    "author_name": [
+                        "Denver and Rio Grande Railroad Company."
+                    ],
+                    "author_alternative_name": [
+                        "Denver and Rio Grande railroad",
+                        "Denver and Rio Grande Railroad Company"
+                    ],
+                    "place": [
+                        "United States"
+                    ],
+                    "subject": [
+                        "Railroads",
+                        "Collective labor agreements"
+                    ],
+                    "place_key": [
+                        "united_states"
+                    ],
+                    "subject_facet": [
+                        "Collective labor agreements",
+                        "Railroads"
+                    ],
+                    "_version_": 1767895839863209984,
+                    "place_facet": [
+                        "United States"
+                    ],
+                    "author_facet": [
+                        "OL160226A Denver and Rio Grande Railroad Company."
+                    ],
+                    "subject_key": [
+                        "collective_labor_agreements",
+                        "railroads"
+                    ]
+                },
+                {
+                    "key": "/works/OL29114804W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL40043735M",
+                        "/works/OL29114804W",
+                        "/authors/OL7520254A"
+                    ],
+                    "title": "2017 Remodelmax Unit Cost Estimating Manual for Remodeling - Denver Co & Vicinity",
+                    "title_suggest": "2017 Remodelmax Unit Cost Estimating Manual for Remodeling - Denver Co & Vicinity",
+                    "title_sort": "2017 Remodelmax Unit Cost Estimating Manual for Remodeling - Denver Co & Vicinity",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL40043735M"
+                    ],
+                    "publish_date": [
+                        "2017"
+                    ],
+                    "publish_year": [
+                        2017
+                    ],
+                    "first_publish_year": 2017,
+                    "isbn": [
+                        "1365694798",
+                        "9781365694790"
+                    ],
+                    "last_modified_i": 1666149166,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Lulu Press, Inc."
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL7520254A"
+                    ],
+                    "author_name": [
+                        "Bill O'Donnell"
+                    ],
+                    "publisher_facet": [
+                        "Lulu Press, Inc."
+                    ],
+                    "_version_": 1767923746576793601,
+                    "author_facet": [
+                        "OL7520254A Bill O'Donnell"
                     ]
                 },
                 {
@@ -1860,7 +1717,7 @@ http_interactions:
                         "Pipelines",
                         "Public lands"
                     ],
-                    "_version_": 1759771211037933569,
+                    "_version_": 1767916574867456003,
                     "place_facet": [
                         "Colorado",
                         "New Mexico",
@@ -1877,6 +1734,145 @@ http_interactions:
                         "oil_and_gas_leases",
                         "pipelines",
                         "public_lands"
+                    ]
+                },
+                {
+                    "key": "/works/OL22205996M",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL22205996M",
+                        "/works/OL22205996M"
+                    ],
+                    "title": "Occupational Compensation Survey: Temporary Help Supply Services, Denver, CO, December 1994, (Summary)",
+                    "title_suggest": "Occupational Compensation Survey: Temporary Help Supply Services, Denver, CO, December 1994, (Summary)",
+                    "title_sort": "Occupational Compensation Survey: Temporary Help Supply Services, Denver, CO, December 1994, (Summary)",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL22205996M"
+                    ],
+                    "contributor": [
+                        "United States. Bureau of Labor Statistics"
+                    ],
+                    "last_modified_i": 1686045394,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "language": [
+                        "eng"
+                    ],
+                    "_version_": 1767946736829988865
+                },
+                {
+                    "key": "/works/OL923827W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL22285947M",
+                        "/works/OL923827W",
+                        "/subjects/environmental_aspects_of_piping",
+                        "/subjects/oil_wells",
+                        "/subjects/pipelines",
+                        "/subjects/gas_lift",
+                        "/subjects/oil_field_flooding",
+                        "/subjects/secondary_recovery_of_oil",
+                        "/subjects/piping",
+                        "/subjects/environmental_aspects_of_pipelines",
+                        "/subjects/environmental_aspects_of_secondary_recovery_of_oil",
+                        "/subjects/place:southwestern_states",
+                        "/authors/OL81660A"
+                    ],
+                    "title": "Draft environmental statement on the CO2 project, Wasson field/Denver unit",
+                    "title_suggest": "Draft environmental statement on the CO2 project, Wasson field/Denver unit",
+                    "title_sort": "Draft environmental statement on the CO2 project, Wasson field/Denver unit",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL22285947M"
+                    ],
+                    "publish_date": [
+                        "1979"
+                    ],
+                    "publish_year": [
+                        1979
+                    ],
+                    "first_publish_year": 1979,
+                    "number_of_pages_median": 10,
+                    "publish_place": [
+                        "[Santa Fe, N.M.]"
+                    ],
+                    "contributor": [
+                        "United States. Bureau of Land Management. New Mexico State Office"
+                    ],
+                    "last_modified_i": 1268696265,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Dept. of the Interior, Bureau of Land Management, New Mexico State Office"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL81660A"
+                    ],
+                    "author_name": [
+                        "United States. Bureau of Land Management."
+                    ],
+                    "author_alternative_name": [
+                        "United States ; Bureau of Land Management",
+                        "United States Bureau of Land Management",
+                        "United States. Bureau of Land Management",
+                        "UNITED STATES.  BUREAU OF LAND MANAGEMENT"
+                    ],
+                    "place": [
+                        "Southwestern States"
+                    ],
+                    "subject": [
+                        "Environmental aspects of Piping",
+                        "Oil wells",
+                        "Pipelines",
+                        "Gas lift",
+                        "Oil field flooding",
+                        "Secondary recovery of oil",
+                        "Piping",
+                        "Environmental aspects of Pipelines",
+                        "Environmental aspects of Secondary recovery of oil"
+                    ],
+                    "publisher_facet": [
+                        "Dept. of the Interior, Bureau of Land Management, New Mexico State Office"
+                    ],
+                    "place_key": [
+                        "southwestern_states"
+                    ],
+                    "subject_facet": [
+                        "Environmental aspects of Pipelines",
+                        "Environmental aspects of Piping",
+                        "Environmental aspects of Secondary recovery of oil",
+                        "Gas lift",
+                        "Oil field flooding",
+                        "Oil wells",
+                        "Pipelines",
+                        "Piping",
+                        "Secondary recovery of oil"
+                    ],
+                    "_version_": 1767944233725984769,
+                    "place_facet": [
+                        "Southwestern States"
+                    ],
+                    "author_facet": [
+                        "OL81660A United States. Bureau of Land Management."
+                    ],
+                    "subject_key": [
+                        "environmental_aspects_of_pipelines",
+                        "environmental_aspects_of_piping",
+                        "environmental_aspects_of_secondary_recovery_of_oil",
+                        "gas_lift",
+                        "oil_field_flooding",
+                        "oil_wells",
+                        "pipelines",
+                        "piping",
+                        "secondary_recovery_of_oil"
                     ]
                 },
                 {
@@ -1903,8 +1899,8 @@ http_interactions:
                     "first_publish_year": 2010,
                     "number_of_pages_median": 2,
                     "isbn": [
-                        "9781932527988",
-                        "1932527982"
+                        "1932527982",
+                        "9781932527988"
                     ],
                     "last_modified_i": 1647925015,
                     "ebook_count_i": 0,
@@ -1923,7 +1919,7 @@ http_interactions:
                     "publisher_facet": [
                         "VanDam, Inc."
                     ],
-                    "_version_": 1759776569661849600,
+                    "_version_": 1767921362092949505,
                     "author_facet": [
                         "OL2949492A Stephan Van Dam"
                     ]
@@ -1985,8 +1981,8 @@ http_interactions:
                     ],
                     "author_alternative_name": [
                         "UNITED STATES.  BUREAU OF LAND MANAGEMENT",
-                        "United States Bureau of Land Management",
                         "United States ; Bureau of Land Management",
+                        "United States Bureau of Land Management",
                         "United States. Bureau of Land Management"
                     ],
                     "place": [
@@ -2018,7 +2014,7 @@ http_interactions:
                         "Pipelines",
                         "Secondary recovery of oil"
                     ],
-                    "_version_": 1759742326164422656,
+                    "_version_": 1767891370822860800,
                     "place_facet": [
                         "Southwestern States"
                     ],
@@ -2083,48 +2079,105 @@ http_interactions:
                     "publisher_facet": [
                         "Univelt"
                     ],
-                    "_version_": 1759799145721233408,
+                    "_version_": 1767940921301663744,
                     "author_facet": [
                         "OL2170894A Harris M. Schurmeier"
                     ]
                 },
                 {
-                    "key": "/works/OL13256117M",
+                    "key": "/works/OL19107078W",
                     "type": "work",
                     "seed": [
-                        "/books/OL13256117M",
-                        "/works/OL13256117M"
+                        "/books/OL22030053M",
+                        "/works/OL19107078W",
+                        "/subjects/mine_drainage",
+                        "/subjects/congresses",
+                        "/authors/OL3633560A"
                     ],
-                    "title": "IEEE National Symposium 1989 on Electromagnetic Compatibility Proceedings May 1989 Denver, Co./89Ch27367-Pbl",
-                    "title_suggest": "IEEE National Symposium 1989 on Electromagnetic Compatibility Proceedings May 1989 Denver, Co./89Ch27367-Pbl",
-                    "title_sort": "IEEE National Symposium 1989 on Electromagnetic Compatibility Proceedings May 1989 Denver, Co./89Ch27367-Pbl",
+                    "title": "Mine drainage: proceedings of the first International Mine Drainage Symposium, Denver, Colorado, May 1979.  edtied by George O. Argall and C.O. Brawner",
+                    "title_suggest": "Mine drainage: proceedings of the first International Mine Drainage Symposium, Denver, Colorado, May 1979.  edtied by George O. Argall and C.O. Brawner",
+                    "title_sort": "Mine drainage: proceedings of the first International Mine Drainage Symposium, Denver, Colorado, May 1979.  edtied by George O. Argall and C.O. Brawner",
                     "edition_count": 1,
                     "edition_key": [
-                        "OL13256117M"
+                        "OL22030053M"
                     ],
-                    "publish_date": [
-                        "June 1989"
+                    "number_of_pages_median": 848,
+                    "lccn": [
+                        "79089681"
                     ],
-                    "publish_year": [
-                        1989
+                    "publish_place": [
+                        "San Francisco"
                     ],
-                    "first_publish_year": 1989,
+                    "contributor": [
+                        "Argall, G.O.",
+                        "Brawner, C.O."
+                    ],
+                    "lcc": [
+                        "TN-0321.00000000 M664 1979",
+                        "TN-0321.00000000.I57 1979"
+                    ],
                     "isbn": [
-                        "9789991695532",
-                        "9991695532"
+                        "9780879301224",
+                        "0879301228"
                     ],
-                    "last_modified_i": 1678280991,
-                    "ebook_count_i": 0,
-                    "ebook_access": "no_ebook",
-                    "has_fulltext": false,
+                    "last_modified_i": 1670210690,
+                    "ebook_count_i": 1,
+                    "ebook_access": "borrowable",
+                    "has_fulltext": true,
                     "public_scan_b": false,
+                    "ia": [
+                        "minedrainageproc0000inte"
+                    ],
+                    "ia_collection": [
+                        "inlibrary",
+                        "internetarchivebooks",
+                        "printdisabled"
+                    ],
+                    "ia_collection_s": "inlibrary;internetarchivebooks;printdisabled",
+                    "lending_edition_s": "OL22030053M",
+                    "lending_identifier_s": "minedrainageproc0000inte",
+                    "printdisabled_s": "OL22030053M",
+                    "readinglog_count": 1,
+                    "want_to_read_count": 1,
+                    "currently_reading_count": 0,
+                    "already_read_count": 0,
+                    "cover_edition_key": "OL22030053M",
+                    "cover_i": 12848361,
                     "publisher": [
-                        "Ieee"
+                        "Miller Freeman"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL3633560A"
+                    ],
+                    "author_name": [
+                        "C. O. Brawner"
+                    ],
+                    "subject": [
+                        "Mine drainage",
+                        "Congresses"
+                    ],
+                    "ia_box_id": [
+                        "IA40617215"
                     ],
                     "publisher_facet": [
-                        "Ieee"
+                        "Miller Freeman"
                     ],
-                    "_version_": 1759805169447469056
+                    "subject_facet": [
+                        "Congresses",
+                        "Mine drainage"
+                    ],
+                    "_version_": 1767905861452169217,
+                    "lcc_sort": "TN-0321.00000000 M664 1979",
+                    "author_facet": [
+                        "OL3633560A C. O. Brawner"
+                    ],
+                    "subject_key": [
+                        "congresses",
+                        "mine_drainage"
+                    ]
                 },
                 {
                     "key": "/works/OL10890745W",
@@ -2176,10 +2229,10 @@ http_interactions:
                         "United States. Congress. House"
                     ],
                     "author_alternative_name": [
-                        "United States. Congress. House.",
-                        "United States. Congress House.",
                         "United States. Congress House",
+                        "United States. Congress House.",
                         "United States Congress. House",
+                        "United States. Congress. House.",
                         "United States Congress House"
                     ],
                     "subject": [
@@ -2197,7 +2250,7 @@ http_interactions:
                         "Railroads",
                         "Right of way"
                     ],
-                    "_version_": 1759742496851623936,
+                    "_version_": 1767891492355964930,
                     "author_facet": [
                         "OL4529419A United States. Congress. House"
                     ],
@@ -2207,6 +2260,44 @@ http_interactions:
                         "railroads",
                         "right_of_way"
                     ]
+                },
+                {
+                    "key": "/works/OL13256117M",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL13256117M",
+                        "/works/OL13256117M"
+                    ],
+                    "title": "IEEE National Symposium 1989 on Electromagnetic Compatibility Proceedings May 1989 Denver, Co./89Ch27367-Pbl",
+                    "title_suggest": "IEEE National Symposium 1989 on Electromagnetic Compatibility Proceedings May 1989 Denver, Co./89Ch27367-Pbl",
+                    "title_sort": "IEEE National Symposium 1989 on Electromagnetic Compatibility Proceedings May 1989 Denver, Co./89Ch27367-Pbl",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL13256117M"
+                    ],
+                    "publish_date": [
+                        "June 1989"
+                    ],
+                    "publish_year": [
+                        1989
+                    ],
+                    "first_publish_year": 1989,
+                    "isbn": [
+                        "9789991695532",
+                        "9991695532"
+                    ],
+                    "last_modified_i": 1686044471,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Ieee"
+                    ],
+                    "publisher_facet": [
+                        "Ieee"
+                    ],
+                    "_version_": 1767945767932133377
                 },
                 {
                     "key": "/works/OL31208269W",
@@ -2232,8 +2323,8 @@ http_interactions:
                     "first_publish_year": 2011,
                     "number_of_pages_median": 118,
                     "isbn": [
-                        "1270177451",
-                        "9781270177456"
+                        "9781270177456",
+                        "1270177451"
                     ],
                     "last_modified_i": 1670115214,
                     "ebook_count_i": 0,
@@ -2252,7 +2343,7 @@ http_interactions:
                     "publisher_facet": [
                         "Gale, U.S. Supreme Court Records"
                     ],
-                    "_version_": 1759783619479470081,
+                    "_version_": 1767927099577860097,
                     "author_facet": [
                         "OL7785040A U.S. Supreme Court"
                     ]
@@ -2301,7 +2392,7 @@ http_interactions:
                     "publisher_facet": [
                         "Gale, U.S. Supreme Court Records"
                     ],
-                    "_version_": 1759783559181107200,
+                    "_version_": 1767927068253749248,
                     "author_facet": [
                         "OL11395974A HENRY D ESTABROOK"
                     ]
@@ -2333,7 +2424,7 @@ http_interactions:
                     "contributor": [
                         "United States. Congress. House. Committee on Transportation and Infrastructure."
                     ],
-                    "last_modified_i": 1678281342,
+                    "last_modified_i": 1686044796,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
@@ -2347,7 +2438,7 @@ http_interactions:
                     "publisher_facet": [
                         "Sine nomine"
                     ],
-                    "_version_": 1759805538101624832
+                    "_version_": 1767946108864036864
                 },
                 {
                     "key": "/works/OL31191872W",
@@ -2393,7 +2484,7 @@ http_interactions:
                     "publisher_facet": [
                         "Gale, U.S. Supreme Court Records"
                     ],
-                    "_version_": 1759783609354420224,
+                    "_version_": 1767926927347154944,
                     "author_facet": [
                         "OL11396856A WILLIAM T SKELTON"
                     ]
@@ -2443,9 +2534,74 @@ http_interactions:
                     "publisher_facet": [
                         "Indiana Univ Press"
                     ],
-                    "_version_": 1759788508901277697,
+                    "_version_": 1767931024873881601,
                     "author_facet": [
                         "OL12201857A Wright, H.E. & Osburn, W.H. (Eds)"
+                    ]
+                },
+                {
+                    "key": "/works/OL21173050W",
+                    "type": "work",
+                    "seed": [
+                        "/books/OL28672267M",
+                        "/works/OL21173050W",
+                        "/subjects/congresses",
+                        "/subjects/sunday_schools",
+                        "/authors/OL8108405A"
+                    ],
+                    "title": "Official report of the Tenth International Sunday-school convention, Trinity Methodist Episcopal Church, Denver, CO, June 26 to 30, 1902",
+                    "title_suggest": "Official report of the Tenth International Sunday-school convention, Trinity Methodist Episcopal Church, Denver, CO, June 26 to 30, 1902",
+                    "title_sort": "Official report of the Tenth International Sunday-school convention, Trinity Methodist Episcopal Church, Denver, CO, June 26 to 30, 1902",
+                    "edition_count": 1,
+                    "edition_key": [
+                        "OL28672267M"
+                    ],
+                    "publish_date": [
+                        "1902"
+                    ],
+                    "publish_year": [
+                        1902
+                    ],
+                    "first_publish_year": 1902,
+                    "number_of_pages_median": 465,
+                    "publish_place": [
+                        "Toledo"
+                    ],
+                    "last_modified_i": 1597039362,
+                    "ebook_count_i": 0,
+                    "ebook_access": "no_ebook",
+                    "has_fulltext": false,
+                    "public_scan_b": false,
+                    "publisher": [
+                        "Executive Committee"
+                    ],
+                    "language": [
+                        "eng"
+                    ],
+                    "author_key": [
+                        "OL8108405A"
+                    ],
+                    "author_name": [
+                        "International Sunday-school convention of the United States and British American provinces 1902 Denver)"
+                    ],
+                    "subject": [
+                        "Congresses",
+                        "Sunday schools"
+                    ],
+                    "publisher_facet": [
+                        "Executive Committee"
+                    ],
+                    "subject_facet": [
+                        "Congresses",
+                        "Sunday schools"
+                    ],
+                    "_version_": 1767910003062079488,
+                    "author_facet": [
+                        "OL8108405A International Sunday-school convention of the United States and British American provinces 1902 Denver)"
+                    ],
+                    "subject_key": [
+                        "congresses",
+                        "sunday_schools"
                     ]
                 },
                 {
@@ -2475,8 +2631,8 @@ http_interactions:
                         "2004116426"
                     ],
                     "isbn": [
-                        "9780780388987",
-                        "0780388984"
+                        "0780388984",
+                        "9780780388987"
                     ],
                     "last_modified_i": 1607441752,
                     "ebook_count_i": 0,
@@ -2501,7 +2657,7 @@ http_interactions:
                     "publisher_facet": [
                         "Institute of Electrical & Electronics Enginee"
                     ],
-                    "_version_": 1759803673400049664,
+                    "_version_": 1767944554302930945,
                     "author_facet": [
                         "OL3523996A Ieee Region 5. and Ieee Denver Section T"
                     ]
@@ -2568,78 +2724,13 @@ http_interactions:
                         "Congresses",
                         "Veterinary pharmacology"
                     ],
-                    "_version_": 1759743267051667456,
+                    "_version_": 1767892145492983808,
                     "author_facet": [
                         "OL4667320A American Academy of Veterinary Pharmacology and Therapeutics. Symposium"
                     ],
                     "subject_key": [
                         "congresses",
                         "veterinary_pharmacology"
-                    ]
-                },
-                {
-                    "key": "/works/OL21173050W",
-                    "type": "work",
-                    "seed": [
-                        "/books/OL28672267M",
-                        "/works/OL21173050W",
-                        "/subjects/congresses",
-                        "/subjects/sunday_schools",
-                        "/authors/OL8108405A"
-                    ],
-                    "title": "Official report of the Tenth International Sunday-school convention, Trinity Methodist Episcopal Church, Denver, CO, June 26 to 30, 1902",
-                    "title_suggest": "Official report of the Tenth International Sunday-school convention, Trinity Methodist Episcopal Church, Denver, CO, June 26 to 30, 1902",
-                    "title_sort": "Official report of the Tenth International Sunday-school convention, Trinity Methodist Episcopal Church, Denver, CO, June 26 to 30, 1902",
-                    "edition_count": 1,
-                    "edition_key": [
-                        "OL28672267M"
-                    ],
-                    "publish_date": [
-                        "1902"
-                    ],
-                    "publish_year": [
-                        1902
-                    ],
-                    "first_publish_year": 1902,
-                    "number_of_pages_median": 465,
-                    "publish_place": [
-                        "Toledo"
-                    ],
-                    "last_modified_i": 1597039362,
-                    "ebook_count_i": 0,
-                    "ebook_access": "no_ebook",
-                    "has_fulltext": false,
-                    "public_scan_b": false,
-                    "publisher": [
-                        "Executive Committee"
-                    ],
-                    "language": [
-                        "eng"
-                    ],
-                    "author_key": [
-                        "OL8108405A"
-                    ],
-                    "author_name": [
-                        "International Sunday-school convention of the United States and British American provinces 1902 Denver)"
-                    ],
-                    "subject": [
-                        "Congresses",
-                        "Sunday schools"
-                    ],
-                    "publisher_facet": [
-                        "Executive Committee"
-                    ],
-                    "subject_facet": [
-                        "Congresses",
-                        "Sunday schools"
-                    ],
-                    "_version_": 1759763918002061312,
-                    "author_facet": [
-                        "OL8108405A International Sunday-school convention of the United States and British American provinces 1902 Denver)"
-                    ],
-                    "subject_key": [
-                        "congresses",
-                        "sunday_schools"
                     ]
                 },
                 {
@@ -2724,7 +2815,7 @@ http_interactions:
                         "Software engineering",
                         "Uml (computer science)"
                     ],
-                    "_version_": 1759755035763277825,
+                    "_version_": 1767902202400079874,
                     "lcc_sort": "QA-0076.75800000",
                     "author_facet": [
                         "OL7303319A Sudipto Ghosh"
@@ -2788,7 +2879,7 @@ http_interactions:
                     "publisher_facet": [
                         "Sine nomine"
                     ],
-                    "_version_": 1759794764126879744,
+                    "_version_": 1767937417611837440,
                     "author_facet": [
                         "OL1270814A Denver and Rio Grande Western Railway Company."
                     ]
@@ -2820,7 +2911,7 @@ http_interactions:
                     "contributor": [
                         "United States. Office of Educational Research and Improvement."
                     ],
-                    "last_modified_i": 1678281700,
+                    "last_modified_i": 1686045133,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
@@ -2834,102 +2925,7 @@ http_interactions:
                     "publisher_facet": [
                         "Sine nomine"
                     ],
-                    "_version_": 1759805913368100864
-                },
-                {
-                    "key": "/works/OL19107078W",
-                    "type": "work",
-                    "seed": [
-                        "/books/OL22030053M",
-                        "/works/OL19107078W",
-                        "/subjects/mine_drainage",
-                        "/subjects/congresses",
-                        "/authors/OL3633560A"
-                    ],
-                    "title": "Mine drainage: proceedings of the first International Mine Drainage Symposium, Denver, Colorado, May 1979.  edtied by George O. Argall and C.O. Brawner",
-                    "title_suggest": "Mine drainage: proceedings of the first International Mine Drainage Symposium, Denver, Colorado, May 1979.  edtied by George O. Argall and C.O. Brawner",
-                    "title_sort": "Mine drainage: proceedings of the first International Mine Drainage Symposium, Denver, Colorado, May 1979.  edtied by George O. Argall and C.O. Brawner",
-                    "edition_count": 1,
-                    "edition_key": [
-                        "OL22030053M"
-                    ],
-                    "number_of_pages_median": 848,
-                    "lccn": [
-                        "79089681"
-                    ],
-                    "publish_place": [
-                        "San Francisco"
-                    ],
-                    "contributor": [
-                        "Brawner, C.O.",
-                        "Argall, G.O."
-                    ],
-                    "lcc": [
-                        "TN-0321.00000000.I57 1979",
-                        "TN-0321.00000000 M664 1979"
-                    ],
-                    "isbn": [
-                        "9780879301224",
-                        "0879301228"
-                    ],
-                    "last_modified_i": 1670210690,
-                    "ebook_count_i": 1,
-                    "ebook_access": "borrowable",
-                    "has_fulltext": true,
-                    "public_scan_b": false,
-                    "ia": [
-                        "minedrainageproc0000inte"
-                    ],
-                    "ia_collection": [
-                        "inlibrary",
-                        "internetarchivebooks",
-                        "printdisabled"
-                    ],
-                    "ia_collection_s": "inlibrary;internetarchivebooks;printdisabled",
-                    "lending_edition_s": "OL22030053M",
-                    "lending_identifier_s": "minedrainageproc0000inte",
-                    "printdisabled_s": "OL22030053M",
-                    "readinglog_count": 1,
-                    "want_to_read_count": 1,
-                    "currently_reading_count": 0,
-                    "already_read_count": 0,
-                    "cover_edition_key": "OL22030053M",
-                    "cover_i": 12848361,
-                    "publisher": [
-                        "Miller Freeman"
-                    ],
-                    "language": [
-                        "eng"
-                    ],
-                    "author_key": [
-                        "OL3633560A"
-                    ],
-                    "author_name": [
-                        "C. O. Brawner"
-                    ],
-                    "subject": [
-                        "Mine drainage",
-                        "Congresses"
-                    ],
-                    "ia_box_id": [
-                        "IA40617215"
-                    ],
-                    "publisher_facet": [
-                        "Miller Freeman"
-                    ],
-                    "subject_facet": [
-                        "Congresses",
-                        "Mine drainage"
-                    ],
-                    "_version_": 1759759249807769601,
-                    "lcc_sort": "TN-0321.00000000 M664 1979",
-                    "author_facet": [
-                        "OL3633560A C. O. Brawner"
-                    ],
-                    "subject_key": [
-                        "congresses",
-                        "mine_drainage"
-                    ]
+                    "_version_": 1767946462678745088
                 },
                 {
                     "key": "/works/OL19125209W",
@@ -2984,7 +2980,7 @@ http_interactions:
                     "subject_facet": [
                         "Operations research"
                     ],
-                    "_version_": 1759759356202582016,
+                    "_version_": 1767905872597483520,
                     "author_facet": [
                         "OL3273411A Harvey J. Greenberg"
                     ],
@@ -3004,8 +3000,8 @@ http_interactions:
                         "/authors/OL4595462A"
                     ],
                     "title": "Oversight visit to Wichita, KS, Denver, CO, Seattle, WA, Long Beach, CA, and Memphis, TN, February 18-21, 1997: Report prepared for the use of the ... of the U.S. House of Representatives",
-                    "title_suggest": "Oversight visit to Wichita, KS, Denver, CO, Seattle, WA, Long Beach, CA, and Memphis, TN, February 18-21, 1997: Report prepared for the use of the ... of the U.S. House of Representatives",
                     "title_sort": "Oversight visit to Wichita, KS, Denver, CO, Seattle, WA, Long Beach, CA, and Memphis, TN, February 18-21, 1997: Report prepared for the use of the ... of the U.S. House of Representatives",
+                    "title_suggest": "Oversight visit to Wichita, KS, Denver, CO, Seattle, WA, Long Beach, CA, and Memphis, TN, February 18-21, 1997: Report prepared for the use of the ... of the U.S. House of Representatives",
                     "edition_count": 1,
                     "edition_key": [
                         "OL288047M"
@@ -3031,17 +3027,22 @@ http_interactions:
                         "United States. Congress. House. Committee on Transportation and Infrastructure."
                     ],
                     "lcc": [
-                        "HD-9711.50000000.U6 O93 1997"
+                        "HD-9711.50000000.U6 O93 1997",
+                        "HD-9711.50000000.U6O93 1997"
                     ],
                     "isbn": [
-                        "9780160543739",
-                        "0160543738"
+                        "0160543738",
+                        "9780160543739"
                     ],
-                    "last_modified_i": 1606422557,
+                    "last_modified_i": 1706668990,
                     "ebook_count_i": 0,
                     "ebook_access": "no_ebook",
                     "has_fulltext": false,
                     "public_scan_b": false,
+                    "readinglog_count": 0,
+                    "want_to_read_count": 0,
+                    "currently_reading_count": 0,
+                    "already_read_count": 0,
                     "cover_edition_key": "OL288047M",
                     "cover_i": 3719289,
                     "publisher": [
@@ -3074,7 +3075,7 @@ http_interactions:
                         "Aircraft industry",
                         "Federal Express Corporation"
                     ],
-                    "_version_": 1759758662120767488,
+                    "_version_": 1789572145977753600,
                     "lcc_sort": "HD-9711.50000000.U6 O93 1997",
                     "author_facet": [
                         "OL4595462A United States. Congress. House. Committee on Transportation and Infrastructure"
@@ -3090,5 +3091,5 @@ http_interactions:
             "q": "",
             "offset": null
         }
-  recorded_at: Sun, 11 Jun 2023 23:37:42 GMT
+  recorded_at: Wed, 14 Feb 2024 00:14:19 GMT
 recorded_with: VCR 6.1.0

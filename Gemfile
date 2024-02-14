@@ -41,6 +41,7 @@ group :test do
   gem 'orderly'
   gem 'shoulda-matchers'
   gem 'simplecov', require: false
+  gem 'simplecov-shields-badge', require: false
   gem 'vcr'
   gem 'webmock'
 end
