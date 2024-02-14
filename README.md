@@ -1,7 +1,6 @@
 <div align="right">
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a133fd8d67dd3547fa8b/maintainability)](https://codeclimate.com/github/AMSterling/sweater-weather/maintainability)
-<!-- [![Test Coverage](https://api.codeclimate.com/v1/badges/a133fd8d67dd3547fa8b/test_coverage)](https://codeclimate.com/github/AMSterling/sweater-weather/test_coverage) -->
 [![Ruby on Rails CI](https://github.com/AMSterling/sweater-weather/actions/workflows/rails-CI.yml/badge.svg)](https://github.com/AMSterling/sweater-weather/actions/workflows/rails-CI.yml)
 [![Coverage](badge.svg)](https://github.com/AMSterling/sweater-weather)
 
@@ -19,9 +18,7 @@
     </a>
   </p>
 
-[![ruby][ruby]][ruby-url] [![ror][ror]][ror-url] [![Postgres][Postgres]][Postgres-url] [![RSpec][RSpec]][RSpec-url] [![Postman][Postman]][Postman-url] [![Atom][Atom]][Atom-url] [![Git][Git]][Git-url] [![GitHub Actions][GitHub Actions]][GitHub Actions-url]
-
-[![CodeClimate][CodeClimate]][CodeClimate-url]
+[![ruby][ruby]][ruby-url] [![ror][ror]][ror-url] [![Postgres][Postgres]][Postgres-url] [![RSpec][RSpec]][RSpec-url] [![Postman][Postman]][Postman-url] [![Atom][Atom]][Atom-url] [![Git][Git]][Git-url] [![GitHub Actions][GitHub Actions]][GitHub Actions-url][![CodeClimate][CodeClimate]][CodeClimate-url]
 
 </div>
 
@@ -389,7 +386,7 @@ GET '/api/v1/book-search?location=denver,co&quantity=5'
 [LinkedIn]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [LinkedIn-url]: https://linkedin.com/in/sterling-316a6223a/
 
-[Atom]: https://img.shields.io/badge/Atom-66595C?style=for-the-badge&logo=Atom&logoColor=white
+[Atom]: https://custom-icon-badges.demolab.com/badge/Atom-5FB57D?style=for-the-badge&logo=atom
 [Atom-url]: https://github.com/atom/atom/releases/tag/v1.60.0
 
 [Bootstrap]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
